@@ -2,316 +2,82 @@
 % Encoding: Cp1252
 
 
-@Article{Surfer,
-  Title                    = {What is a convex hull?},
-  Author                   = {3D-Surfer},
-  Journal                  = {http://kiharalab.org/3d-surfer/v1.0/index.php?faq},
+@Misc{VoiceBox,
+  Title                    = {Vocal Harmony Machine/Vocoder},
 
-  Owner                    = {Alex},
-  Timestamp                = {2015.12.15}
+  Author                   = {EHX.com},
+  HowPublished             = {http://www.ehx.com/products/voice-box},
+
+  Url                      = {http://www.ehx.com/products/voice-box}
 }
 
-@Misc{CCWJ,
-  Title                    = {Image Analysis: Morphological Operations},
+@Misc{Hadhazy_2010,
+  Title                    = {What's Auto-Tune and How Does it Work?},
 
-  Author                   = {CCWJ},
-  HowPublished             = {http://www.ualberta.ca/~ccwj/teaching/image/morph/},
-
-  Owner                    = {Alex},
-  Timestamp                = {2015.12.15},
-  Url                      = {http://www.ualberta.ca/~ccwj/teaching/image/morph/}
-}
-
-@Article{Chrono,
-  Title                    = {Chrono},
-  Author                   = {cplusplus},
-  Journal                  = {http://www.cplusplus.com/reference/chrono/},
-
-  Owner                    = {Alex},
-  Timestamp                = {2015.12.02}
-}
-
-@Article{Dardas_2011,
-  Title                    = {Hand Gesture Detection and Recognition Using Principal Component Analysis},
-  Author                   = {Nasser H. Dardas AND Emil M. Petriu},
-  Journal                  = {http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=\&arnumber=6059935\&tag=1},
-  Year                     = {2011}
-}
-
-@Misc{5DT,
-  Title                    = {Data Gloves},
-
-  Author                   = {5th Dimension Technologies},
-  HowPublished             = {http://www.5dt.com/?page\_id=34},
-
-  Owner                    = {Alex},
-  Timestamp                = {2015.12.01},
-  Url                      = {http://www.5dt.com/?page_id=34}
-}
-
-@Misc{canabalt,
-  Title                    = {Canabalt},
-
-  Author                   = {Finji},
-  HowPublished             = {http://finji.co/about/sheet.php?p=canabalt},
+  Author                   = {Adam Hadhazy},
+  HowPublished             = {http://www.livescience.com/11046-auto-tune-work.html},
   Month                    = {September},
-  Year                     = {2009},
+  Year                     = {2010},
 
-  Url                      = {http://finji.co/about/sheet.php?p=canabalt}
+  Url                      = {http://www.livescience.com/11046-auto-tune-work.html}
 }
 
-@Misc{Royalty,
-  Title                    = {COMPLETELY FREE GAME ASSETS},
+@Misc{Mimu,
+  Title                    = {Mi.Mu Gloves},
 
-  Author                   = {GameArt2D.com},
-  HowPublished             = {http://www.gameart2d.com/freebies.html},
+  Author                   = {Imogen Heap AND Thomas Mitchell AND Kelly Snook AND Seb Madgwick AND Hannah Perner-Wilson AND Adam Stark AND Rachel Freire AND Chagall Van Den Berg},
+  HowPublished             = {http://mimugloves.com/},
+  Year                     = {2015},
+
+  Url                      = {http://mimugloves.com/}
+}
+
+@Misc{Vocoder_00,
+  Title                    = {Introduction to Vocoders},
+
+  Author                   = {Innovativesynthesis.com},
+  HowPublished             = {http://www.innovativesynthesis.com/introduction-to-vocoders/},
+
+  Url                      = {http://www.innovativesynthesis.com/introduction-to-vocoders/}
+}
+
+@Misc{Katjaas_00,
+  Title                    = {Pitch Shifting},
+
+  Author                   = {Katjaas.nl},
+  HowPublished             = {http://www.katjaas.nl/pitchshift/pitchshift.html},
+
+  Url                      = {http://www.katjaas.nl/pitchshift/pitchshift.html}
+}
+
+@Misc{Loeffler_2014,
+  Title                    = {A Brief History of Time-Based Effects (Part 1)},
+
+  Author                   = {Chris Loeffler},
+  HowPublished             = {http://www.harmonycentral.com/articles/exploring-time-based-effects},
+  Month                    = {September},
   Year                     = {2014},
 
-  Owner                    = {Alex},
-  Timestamp                = {2015.12.04},
-  Url                      = {http://www.gameart2d.com/freebies.html}
+  Url                      = {http://www.harmonycentral.com/articles/exploring-time-based-effects}
 }
 
-@Misc{Tuto2,
-  Title                    = {Unity Endless Runner Tutorial},
+@Misc{Redmon_1997,
+  Title                    = {A bit about reverb},
 
-  Author                   = {Gamesplusjames},
-  HowPublished             = {https://www.youtube.com/watch?v=GrQalFLtQT4\&list=PLiyfvmtjWC\_XmdYfXm2i1AQ3lKrEPgc9-\&index=1},
-  Month                    = {August},
-  Year                     = {2015},
+  Author                   = {Nigel Redmon},
+  HowPublished             = {http://www.earlevel.com/main/1997/01/19/a-bit-about-reverb/},
+  Month                    = {January},
+  Year                     = {1997},
 
-  Url                      = {https://www.youtube.com/watch?v=GrQalFLtQT4&list=PLiyfvmtjWC_XmdYfXm2i1AQ3lKrEPgc9-}
+  Url                      = {http://www.earlevel.com/main/1997/01/19/a-bit-about-reverb/}
 }
 
-@Article{Graham_72,
-  Title                    = {An Efficient Algorithm for Determining the Convex Hull of a finite Planar set},
-  Author                   = {R.L. Graham},
-  Journal                  = {http://www.math.ucsd.edu/~ronspubs/72\_10\_convex\_hull.pdf},
-  Year                     = {1972},
+@Misc{TC,
+  Title                    = {Perform V},
 
-  Url                      = {http://www.math.ucsd.edu/~ronspubs/72_10_convex_hull.pdf}
-}
+  Author                   = {TC-Helicon.com},
+  HowPublished             = {http://www.tc-helicon.com/en/products/perform-v/},
 
-@Article{Graham_83,
-  Title                    = {Finding the Convex Hull of a Simple polygon},
-  Author                   = {Ronald L. Graham AND F. Frances Yao},
-  Journal                  = {http://www.math.ucsd.edu/~ronspubs/83\_09\_convex\_hull.pdf},
-  Year                     = {1983},
-
-  Url                      = {http://www.math.ucsd.edu/~ronspubs/83_09_convex_hull.pdf}
-}
-
-@Article{Hartanto_2014,
-  Title                    = {Real time hand gesture movements tracking and recognizing system},
-  Author                   = {R. Hartanto and A. Susanto and P.I. Santosa},
-  Journal                  = {http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7003734\&tag=1},
-  Year                     = {2014},
-  Pages                    = {141},
-
-  Url                      = {http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7003734&tag=1}
-}
-
-@Article{Pacman,
-  Title                    = {Pac-Man},
-  Author                   = {IGN},
-  Journal                  = {http://www.ign.com/games/pac-man/arcade-9644},
-
-  Owner                    = {Alex},
-  Timestamp                = {2015.12.16}
-}
-
-@Article{Jedynak_2000,
-  Title                    = {Blocking Adult Images Based on Statistical Skin Detection},
-  Author                   = {Bruno Jedynak AND Huicheng Zheng AND Mohamed Daoudi},
-  Journal                  = {http://cis.jhu.edu/~zheng/papers/ELCVIA.pdf},
-  Year                     = {2000},
-
-  Owner                    = {Alex},
-  Timestamp                = {2015.12.01}
-}
-
-@Book{moeslund_2012,
-  Title                    = {Introduction to Video and Image Processing Building Real Systems and Applications},
-  Author                   = {Thomas B. Moeslund},
-  Publisher                = {Springer},
-  Year                     = {2012}
-}
-
-@Unpublished{Kamal_2015,
-  Title                    = {Color},
-  Author                   = {Kamal Nasrollahi},
-  Note                     = {Aalborg University Lecture: Image Processing},
-  Year                     = {2015},
-
-  Owner                    = {daniel},
-  Timestamp                = {2015.12.02}
-}
-
-@Misc{OpenCV,
-  Title                    = {Structural Analysis and Shape Descriptors},
-
-  Author                   = {OpenCV.org},
-  HowPublished             = {http://docs.opencv.org/2.4/modules/imgproc/doc/structural\_analysis\_and\_shape\_descriptors.html},
-  Year                     = {2015},
-
-  Owner                    = {Alex},
-  Timestamp                = {2015.12.15},
-  Url                      = {http://docs.opencv.org/2.4/modules/imgproc/doc/structural_analysis_and_shape_descriptors.html}
-}
-
-@Misc{newyorker,
-  Title                    = {Dont Stop - The Game That Conquered Smartphones},
-
-  Author                   = {Simon Parkin},
-  HowPublished             = {http://www.newyorker.com/tech/elements/dont-stop-the-game-that-conquered-smartphones},
-  Month                    = {June},
-  Year                     = {2013},
-
-  Url                      = {http://www.newyorker.com/tech/elements/dont-stop-the-game-that-conquered-smartphones}
-}
-
-@Misc{Stereo_0000,
-  Title                    = {Stereo Vision},
-
-  Author                   = {PointGrey},
-  HowPublished             = {https://www.ptgrey.com/stereo-vision-cameras-systems},
-
-  Url                      = {https://www.ptgrey.com/stereo-vision-cameras-systems}
-}
-
-@Article{Premaratne_2014,
-  Title                    = {Historical Development of Hand Gesture Recognition},
-  Author                   = {Prashan Premaratne},
-  Journal                  = {http://link.springer.com/chapter/10.1007/978-981-4585-69-9\_2/fulltext.html},
-  Year                     = {2014}
-}
-
-@Article{Premaratne1_2014,
-  Title                    = {Future Trends in Hand Gesture Recognition},
-  Author                   = {Prashan Premaratne},
-  Journal                  = {http://link.springer.com/chapter/10.1007/978-981-4585-69-9\_7/fulltext.html},
-  Year                     = {2014}
-}
-
-@Article{Roccetti_2012,
-  Title                    = {Playing into the Wild: A Gesture-based Interface for Gaming in Public Spaces},
-  Author                   = {Roccetti, Marco and Marfia, Gustavo and Semeraro, Angelo},
-  Journal                  = {J. Vis. Comun. Image Represent.},
-  Year                     = {2012},
-
-  Month                    = apr,
-  Number                   = {3},
-  Pages                    = {426--440},
-  Volume                   = {23},
-
-  Acmid                    = {2169878},
-  Address                  = {Orlando, FL, USA},
-  Doi                      = {10.1016/j.jvcir.2011.12.006},
-  ISSN                     = {1047-3203},
-  Issue_date               = {April, 2012},
-  Keywords                 = {Action recognition algorithms, Computer games, Gaming in public spaces, Gesture following, Image processing, Immersive environments, Shanghai 2010 World Expo, Tortellini pasta},
-  Numpages                 = {15},
-  Publisher                = {Academic Press, Inc.},
-  Url                      = {http://dx.doi.org/10.1016/j.jvcir.2011.12.006}
-}
-
-@Misc{Salvi_0000,
-  Title                    = {Tutorial on Coded Light Porojection Techniques},
-
-  Author                   = {Joaquim Salvi AND Jordi Pages},
-  HowPublished             = {http://eia.udg.es/~qsalvi/Tutorial\_Coded\_Light\_Projection\_Techniques\_archivos/frame.html},
-  Note                     = {Structured light},
-
-  Owner                    = {Alex},
-  Timestamp                = {2015.12.01},
-  Url                      = {http://eia.udg.es/~qsalvi/Tutorial_Coded_Light_Projection_Techniques_archivos/frame.html}
-}
-
-@Article{Sklansky_82,
-  Title                    = {Finding the convex hull of a simple polygon},
-  Author                   = {J. Sklansky},
-  Journal                  = {http://www.sciencedirect.com/science/article/pii/0167865582900162},
-  Year                     = {1982},
-
-  Url                      = {http://www.sciencedirect.com/science/article/pii/0167865582900162}
-}
-
-@Article{Slug,
-  Title                    = {Metal Slug},
-  Author                   = {SNK},
-  Journal                  = {http://store.steampowered.com/app/366250/?l},
-  Year                     = {2015},
-
-  Owner                    = {Alex},
-  Timestamp                = {2015.12.16}
-}
-
-@Misc{Tuto1,
-  Title                    = {Unity 5 tutorial for beginners: 2D Platformer},
-
-  Author                   = {inScope Studios},
-  HowPublished             = {https://www.youtube.com/watch?v=SCRupyidkYA\&list=PLX-uZVK\_0K\_6VXcSajfFbXDXndb6AdBLO},
-  Month                    = {September},
-  Year                     = {2015},
-
-  Owner                    = {Alex},
-  Timestamp                = {2015.12.04},
-  Url                      = {https://www.youtube.com/watch?v=SCRupyidkYA\&list=PLX-uZVK_0K_6VXcSajfFbXDXndb6AdBLO}
-}
-
-@Article{Sunday,
-  Title                    = {Fast Convex Hull of a 2D Simple Polyline},
-  Author                   = {D. Sunday},
-  Journal                  = {http://geomalgorithms.com/a12-\_hull-3.html},
-  Year                     = {2001},
-
-  Url                      = {http://geomalgorithms.com/a12-_hull-3.html}
-}
-
-@Article{Suzuki,
-  Title                    = {Topological structural analysis of digitized binary images by border following},
-  Author                   = {Satoshi Suzuki AND Keiichi Abe},
-  Journal                  = {Computer Vision, Graphics, and Image Processing},
-  Year                     = {1985},
-  Number                   = {1},
-  Pages                    = {32 - 46},
-  Volume                   = {30},
-
-  Doi                      = {http://dx.doi.org/10.1016/0734-189X(85)90016-7},
-  ISSN                     = {0734-189X},
-  Owner                    = {Alex},
-  Timestamp                = {2015.12.15},
-  Url                      = {http://www.sciencedirect.com/science/article/pii/0734189X85900167}
-}
-
-@Misc{Weissman_1999,
-  Title                    = {Gesture Recognition for Virtual Reality Applications Using Data Gloves and Neural Networks},
-
-  Author                   = {John Weissman AND Ralf Salomon},
-  HowPublished             = {http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=\&arnumber=832699\&tag=1},
-  Year                     = {1999},
-
-  Url                      = {http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=\&arnumber=832699\&tag=1}
-}
-
-@Article{Castle,
-  Title                    = {Castlevania (1986 video game)},
-  Author                   = {Wikipedia},
-  Journal                  = {https://en.wikipedia.org/wiki/Castlevania\_(1986\_video\_game)},
-
-  Owner                    = {Alex},
-  Timestamp                = {2015.12.16}
-}
-
-@InBook{Encyclo_2009,
-  Title                    = {Encyclopedia of Biometrics},
-  Chapter                  = {Skin Detection},
-  Editor                   = {Stan Z. Li},
-  Pages                    = {1218-1224},
-  Publisher                = {Springer},
-  Year                     = {2009},
-
-  Owner                    = {Alex},
-  Timestamp                = {2015.12.01}
+  Url                      = {http://www.tc-helicon.com/en/products/perform-v/}
 }
 
