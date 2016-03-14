@@ -18,13 +18,14 @@
 \contentsline {subsection}{\numberline {2.2.2}State of the Art}{4}{subsection.2.2.2}
 \contentsline {subsubsection}{TC Helicon Perform V}{4}{subsubsection*.8}
 \contentsline {subsubsection}{Electro Harmonix Voice Box}{5}{subsubsection*.9}
-\contentsline {subsubsection}{Mi.Mu Gloves}{5}{subsubsection*.10}
-\contentsline {section}{\numberline {2.3}Theory}{6}{section.2.3}
-\contentsline {section}{\numberline {2.4}Problem Statement}{6}{section.2.4}
-\contentsline {chapter}{\numberline {3}Design}{7}{chapter.3}
-\contentsline {chapter}{\numberline {4}Implementation}{9}{chapter.4}
-\contentsline {chapter}{\numberline {5}Evaluation}{11}{chapter.5}
-\contentsline {chapter}{\numberline {6}Discussion}{13}{chapter.6}
-\contentsline {chapter}{\numberline {7}Conclusion}{15}{chapter.7}
-\contentsline {chapter}{Bibliography}{17}{chapter*.11}
-\contentsline {chapter}{\numberline {A}Appendix}{19}{appendix.A}
+\contentsline {subsubsection}{Mi.Mu Gloves}{6}{subsubsection*.10}
+\contentsline {section}{\numberline {2.3}Theory}{7}{section.2.3}
+\contentsline {section}{\numberline {2.4}Problem Statement}{7}{section.2.4}
+\contentsline {section}{\numberline {2.5}Minimum Implementation}{7}{section.2.5}
+\contentsline {chapter}{\numberline {3}Design}{9}{chapter.3}
+\contentsline {chapter}{\numberline {4}Implementation}{11}{chapter.4}
+\contentsline {chapter}{\numberline {5}Evaluation}{13}{chapter.5}
+\contentsline {chapter}{\numberline {6}Discussion}{15}{chapter.6}
+\contentsline {chapter}{\numberline {7}Conclusion}{17}{chapter.7}
+\contentsline {chapter}{Bibliography}{19}{chapter*.11}
+\contentsline {chapter}{\numberline {A}Appendix}{21}{appendix.A}
