@@ -3,3 +3,9 @@
 *.aux
 *.log
 *.gz
+*.aux
+*.out
+LaTeX/master.toc
+*.gz
+LaTeX/master.pdf
+*.log
