@@ -21,9 +21,13 @@ Digitally, the way to simulate reverberation is to use a multitude of delays and
 \subsubsection{Pitch Shift}
 
 The frequency of a harmonic sound is called its pitch\citep{Katjaas_00}. By shifting the pitch, the sound will effectively deeper or higher. An example of this is the voice that anonymous people get when they want to hide their voice, this is a lowered pitch. Another example is the “chipmunk voice”, which is achieved through a raised pitch.
-Pitch shifting is done by using time-stretching and up- or down-sampling. For example, a time-stretched and down-sampled sound results in a raised pitch.\\
+Pitch shifting can be done by using the "phase vocoder", which is a digital signal processing technique\citep{dolson}. The phase vocoder works by analysis and synthesis. The analysis part takes the signal, and models it as a sine wave in which one can find the amplitude, phase, and frequency of the sine wave. In the synthesis part, one can manipulate these parameters. 
+The phase vocoder can do many things, e.g. change the pitch of a sound without changing the duration of the sound - make a sound deeper or higher. 
 
-Pitch shifting is also used to create the harmonizer effect. It takes the input voice and shifts its pitch a bit, and then adds it as an additional voice. This can effectively simulate a choir.
+
+%Pitch shifting is done by using time-stretching and up- or down-sampling. For example, a time-stretched and down-sampled sound results in a raised pitch.\\
+
+Pitch shifting is also used to create the harmonizer effect. It takes the input voice and shifts its pitch a certain amount, and then adds it as an additional voice. This can effectively simulate a choir.
 
 \subsubsection{Auto-Tune}
 
