@@ -81,3 +81,14 @@
   Url                      = {http://www.tc-helicon.com/en/products/perform-v/}
 }
 
+@article{dolson,
+  title={The phase vocoder: A tutorial},
+  author={Dolson, Mark},
+  journal={Computer Music Journal},
+  volume={10},
+  number={4},
+  pages={14--27},
+  year={1986},
+  publisher={JSTOR}
+}
+
