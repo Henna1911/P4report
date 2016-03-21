@@ -1,6 +1,18 @@
 % This file was created with JabRef 2.10.
-% Encoding: Cp1252
+% Encoding: UTF8
 
+
+@Article{dolson,
+  Title                    = {The phase vocoder: A tutorial},
+  Author                   = {Dolson, Mark},
+  Journal                  = {Computer Music Journal},
+  Year                     = {1986},
+  Number                   = {4},
+  Pages                    = {14--27},
+  Volume                   = {10},
+
+  Publisher                = {JSTOR}
+}
 
 @Misc{VoiceBox,
   Title                    = {Vocal Harmony Machine/Vocoder},
@@ -61,6 +73,16 @@
   Url                      = {http://www.harmonycentral.com/articles/exploring-time-based-effects}
 }
 
+@Misc{Maes_2011,
+  Title                    = {The “One-Person Choir”: A Multidisciplinary Approach to the Development of an Embodied Human–Computer Interface},
+
+  Author                   = {Pieter-Jan Maes AND Marc Leman AND Katty Kochman AND Micheline Lesaffre AND Michiel Demey},
+  HowPublished             = {http://www.mitpressjournals.org/doi/pdf/10.1162/COMJ_a_00054},
+  Year                     = {2011},
+
+  Url                      = {http://www.mitpressjournals.org/doi/pdf/10.1162/COMJ_a_00054}
+}
+
 @Misc{Redmon_1997,
   Title                    = {A bit about reverb},
 
@@ -81,14 +103,23 @@
   Url                      = {http://www.tc-helicon.com/en/products/perform-v/}
 }
 
-@article{dolson,
-  title={The phase vocoder: A tutorial},
-  author={Dolson, Mark},
-  journal={Computer Music Journal},
-  volume={10},
-  number={4},
-  pages={14--27},
-  year={1986},
-  publisher={JSTOR}
+@Misc{Wigdor_2011,
+  Title                    = {Brave NUI World},
+
+  Author                   = {Daniel Wigdor AND Dennis Wixon},
+  HowPublished             = {http://www.gm.fh-koeln.de/~hk/lehre/sgmci/ss2015/Literatur/Wigdor_Wixon_-_Brave_NUI_World.pdf},
+  Year                     = {2011},
+
+  Url                      = {http://www.gm.fh-koeln.de/~hk/lehre/sgmci/ss2015/Literatur/Wigdor_Wixon_-_Brave_NUI_World.pdf}
+}
+
+@Misc{Yonezawa_2005,
+  Title                    = {HandySinger: Expressive Singing Voice Morphing using Personified Hand-puppet Interface},
+
+  Author                   = {Tomoko Yonezawa AND Noriko Suzuki AND Kenji Mase AND Kiyoshi Kogure},
+  HowPublished             = {http://www.nime.org/proceedings/2005/nime2005_121.pdf},
+  Year                     = {2005},
+
+  Url                      = {http://www.nime.org/proceedings/2005/nime2005_121.pdf}
 }
 
