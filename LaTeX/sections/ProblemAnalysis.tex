@@ -25,7 +25,7 @@ Pitch shifting can be done by using the "phase vocoder", which is a digital sign
 The phase vocoder can do many things, e.g. change the pitch of a sound without changing the duration of the sound - make a sound deeper or higher. 
 
 
-%Pitch shifting is done by using time-stretching and up- or down-sampling. For example, a time-stretched and down-sampled sound results in a raised pitch.\\
+%Pitch shifting is done by using time-stretching and up- or down-sampling. For example, a time-stretched and down-sampled sound results in a raised pitch.
 
 Pitch shifting is also used to create the harmonizer effect. It takes the input voice and shifts its pitch a certain amount, and then adds it as an additional voice. This can effectively simulate a choir.
 
@@ -81,7 +81,49 @@ The Mi.Mu Gloves are gloves made for making music, and controlling sound\citep{M
 The gloves are bluetooth or Wi-Fi connected, so the person using the gloves are free to move around, and does not have to worry about wires. They are also battery powered. It is possible to pre-order a pair of Mi.Mu gloves for £5,000, or one glove for £2,500. 
 Since the gloves are open source, you can make your own - many different gloves exist - some are simple, and some are complex.
 
+\subsubsection{HandySinger: Expressive Singing Voice Morphing using Personified Hand-puppet Interface}
+Yonezawa et al. made a glove that controls voice effects \citep{Yonezawa_2005}. The wearer of the glove controls a puppet and and makes hand gestures, see figure \ref{puppet1}. 
+
+\begin{minipage}{\linewidth}% to keep image and caption on one page
+\makebox[\linewidth]{%        to center the image
+\includegraphics[keepaspectratio=true,scale=0.4]{puppet1}}
+\captionof{figure}{HandySinger Glove \citep{puppet1}}\label{puppet1}
+\end{minipage}\\
+
+They believe that using a puppet interface will increase the expressiveness of the user’s singing voice. The glove itself has seven bend sensors, and two pressure sensors, see figure \ref{puppet2}. 
+
+\begin{minipage}{\linewidth}% to keep image and caption on one page
+\makebox[\linewidth]{%        to center the image
+\includegraphics[keepaspectratio=true,scale=0.4]{puppet2}}
+\captionof{figure}{HandySinger Glove sensors \citep{puppet2}}\label{puppet2}
+\end{minipage}\\
+
+The glove measures both forward bend and backwards bend. The gestures that the users can make are: bend back/opera, drooping, stretching, and bend back. The parameters that the gestures change are: “dark”, “whisper”, “wet”, and volume. Yonezawa et al. found that users with small hands had trouble using the glove effectively. Nevertheless, they confirmed it was easy to gesture with the hand-puppet and that the gestures reflect the voice expression changes.
+
+\subsubsection{The 'One-Person Choir': A Multidisciplinary Approach to the Development of an Embodied Human-Computer Interface}
+The study by, Maes et al. \citep{Maes_2011} utilises body gesture to enhance a singer's voice. The system is a human-computer interface that use gestural control for harmonising a singing voice. The system is operating in real-time, which means it is possible to use it during live performances. The system uses pre-configured models to control the harmonisation, and the singer can eventually use this to enhance his or her singing voice. 
+During their research, they found that gesture control is a big part of singing, which also helps the perception of the singing. The movement of the upper body is the primary gesture used in the system which means that the singer has sensors attached to the upper body.
+
 \todo{conclusion/summary here} 
+
+\subsection{Gestures}
+When designing a way to control effects, there are several ways to approach it. One of these ways is through gesture control.
+
+There are several ways to approach gesture control. For example, there are three stages of a gesture: registration, continuation, and termination, but in some cases the middle stage can be skipped \citep[pp. 127-134]{Wigdor_2011}. Whether or not it is a good idea to skip this stage is decided by the number of different gestures one wants to implement. By removing the continuation stage, it removes the possibility to differentiate between a lot of gestures.
+
+%(Billeder: Wigdor_2011 pp. 127)
+
+The registration stage is when the system registers that the user would want to gesture, e.g. when you place your finger(s) on a touch display. 
+
+The next stage is continuation. In this stage, the user uses movement to adjust the parameters of the gesture, e.g. when you move two fingers away from each other in order to zoom, on a touch display.
+
+The final stage is termination, where the user simply ends the gesture, e.g. by lifting their finger(s) from a touch display.
+
+A good thing to do, when choosing a gesture for a specific action, is to keep it as unambiguous as possible. This helps reduce future errors. This being said, it is also important to minimise the amount of steps the user has to go through for the gesture.
+
+While the previously mentioned ‘zoom’ gesture is a rather good example of a gesture, a bad example of a gesture would be the use of the ‘flick’ action to execute a gesture. The ‘flick’ action is when you execute an action by ‘flicking’ an object to e.g. delete it. The bad thing about this design is the fact that you have to specify a border between the action of moving something and ‘flicking’ something
+
+
 
 \section{Problem Statement}
 
