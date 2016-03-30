@@ -1,56 +1,49 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: master.aux
 The style file: ieeetr.bst
-I found no \bibdata command---while reading file master.aux
-Warning--I didn't find a database entry for "Loeffler_2014"
-Warning--I didn't find a database entry for "Redmon_1997"
-Warning--I didn't find a database entry for "Katjaas_00"
-Warning--I didn't find a database entry for "dolson"
-Warning--I didn't find a database entry for "Hadhazy_2010"
-Warning--I didn't find a database entry for "Vocoder_00"
-Warning--I didn't find a database entry for "TC"
-Warning--I didn't find a database entry for "VoiceBox"
-Warning--I didn't find a database entry for "Mimu"
-You've used 0 entries,
+Database file #1: bib/mybib.bib
+Warning--I didn't find a database entry for "puppet1"
+Warning--I didn't find a database entry for "puppet2"
+You've used 12 entries,
             1876 wiz_defined-function locations,
-            493 strings with 3608 characters,
-and the built_in function-call counts, 20 in all, are:
-= -- 0
-> -- 0
+            550 strings with 5251 characters,
+and the built_in function-call counts, 1880 in all, are:
+= -- 153
+> -- 97
 < -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 9
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
++ -- 39
+- -- 27
+* -- 111
+:= -- 289
+add.period$ -- 12
+call.type$ -- 12
+change.case$ -- 12
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 12
+duplicate$ -- 59
+empty$ -- 226
+format.name$ -- 27
+if$ -- 456
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+int.to.str$ -- 12
+missing$ -- 1
+newline$ -- 39
+num.names$ -- 12
+pop$ -- 63
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1
+skip$ -- 63
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 24
+swap$ -- 7
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 2
-(There was 1 error message)
+while$ -- 15
+width$ -- 14
+write$ -- 97
+(There were 2 warnings)

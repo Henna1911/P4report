@@ -1,3 +1,56 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
+
+\bibitem{Loeffler_2014}
+C.~Loeffler, ``A brief history of time-based effects (part 1).''
+  http://www.harmonycentral.com/articles/exploring-time-based-effects,
+  September 2014.
+
+\bibitem{Redmon_1997}
+N.~Redmon, ``A bit about reverb.''
+  http://www.earlevel.com/main/1997/01/19/a-bit-about-reverb/, January 1997.
+
+\bibitem{Katjaas_00}
+Katjaas.nl, ``Pitch shifting.''
+  http://www.katjaas.nl/pitchshift/pitchshift.html.
+
+\bibitem{dolson}
+M.~Dolson, ``The phase vocoder: A tutorial,'' {\em Computer Music Journal},
+  vol.~10, no.~4, pp.~14--27, 1986.
+
+\bibitem{Hadhazy_2010}
+A.~Hadhazy, ``What's auto-tune and how does it work?.''
+  http://www.livescience.com/11046-auto-tune-work.html, September 2010.
+
+\bibitem{Vocoder_00}
+Innovativesynthesis.com, ``Introduction to vocoders.''
+  http://www.innovativesynthesis.com/introduction-to-vocoders/.
+
+\bibitem{TC}
+TC-Helicon.com, ``Perform v.''
+  http://www.tc-helicon.com/en/products/perform-v/.
+
+\bibitem{VoiceBox}
+EHX.com, ``Vocal harmony machine/vocoder.''
+  http://www.ehx.com/products/voice-box.
+
+\bibitem{Mimu}
+I.~Heap, T.~Mitchell, K.~Snook, S.~Madgwick, H.~Perner-Wilson, A.~Stark,
+  R.~Freire, and C.~V.~D. Berg, ``Mi.mu gloves.'' http://mimugloves.com/, 2015.
+
+\bibitem{Yonezawa_2005}
+T.~Yonezawa, N.~Suzuki, K.~Mase, and K.~Kogure, ``Handysinger: Expressive
+  singing voice morphing using personified hand-puppet interface.''
+  http://www.nime.org/proceedings/2005/nime2005\_121.pdf, 2005.
+
+\bibitem{Maes_2011}
+P.-J. Maes, M.~Leman, K.~Kochman, M.~Lesaffre, and M.~Demey, ``The one-person
+  choir: A multidisciplinary approach to the development of an embodied
+  human–computer interface.''
+  http://www.mitpressjournals.org/doi/pdf/10.1162/COMJ\_a\_00054, 2011.
+
+\bibitem{Wigdor_2011}
+D.~Wigdor and D.~Wixon, ``Brave nui world.''
+  http://www.gm.fh-koeln.de/~hk/lehre/sgmci/ss2015/Literatur/Wigdor\_Wixon\_-\_Brave\_NUI\_World.pdf,
+  2011.
 
 \end{thebibliography}
