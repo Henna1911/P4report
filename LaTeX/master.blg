@@ -1,49 +1,6 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: master.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: master.aux
 The style file: ieeetr.bst
 Database file #1: bib/mybib.bib
 Warning--I didn't find a database entry for "puppet1"
 Warning--I didn't find a database entry for "puppet2"
-You've used 12 entries,
-            1876 wiz_defined-function locations,
-            550 strings with 5251 characters,
-and the built_in function-call counts, 1880 in all, are:
-= -- 153
-> -- 97
-< -- 0
-+ -- 39
-- -- 27
-* -- 111
-:= -- 289
-add.period$ -- 12
-call.type$ -- 12
-change.case$ -- 12
-chr.to.int$ -- 0
-cite$ -- 12
-duplicate$ -- 59
-empty$ -- 226
-format.name$ -- 27
-if$ -- 456
-int.to.chr$ -- 0
-int.to.str$ -- 12
-missing$ -- 1
-newline$ -- 39
-num.names$ -- 12
-pop$ -- 63
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 0
-skip$ -- 63
-stack$ -- 0
-substring$ -- 24
-swap$ -- 7
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 15
-width$ -- 14
-write$ -- 97
 (There were 2 warnings)

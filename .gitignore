@@ -9,3 +9,6 @@ LaTeX/master.toc
 *.gz
 LaTeX/master.pdf
 *.log
+*.blg
+*.pdf
+*.tex
