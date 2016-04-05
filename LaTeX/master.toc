@@ -24,10 +24,12 @@
 \contentsline {section}{\numberline {2.2}Problem Statement}{9}{section.2.2}
 \contentsline {section}{\numberline {2.3}Minimum Implementation}{9}{section.2.3}
 \contentsline {chapter}{\numberline {3}Design}{11}{chapter.3}
-\contentsline {chapter}{\numberline {4}Implemented Theory}{13}{chapter.4}
-\contentsline {chapter}{\numberline {5}Implementation}{15}{chapter.5}
-\contentsline {chapter}{\numberline {6}Evaluation}{17}{chapter.6}
-\contentsline {chapter}{\numberline {7}Discussion}{19}{chapter.7}
-\contentsline {chapter}{\numberline {8}Conclusion}{21}{chapter.8}
-\contentsline {chapter}{Bibliography}{23}{chapter*.18}
-\contentsline {chapter}{\numberline {A}Appendix}{25}{appendix.A}
+\contentsline {subsection}{\numberline {3.0.1}Concept}{11}{subsection.3.0.1}
+\contentsline {subsection}{\numberline {3.0.2}Sketching}{12}{subsection.3.0.2}
+\contentsline {chapter}{\numberline {4}Implemented Theory}{15}{chapter.4}
+\contentsline {chapter}{\numberline {5}Implementation}{17}{chapter.5}
+\contentsline {chapter}{\numberline {6}Evaluation}{19}{chapter.6}
+\contentsline {chapter}{\numberline {7}Discussion}{21}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusion}{23}{chapter.8}
+\contentsline {chapter}{Bibliography}{25}{chapter*.23}
+\contentsline {chapter}{\numberline {A}Appendix}{27}{appendix.A}

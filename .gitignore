@@ -12,3 +12,9 @@ LaTeX/master.pdf
 *.blg
 *.pdf
 *.tex
+*.aux
+*.blg
+*.log
+*.out
+*.pdf
+*.toc
