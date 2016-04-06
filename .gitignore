@@ -18,3 +18,8 @@ LaTeX/master.pdf
 *.out
 *.pdf
 *.toc
+*.toc
+*.pdf
+LaTeX/master.out
+*.log
+LaTeX/master.aux
