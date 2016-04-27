@@ -94,6 +94,16 @@
   Url                      = {http://www.earlevel.com/main/1997/01/19/a-bit-about-reverb/}
 }
 
+@Misc{MPU,
+  Title                    = {SparkFun 9 Degrees of Freedom},
+
+  Author                   = {Sparfun},
+  HowPublished             = {https://www.sparkfun.com/products/retired/11486},
+
+  Timestamp                = {2016.04.27},
+  Url                      = {https://www.sparkfun.com/products/retired/11486}
+}
+
 @Misc{TC,
   Title                    = {Perform V},
 
