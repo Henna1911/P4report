@@ -9,7 +9,8 @@ The IMU uses the MPU 9150 sensor with 9 degrees of freedom\citep{MPU}. It has a 
 
 \subsection{Schematic} 
 
-The following figure \ref{schematic} shows how the Arduino is connected to the circuit board with the IMU. 
+The following figure \ref{schematic} shows how the Arduino is connected to the circuit board with the IMU. The black switch at the top of the circuit board
+represents the three connections, which is put on the thumb, index and middle finger. These are velcro based, with copper tape on them, to create the connection when pressed together. 
 
 \begin{minipage}{\linewidth}% to keep image and caption on one page
 \makebox[\linewidth]{%        to center the image
@@ -19,7 +20,9 @@ The following figure \ref{schematic} shows how the Arduino is connected to the c
 
 The circuit board consists of three LEDs, a yellow, green and red. They light up at different points, which is explained in the next section of this chapter.
 The LEDs are connected to resistors of 220 ohm which is wired to the arduino as seen in the schematic. The LEDs has to be connected to a pull-down resistor\citep{Pull_down_res},
-which makes sure, that the Arduino does not 'float' between two different values. A pull-down resistor ensures, that the value is zero, when no active device is connected. 
+which makes sure, that the Arduino does not 'float' between two different values. A pull-down resistor ensures, that the value is zero, when no active device is connected.
+The following figure \ref{Pull_down_res} shows what a circuit with a pull-down resistor might look like. 
+
 %Five 220 ohm resistors (Two Pull-down resistor), three LEDs red, yellow, green. Copper tape. RedS Tape and velcro. 
 
 \begin{minipage}{\linewidth}% to keep image and caption on one page
@@ -29,3 +32,8 @@ which makes sure, that the Arduino does not 'float' between two different values
 \end{minipage}\\
 
 \subsection{Software}
+
+The Arduino language is based on C/C++, and whenever a sketch is compiled, it is sent to a C/C++ compiler \citep{Arduino_FAQ}.
+
+%Arduino
+%PD
