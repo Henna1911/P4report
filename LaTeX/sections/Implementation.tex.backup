@@ -1,12 +1,24 @@
 \chapter{Implementation}
 
+The following chapter describes how the protoype has been implemented and the materials needed to build the prototype. 
+
+\subsection{Hardware}
+
 The prototype consists of an Arduino Mega 2560\citep{Arduino}, which is connected to a circuit board with an inertial measurement unit(IMU). 
-The IMU uses the MPU 9150 sensor with 9 degrees of freedom. It has a tri-axis gyroscope, magnetometer, and accelorometer \citep{MPU}.
+The IMU uses the MPU 9150 sensor with 9 degrees of freedom\citep{MPU}. It has a tri-axis gyroscope, magnetometer, and accelorometer.
 
 \subsection{Schematic} 
 
+The following figure \ref{schematic} shows how the Arduino is connected to the circuit board with the IMU. 
+
 \begin{minipage}{\linewidth}% to keep image and caption on one page
 \makebox[\linewidth]{%        to center the image
-\includegraphics[keepaspectratio=true,scale=0.4]{Imu_Glove_Schematic}}
-\captionof{figure}{Prototype Schematic\citep{TC}}\label{schematic}
+\includegraphics[keepaspectratio=true,scale=0.9]{Imu_Glove_Schematic}}
+\captionof{figure}{Prototype Schematic}\label{schematic}
 \end{minipage}\\
+
+The circuit board consists of three LEDs, a yellow, green and red. They light up at different points, which is explained in the next section of this chapter.
+The LEDs are connected to resistors of 220 ohm which is wired to the arduino as seen in the schematic.  
+%Five 220 ohm resistors (Two Pull-down resistor), three LEDs red, yellow, green. Copper tape. RedS Tape and velcro. 
+
+\subsection{Software}
