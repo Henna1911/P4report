@@ -1,20 +1,12 @@
 \chapter{Implementation}
 
-\subsection{Hardware}
-
 The prototype consists of an Arduino Mega 2560\citep{Arduino}, which is connected to a circuit board with an inertial measurement unit(IMU). 
 The IMU uses the MPU 9150 sensor with 9 degrees of freedom. It has a tri-axis gyroscope, magnetometer, and accelorometer \citep{MPU}.
 
 \subsection{Schematic} 
 
-The following figure \ref{schematic} shows how the Arduino is connected to the circuit board with the IMU. 
-
 \begin{minipage}{\linewidth}% to keep image and caption on one page
 \makebox[\linewidth]{%        to center the image
-\includegraphics[keepaspectratio=true,scale=0.9]{Imu_Glove_Schematic}}
-\captionof{figure}{Prototype Schematic}\label{schematic}
+\includegraphics[keepaspectratio=true,scale=0.4]{Imu_Glove_Schematic}}
+\captionof{figure}{Prototype Schematic\citep{TC}}\label{schematic}
 \end{minipage}\\
-
-%Five 220 ohm resistors (Two Pull-down resistor), three LEDs red, yellow, green. Copper tape. RedS Tape and velcro. 
-
-\subsection{Software}

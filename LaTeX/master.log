@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.27)  28 APR 2016 08:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.27)  28 APR 2016 10:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1459,7 +1459,7 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \titlepageleftcolumnwidth=\skip75
 \titlepagerightcolumnwidth=\skip76
 
-<figures/aau_logo_en.pdf, id=132, 115.43124pt x 77.28876pt>
+<figures/aau_logo_en.pdf, id=140, 115.43124pt x 77.28876pt>
 File: figures/aau_logo_en.pdf Graphic file (type pdf)
 
 <use figures/aau_logo_en.pdf>
@@ -1483,22 +1483,21 @@ Overfull \hbox (3.65002pt too wide) in paragraph at lines 34--34
  <./figures/aau_logo_en.pdf>] [4
 
 
-]) (./master.toc)
+]) (./master.toc [5
+
+
+])
 \tf@toc=\write5
 \openout5 = `master.toc'.
 
- (./sections/preface.tex
-[5
-
-
-] [6
-
-]
+ (./sections/preface.tex [6]
 Underfull \hbox (badness 10000) in paragraph at lines 9--50
 
  []
 
-) [7] [8
+) [7
+
+] [8
 
 ] (./sections/Introduction.tex
 Chapter 1.
@@ -1521,7 +1520,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
-<figures/tchelicon.png, id=223, 600.2425pt x 577.15625pt>
+<figures/tchelicon.png, id=233, 600.2425pt x 577.15625pt>
 File: figures/tchelicon.png Graphic file (type png)
 
 <use figures/tchelicon.png>
@@ -1548,7 +1547,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
-<figures/voice_box.png, id=243, 808.01875pt x 642.4pt>
+<figures/voice_box.png, id=253, 808.01875pt x 642.4pt>
 File: figures/voice_box.png Graphic file (type png)
 
 <use figures/voice_box.png>
@@ -1575,7 +1574,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
-<figures/mimu.png, id=257, 646.415pt x 725.71124pt>
+<figures/mimu.png, id=267, 646.415pt x 725.71124pt>
 File: figures/mimu.png Graphic file (type png)
  <use figures/mimu.png>
 Package pdftex.def Info: figures/mimu.png used on input line 77.
@@ -1602,7 +1601,7 @@ Overfull \hbox (1.81413pt too wide) in paragraph at lines 84--84
 er-son-i-fied Hand-
  []
 
-<figures/puppet1.png, id=269, 332.24126pt x 236.885pt>
+<figures/puppet1.png, id=279, 332.24126pt x 236.885pt>
 File: figures/puppet1.png Graphic file (type png)
 
 <use figures/puppet1.png>
@@ -1625,7 +1624,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--92
  []
 
 [7 <./figures/mimu.png> <./figures/puppet1.png>]
-<figures/puppet2.png, id=283, 463.7325pt x 171.64125pt>
+<figures/puppet2.png, id=293, 463.7325pt x 171.64125pt>
 File: figures/puppet2.png Graphic file (type png)
 
 <use figures/puppet2.png>
@@ -1680,14 +1679,14 @@ Chapter 3.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 4.
 
-<figures/Storyboard2.png, id=308, 1204.5pt x 903.375pt>
+<figures/Storyboard2.png, id=318, 1204.5pt x 903.375pt>
 File: figures/Storyboard2.png Graphic file (type png)
 
 <use figures/Storyboard2.png>
 Package pdftex.def Info: figures/Storyboard2.png used on input line 22.
 (pdftex.def)             Requested size: 120.45705pt x 90.34279pt.
 
-<figures/Sketch1.jpg, id=309, 3414.7575pt x 2389.92876pt>
+<figures/Sketch1.jpg, id=319, 3414.7575pt x 2389.92876pt>
 File: figures/Sketch1.jpg Graphic file (type jpg)
 
 <use figures/Sketch1.jpg>
@@ -1698,7 +1697,7 @@ Package pdftex.def Info: figures/Sketch1.jpg used on input line 31.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [11 <./figures/Storyboard2.png>]
-<figures/Sketch2.jpg, id=319, 3396.69pt x 2843.62375pt>
+<figures/Sketch2.jpg, id=329, 3396.69pt x 2843.62375pt>
 File: figures/Sketch2.jpg Graphic file (type jpg)
 
 <use figures/Sketch2.jpg>
@@ -1719,31 +1718,36 @@ Chapter 4.
 Chapter 5.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 6.
+(hyperref)                than one, level fixed on input line 3.
 
-<figures/Imu_Glove_Schematic.png, id=344, 367.774pt x 431.211pt>
+<figures/Imu_Glove_Schematic.png, id=355, 367.774pt x 431.211pt>
 File: figures/Imu_Glove_Schematic.png Graphic file (type png)
 
 <use figures/Imu_Glove_Schematic.png>
-Package pdftex.def Info: figures/Imu_Glove_Schematic.png used on input line 10.
+Package pdftex.def Info: figures/Imu_Glove_Schematic.png used on input line 14.
 
-(pdftex.def)             Requested size: 147.107pt x 172.48134pt.
+(pdftex.def)             Requested size: 257.44005pt x 301.84564pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 11.
+(caption)                particular \caption on input line 15.
 See the caption package documentation for explanation.
 
-) (./sections/Evaluation.tex
-Underfull \hbox (badness 10000) in paragraph at lines 8--1
+
+Overfull \hbox (17.0pt too wide) in paragraph at lines 12--17
+[]$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--17
 
  []
 
-[17 <./figures/Imu_Glove_Schematic.png>] [18
-
-]
+[17]) (./sections/Evaluation.tex [18 <./figures/Imu_Glove_Schematic.png>]
 Chapter 6.
-) (./sections/Discussion.tex [19] [20
+) (./sections/Discussion.tex [19
+
+] [20
 
 ]
 Chapter 7.
@@ -1852,14 +1856,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 37.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 37.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 37.
 Package rerunfilecheck Info: File `master.out' has not changed.
-(rerunfilecheck)             Checksum: 4162B2DEDF45CC215A8F411FC9BF6E81;1684.
+(rerunfilecheck)             Checksum: AF7FBE9D60325444421266D448E0BDAE;1830.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 37.
  ) 
 Here is how much of TeX's memory you used:
- 22458 strings out of 493029
- 396113 string characters out of 6136234
+ 22462 strings out of 493029
+ 396181 string characters out of 6136234
  493645 words of memory out of 5000000
- 25378 multiletter control sequences out of 15000+600000
+ 25380 multiletter control sequences out of 15000+600000
  70519 words of font info for 51 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
  64i,14n,122p,663b,943s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1872,10 +1876,10 @@ pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></us
 r/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/pu
 blic/lm/lmssbx10.pfb>
-Output written on master.pdf (35 pages, 10624286 bytes).
+Output written on master.pdf (35 pages, 10625402 bytes).
 PDF statistics:
- 461 PDF objects out of 1000 (max. 8388607)
- 386 compressed objects within 4 object streams
- 106 named destinations out of 1000 (max. 500000)
- 287 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 470 PDF objects out of 1000 (max. 8388607)
+ 396 compressed objects within 4 object streams
+ 108 named destinations out of 1000 (max. 500000)
+ 303 words of extra memory for PDF output out of 10000 (max. 10000000)
 
