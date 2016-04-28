@@ -18,7 +18,8 @@ The following figure \ref{schematic} shows how the Arduino is connected to the c
 \end{minipage}\\
 
 The circuit board consists of three LEDs, a yellow, green and red. They light up at different points, which is explained in the next section of this chapter.
-The LEDs are connected to resistors of 220 ohm which is wired to the arduino as seen in the schematic.  
+The LEDs are connected to resistors of 220 ohm which is wired to the arduino as seen in the schematic. 
+The 
 %Five 220 ohm resistors (Two Pull-down resistor), three LEDs red, yellow, green. Copper tape. RedS Tape and velcro. 
 
 \subsection{Software}
