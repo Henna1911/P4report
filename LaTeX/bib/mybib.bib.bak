@@ -133,3 +133,11 @@
   Url                      = {http://www.nime.org/proceedings/2005/nime2005_121.pdf}
 }
 
+@Misc{Arduino,
+  Title                    = {Arduino Mega 2560},
+  HowPublished             = {http://www.arduino.cc/en/Main/ArduinoBoardMega2560},
+
+  Timestamp                = {2016.04.28},
+  Url                      = {http://www.arduino.cc/en/Main/ArduinoBoardMega2560}
+}
+
