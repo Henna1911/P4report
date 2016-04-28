@@ -50,7 +50,7 @@ P.-J. Maes, M.~Leman, K.~Kochman, M.~Lesaffre, and M.~Demey, ``The one-person
 
 \bibitem{Wigdor_2011}
 D.~Wigdor and D.~Wixon, ``Brave nui world.''
-  http://www.gm.fh-koeln.de/~hk/lehre/sgmci/ss2015/Literatur/Wigdor\_Wixon\_-\_Brave\_NUI\_World.pdf,
+  http://www.gm.fh-koeln.de/\~hk/lehre/sgmci/ss2015/Literatur/Wigdor\_Wixon\_-\_Brave\_NUI\_World.pdf,
   2011.
 
 \bibitem{Arduino}
@@ -63,5 +63,8 @@ Sparfun, ``Sparkfun 9 degrees of freedom.''
 \bibitem{Pull_down_res}
 ``Pull down resistor.''
   http://playground.arduino.cc/CommonTopics/PullUpDownResistor.
+
+\bibitem{Arduino_FAQ}
+Arduino.cc, ``Frequently asked questions.'' http://www.arduino.cc/en/main/faq.
 
 \end{thebibliography}
