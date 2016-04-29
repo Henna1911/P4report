@@ -37,6 +37,10 @@ The user just needs to choose a reference of scales or tones and the amount of c
 The Vocoder effect combines a singer's voice with another sound - that could be the sound from an instrument or a synthesizer\citep{Vocoder_00}. 
 The effect can make the voice sound like a robot. The vocoder needs two inputs, the voice and e.g. an instrument. The fundamental frequencies of the voice are converted to levels of amplitude on a series of band pass filters, which then are passed through the instrument sound.
 
+\subsubsection{Discussion}
+
+
+
 
 \subsection{State of the Art}
 To gain understanding of what is possible, a study of the state of the art was conducted with the focus on commercial artefacts used for real-time alterations.
@@ -68,7 +72,7 @@ The Voice Box has to be on a flat surface, like the floor or a table and is most
 
 \subsubsection{Mi.Mu Gloves}
 
-The Mi.Mu Gloves are gloves made for making music, and controlling sound\citep{Mimu}. They are made by scientists, musicians, and artists, and have been in development since 2010. They are wearable, and can be used by one or both hands, see figure \ref{mimu}. The gloves have been through many iterations, and they are open source. The gloves use gestures, hand and finger movement, finger placement, and other features to control sounds and effects. The hardware includes an ArduImu, flex/bend sensors, accelerometer, gyroscope, haptic motors, LED's, WiFi compatibility, and provides other capabilities.\\
+The Mi.Mu Gloves are gloves made for making music, and controlling sound\citep{Mimu}. They are made by scientists, musicians, and artists, and have been in development since 2010. They are wearable, and can be used by one or both hands, see figure \ref{mimu}. The gloves have been through many iterations, and they are open source. The gloves use gestures, hand and finger movement, finger placement, and other features to control sounds and effects. The hardware includes an ArduImu, flex/bend sensors, accelerometer, gyroscope, haptic motors, LED's, Wi-Fi compatibility, and provides other capabilities.\\
 
 \begin{minipage}{\linewidth}% to keep image and caption on one page
 \makebox[\linewidth]{%        to center the image
@@ -138,11 +142,11 @@ From the state of the art it can be seen that extensive effort has been put into
 Additionally, the state of the art provided information about which voice effects professional singers would usually like to adjust and how.\\
 
 Finally, by researching what a proper gestural input should consist of and how it should be performed, it was discovered that there are several stages to a gesture, and some of the stages are more important than others, depending on the purpose of your gesture.
-
+Furthermore, when looking at the previous state of the art examples, it can be concluded that two of the most common gestures for a singer to apply an effect and change its parameters, is by pushing a button and to turn a knob, as can be seen in figures \ref{tchelicon} and \ref{voice_box}.
 
 \section{Problem Statement}
 
-From the research a final problem statement has been made, and it sounds:\\
+Based on the findings from the research a final problem statement has been made:\\
 
 \textit{Audio effects for the voice exist but they are impractical to change while performing. Technology exists that address this problem, e.g. gloves that use sensors. We want to make a glove that can change voice effect and their parameters.}
 
@@ -158,9 +162,10 @@ From the research a final problem statement has been made, and it sounds:\\
 
 \section{Minimum Implementation}
 \begin{itemize}
-	\item The design must implement the use of an Arduino
-	\item The design must implement the use of sensors applicable to the Arduino
-	\item The design must implement audio processing
-	\item The design must get audio from a microphone
+	\item The system must implement the use of an Arduino
+	\item The system must implement the use of sensors applicable to the Arduino
+	\item The system must implement audio processing
+	\item The system must be implemented using the Arduino software and PD Extended
+	\item The system must get audio from a microphone
 \end{itemize}
 
