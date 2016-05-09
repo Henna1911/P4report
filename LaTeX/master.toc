@@ -9,11 +9,12 @@
 \contentsline {chapter}{\numberline {2}Problem Analysis}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Research}{3}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Effects}{3}{subsection.2.1.1}
-\contentsline {subsubsection}{Delay}{3}{subsubsection*.4}
-\contentsline {subsubsection}{Reverberation}{3}{subsubsection*.5}
-\contentsline {subsubsection}{Pitch Shift}{4}{subsubsection*.6}
-\contentsline {subsubsection}{Auto-Tune}{4}{subsubsection*.7}
-\contentsline {subsubsection}{Vocoder}{4}{subsubsection*.8}
+\contentsline {subsubsection}{Delay}{3}{subsubsection*.3}
+\contentsline {subsubsection}{Reverberation}{3}{subsubsection*.4}
+\contentsline {subsubsection}{Pitch Shift}{4}{subsubsection*.5}
+\contentsline {subsubsection}{Auto-Tune}{4}{subsubsection*.6}
+\contentsline {subsubsection}{Vocoder}{4}{subsubsection*.7}
+\contentsline {subsubsection}{Discussion}{4}{subsubsection*.8}
 \contentsline {subsection}{\numberline {2.1.2}State of the Art}{4}{subsection.2.1.2}
 \contentsline {subsubsection}{TC Helicon Perform V}{4}{subsubsection*.9}
 \contentsline {subsubsection}{Electro Harmonix Voice Box}{5}{subsubsection*.10}

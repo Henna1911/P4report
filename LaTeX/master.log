@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.27)  9 MAY 2016 13:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.27)  9 MAY 2016 13:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1501,13 +1501,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--50
 
 ] (./sections/Introduction.tex
 Chapter 1.
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 20.
 ) (./sections/ProblemAnalysis.tex [1
 
-] [2
-
-]
+] [2]
 Chapter 2.
 
 Overfull \hbox (2.32347pt too wide) in paragraph at lines 19--21
@@ -1515,8 +1511,10 @@ Overfull \hbox (2.32347pt too wide) in paragraph at lines 19--21
 called nat-u-ral reverberation[[]].
  []
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
+[3
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
@@ -1524,32 +1522,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--47
 File: figures/tchelicon.png Graphic file (type png)
 
 <use figures/tchelicon.png>
-Package pdftex.def Info: figures/tchelicon.png used on input line 50.
+Package pdftex.def Info: figures/tchelicon.png used on input line 54.
 (pdftex.def)             Requested size: 240.09274pt x 230.8584pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 51.
+(caption)                particular \caption on input line 55.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 48--53
+Overfull \hbox (17.0pt too wide) in paragraph at lines 52--57
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--53
+Underfull \hbox (badness 10000) in paragraph at lines 52--57
 
  []
 
 
-Overfull \hbox (3.38583pt too wide) in paragraph at lines 59--60
+Overfull \hbox (3.38583pt too wide) in paragraph at lines 63--64
 \T1/lmr/m/n/10.95 The Elec-tro Har-monix Voice Box is a more ad-vanced pro-ces-
 sor than the TC Helicon[[]].
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
@@ -1557,58 +1555,58 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--60
 File: figures/voice_box.png Graphic file (type png)
 
 <use figures/voice_box.png>
-Package pdftex.def Info: figures/voice_box.png used on input line 63.
+Package pdftex.def Info: figures/voice_box.png used on input line 67.
 (pdftex.def)             Requested size: 323.20177pt x 256.95544pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 64.
+(caption)                particular \caption on input line 68.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 61--66
+Overfull \hbox (17.0pt too wide) in paragraph at lines 65--70
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--66
+Underfull \hbox (badness 10000) in paragraph at lines 65--70
 
  []
 
 [5 <./figures/tchelicon.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
 <figures/mimu.png, id=270, 646.415pt x 725.71124pt>
 File: figures/mimu.png Graphic file (type png)
  <use figures/mimu.png>
-Package pdftex.def Info: figures/mimu.png used on input line 75.
+Package pdftex.def Info: figures/mimu.png used on input line 79.
 (pdftex.def)             Requested size: 258.56142pt x 290.27936pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 76.
+(caption)                particular \caption on input line 80.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 73--78
+Overfull \hbox (17.0pt too wide) in paragraph at lines 77--82
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--78
+Underfull \hbox (badness 10000) in paragraph at lines 77--82
 
  []
 
 [6 <./figures/voice_box.png>]
-Overfull \hbox (1.81413pt too wide) in paragraph at lines 82--82
+Overfull \hbox (1.81413pt too wide) in paragraph at lines 86--86
 |\T1/lmr/bx/n/10.95 HandySinger: Ex-pres-sive Singing Voice Mor-ph-ing us-ing P
 er-son-i-fied Hand-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
 
@@ -1616,26 +1614,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--85
 File: figures/puppet1.png Graphic file (type png)
 
 <use figures/puppet1.png>
-Package pdftex.def Info: figures/puppet1.png used on input line 88.
+Package pdftex.def Info: figures/puppet1.png used on input line 92.
 (pdftex.def)             Requested size: 132.89413pt x 94.75232pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 89.
+(caption)                particular \caption on input line 93.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 86--91
+Overfull \hbox (17.0pt too wide) in paragraph at lines 90--95
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--91
+Underfull \hbox (badness 10000) in paragraph at lines 90--95
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
@@ -1644,26 +1642,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--93
 File: figures/puppet2.png Graphic file (type png)
 
 <use figures/puppet2.png>
-Package pdftex.def Info: figures/puppet2.png used on input line 96.
+Package pdftex.def Info: figures/puppet2.png used on input line 100.
 (pdftex.def)             Requested size: 185.4897pt x 68.65527pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 97.
+(caption)                particular \caption on input line 101.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 94--99
+Overfull \hbox (17.0pt too wide) in paragraph at lines 98--103
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--99
+Underfull \hbox (badness 10000) in paragraph at lines 98--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
@@ -1671,58 +1669,63 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--112
 File: figures/Gestures.JPG Graphic file (type jpg)
 
 <use figures/Gestures.JPG>
-Package pdftex.def Info: figures/Gestures.JPG used on input line 115.
+Package pdftex.def Info: figures/Gestures.JPG used on input line 119.
 (pdftex.def)             Requested size: 306.5445pt x 128.88118pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 116.
+(caption)                particular \caption on input line 120.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 113--118
+Overfull \hbox (17.0pt too wide) in paragraph at lines 117--122
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--118
+Underfull \hbox (badness 10000) in paragraph at lines 117--122
 
  []
 
 [8 <./figures/puppet2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--136
+Underfull \hbox (badness 10000) in paragraph at lines 138--140
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--139
+Underfull \hbox (badness 10000) in paragraph at lines 141--143
 
  []
 
 [9 <./figures/Gestures.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
 
 ) (./sections/Concept&Design.tex [10]
 Chapter 3.
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 2.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 4.
 
-<figures/Storyboard2.png, id=324, 1204.5pt x 903.375pt>
+<figures/Storyboard2.png, id=326, 1204.5pt x 903.375pt>
 File: figures/Storyboard2.png Graphic file (type png)
 
 <use figures/Storyboard2.png>
 Package pdftex.def Info: figures/Storyboard2.png used on input line 22.
-(pdftex.def)             Requested size: 120.45705pt x 90.34279pt.
+(pdftex.def)             Requested size: 361.35278pt x 271.01459pt.
 
-<figures/Sketch1.jpg, id=325, 3414.7575pt x 2389.92876pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/Sketch1.jpg, id=327, 3414.7575pt x 2389.92876pt>
 File: figures/Sketch1.jpg Graphic file (type jpg)
 
 <use figures/Sketch1.jpg>
@@ -1734,23 +1737,23 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [11
 
- <./figures/Storyboard2.png>]
-<figures/Sketch2.jpg, id=335, 3396.69pt x 2843.62375pt>
+]
+
+LaTeX Warning: Text page 12 contains only floats.
+
+[12 <./figures/Storyboard2.png> <./figures/Sketch1.jpg>]
+<figures/Sketch2.jpg, id=342, 3396.69pt x 2843.62375pt>
 File: figures/Sketch2.jpg Graphic file (type jpg)
 
 <use figures/Sketch2.jpg>
 Package pdftex.def Info: figures/Sketch2.jpg used on input line 54.
 (pdftex.def)             Requested size: 339.6889pt x 284.37903pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[12 <./figures/Sketch1.jpg>]) (./sections/ImplementedTheory.tex [13 <./figures/
-Sketch2.jpg>] [14
-
-]
+ [13 <./figures/Sketch2.jpg>])
+(./sections/ImplementedTheory.tex [14]
 Chapter 4.
-) (./sections/Implementation.tex [15] [16
+) (./sections/Implementation.tex [15
+
+] [16
 
 ]
 Chapter 5.
@@ -1758,7 +1761,7 @@ Chapter 5.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 5.
 
-<figures/Imu_Glove_Schematic.png, id=361, 359.744pt x 494.648pt>
+<figures/Imu_Glove_Schematic.png, id=363, 359.744pt x 494.648pt>
 File: figures/Imu_Glove_Schematic.png Graphic file (type png)
 
 <use figures/Imu_Glove_Schematic.png>
@@ -1786,7 +1789,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--20
 LaTeX Warning: Reference `Pull_down' on page 18 undefined on input line 29.
 
 [18 <./figures/Imu_Glove_Schematic.png>]
-<figures/Pull_down_resistor.png, id=376, 239.89626pt x 356.33125pt>
+<figures/Pull_down_resistor.png, id=378, 239.89626pt x 356.33125pt>
 File: figures/Pull_down_resistor.png Graphic file (type png)
 
 <use figures/Pull_down_resistor.png>
@@ -1935,13 +1938,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 37.
  ) 
 Here is how much of TeX's memory you used:
- 22461 strings out of 493029
- 395961 string characters out of 6136234
+ 22454 strings out of 493029
+ 395793 string characters out of 6136234
  491645 words of memory out of 5000000
- 25367 multiletter control sequences out of 15000+600000
+ 25360 multiletter control sequences out of 15000+600000
  70519 words of font info for 51 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
- 64i,14n,122p,671b,943s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,14n,122p,672b,714s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/l
@@ -1951,10 +1954,10 @@ pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></us
 r/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/pu
 blic/lm/lmssbx10.pfb>
-Output written on master.pdf (37 pages, 10705202 bytes).
+Output written on master.pdf (37 pages, 10705081 bytes).
 PDF statistics:
- 498 PDF objects out of 1000 (max. 8388607)
- 417 compressed objects within 5 object streams
+ 500 PDF objects out of 1000 (max. 8388607)
+ 419 compressed objects within 5 object streams
  111 named destinations out of 1000 (max. 500000)
  321 words of extra memory for PDF output out of 10000 (max. 10000000)
 
