@@ -4,24 +4,29 @@ The following chapter describes how the protoype has been implemented and the ma
 
 \subsection{Hardware}
 
-The prototype consists of an Arduino Mega 2560\citep{Arduino}, which is connected to a circuit board with an inertial measurement unit(IMU). 
+The prototype consists of an Arduino Mega 2560\citep{Arduino}, with a connection to a circuit board with an inertial measurement unit(IMU). 
 The IMU uses the MPU 9150 sensor with 9 degrees of freedom\citep{MPU}. It has a tri-axis gyroscope, magnetometer, and accelorometer.
 
 \subsection{Schematic} 
 
-The following figure \ref{schematic} shows how the Arduino is connected to the circuit board with the IMU. The black switch at the top of the circuit board
+The following figure \ref{schematic} shows the connection from the Arduino to the circuit board with the IMU. The black switch at the top of the circuit board
 represents the three connections, which is put on the thumb, index and middle finger. These are velcro based, with copper tape on them, to create the connection when pressed together. 
 
 \begin{minipage}{\linewidth}% to keep image and caption on one page
 \makebox[\linewidth]{%        to center the image
-\includegraphics[keepaspectratio=true,scale=1.2]{Imu_Glove_Schematic}}
+\includegraphics[keepaspectratio=true,scale=1]{Imu_Glove_Schematic}}
 \captionof{figure}{Prototype Schematic}\label{schematic}
 \end{minipage}\\
 
 The circuit board consists of three LEDs, a yellow, green and red. They light up at different points, which is explained in the next section of this chapter.
-The LEDs are connected to resistors of 220 ohm which is wired to the arduino as seen in the schematic. The LEDs has to be connected to a pull-down resistor\citep{Pull_down_res},
+The LEDs are connected to resistors of 220 ohm which is wired to the arduino as seen in the schematic. The green LED is connected to pin 3. 
+The yellow LED is connected to pin 6 and the red is connected to pin 9. This is essential to make it work in the Arduino code, which will be described later. 
+The black wire connects all the LEDs and runs from them, to the ground on the Arduino. The blue circuit board represents the IMU. The necessary connections are: SDA, SCL, GND and VCC. 
+The SDA connection is connected to pin 20 and the SCL is connected to pin 21. Ground is connected to ground on the Arduino and the VCC connection powers the sensor and is therefore
+connected to 3.3V on the Arduino. 
+The LEDs has to be connected to a pull-down resistor\citep{Pull_down_res},
 which makes sure, that the Arduino does not 'float' between two different values. A pull-down resistor ensures, that the value is zero, when no active device is connected.
-The following figure \ref{Pull_down_res} shows what a circuit with a pull-down resistor might look like. 
+The following figure \ref{Pull_down} shows what a circuit with a pull-down resistor might look like. 
 
 %Five 220 ohm resistors (Two Pull-down resistor), three LEDs red, yellow, green. Copper tape. RedS Tape and velcro. 
 
