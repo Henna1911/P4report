@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.27)  9 MAY 2016 13:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.27)  9 MAY 2016 14:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1785,37 +1785,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--20
  []
 
 [17]
+Underfull \hbox (badness 10000) in paragraph at lines 21--29
 
-LaTeX Warning: Reference `Pull_down' on page 18 undefined on input line 29.
+ []
 
 [18 <./figures/Imu_Glove_Schematic.png>]
+
+LaTeX Warning: Reference `Pull_down' on page 19 undefined on input line 33.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--34
+
+ []
+
 <figures/Pull_down_resistor.png, id=378, 239.89626pt x 356.33125pt>
 File: figures/Pull_down_resistor.png Graphic file (type png)
 
 <use figures/Pull_down_resistor.png>
-Package pdftex.def Info: figures/Pull_down_resistor.png used on input line 35.
+Package pdftex.def Info: figures/Pull_down_resistor.png used on input line 38.
 (pdftex.def)             Requested size: 167.92622pt x 249.43016pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 36.
+(caption)                particular \caption on input line 39.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 33--38
+Overfull \hbox (17.0pt too wide) in paragraph at lines 36--41
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--38
+Underfull \hbox (badness 10000) in paragraph at lines 36--41
 
  []
 
-) (./sections/Evaluation.tex [19 <./figures/Pull_down_resistor.png>] [20
-
-]
+[19 <./figures/Pull_down_resistor.png>]) (./sections/Evaluation.tex [20]
 Chapter 6.
-) (./sections/Discussion.tex [21] [22
+) (./sections/Discussion.tex [21
+
+] [22
 
 ]
 Chapter 7.
@@ -1954,7 +1963,7 @@ pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></us
 r/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/pu
 blic/lm/lmssbx10.pfb>
-Output written on master.pdf (37 pages, 10705081 bytes).
+Output written on master.pdf (37 pages, 10705766 bytes).
 PDF statistics:
  500 PDF objects out of 1000 (max. 8388607)
  419 compressed objects within 5 object streams
