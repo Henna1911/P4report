@@ -1,7 +1,8 @@
 \chapter{Design}
 \todo{short introduction to what will be addressed in this chapter}
+This chapter describes the design process for this project. Initially, the concept of the product is presented...
 
-\subsection{Concept}
+\section{Concept}
 The concept of the product is to be able to apply voice effects in real-time without having to turn to a panel or having someone do it for you. 
 
 A thing most singers almost always have available are their hands. Therefore a device controlled by the hands movements seems the obvious choice.
@@ -10,75 +11,93 @@ The device will implement a gyroscope to sense the movements of the hand.
 
 The device then needs to be told that an effect has been initiated. This is done by connecting the thumb to the finger in control of the desired effect.
 
-When this has been done the gesture to apply the effects is done. 
 
 \begin{itemize}
 \item Harmonising: This will be controlled by turning the hand while having thumb and a finger pressed together, like turning a knob or volume control.
 \item Pitch: This will be controlled by lifting or lowering the hand while having thumb and a finger pressed together, like pulling a slider up or down.
 \end{itemize}
 
-\begin{figure}[!h]
-\centering
-\includegraphics[scale=0.3]{Storyboard2}
-\caption{The storyboard.} \label{Storyboard1}
-\end{figure}
+\section{Storyboard}
 
-\todo{insert storyboard here, when a nice looking one has been made}
+To understand the concept and how it would work in a real scenario a storyboard was created to explain how, what and where to use the product. this storyboard was part of the proof of concept that together with the initial sketches would explain the idea better.\\
 
-\subsection{Sketching}
-\begin{figure}[!h]
-\centering
-\includegraphics[scale=0.1]{Sketch1}
-\caption{The first sketch} \label{Sketch1}
-\end{figure}
+\begin{minipage}{\linewidth}% to keep image and caption on one page
+\makebox[\linewidth]{%        to center the image
+\includegraphics[keepaspectratio=true,scale=0.3]{Storyboard2}}
+\captionof{figure}{The Storyboard}}\label{Storyboard}
+\end{minipage}\\
 
-The first sketch and the first concrete design of the device have copper foil on thumb, index finger and middle finger. 
+In the first frame a band is shown playing a concert on a stage, with the lead singer singing. The seond frame shows the lead singer singing, but wanting to sound different. In the third frame the device is shown on the singer's hand. Fourth frame illustrates the singer performing a gesture to apply the desired effect. The final frame then shows the singer sounding how they wanted to sound.
 
-On the knuckles there are illustrations of the gestures, that you are supposed to do to manipulate the effects. Beneath those are small labels with the effect name. In this design reverb was used instead of harmonising. This was later changed, since reverb is not manipulated quite as much as harmonising. 
+\section{Sketching and Testing}
 
-The sensor is attached to the hand by a velcro strip as is the circuit board. 
+The initial sketches and the first concrete design of the device have copper foil on thumb, index finger and middle finger, see figure \ref{Sketch1}. When pressing the index or middle finger together with the thumb, a connection is made in the system that activates the assigned effect. \\
 
-A quick informal test with three participants was conducted and they were told what the drawing was supposed to be and what it should do. They then had to figure out based on the sketch how to do those things. 
+\begin{minipage}{\linewidth}% to keep image and caption on one page
+\makebox[\linewidth]{%        to center the image
+\includegraphics[keepaspectratio=true,scale=0.1]{Sketch1}}
+\captionof{figure}{Two sketches showing idea of the system}}\label{Sketch1}
+\end{minipage}\\
+
+On the knuckles there are illustrations of the gestures, that you are supposed to do to manipulate the effects. Beneath those are small labels with the name of the effect. In this design reverb is used instead of harmonising. This was later changed, since reverb is not manipulated quite as much as harmonising.
+
+The sensor is attached to the hand by a velcro strip, as is the circuit board. \\
+
+A quick informal test with three participants was conducted and they were told what the drawing was supposed to be and what it should do. They then had to figure out based on the sketch how to do those things.
+From this test, a few key things were learned:
+ 
 \begin{itemize}
-	\item One thing made very clear was that they all had difficulty figuring out how to get to the activate stage. None of them connected their fingers.
-	\item Most figured out which type of gesture in general had to be done but they were missing the finger connections which made the gestures wrong
+	\item They all had difficulty figuring out how to get to the activate stage. None of them connected their fingers.
+	\item Most eventually figured out which type of gesture in general had to be done, but only after some trial and error
 	\item They all found out which finger created which effect
 \end{itemize}
 
-Based on this the next focus will be on creating some feedforward and perceived affordance that tell the user that to activate the glove you need to connect two fingers.
+Based on that the next focus was on creating some feedforward and perceived affordance that tells the user, that to activate the glove you need to connect two fingers.
 
-The second sketch changed the illustrations since people had a hard time performing the correct gestures with the old ones.
+The second sketch changed the illustrations since people had a hard time immediately recognising the correct gestures with the old ones, as seen in figure \ref{Sketch2}.\\
 
-\begin{figure}[!h]
-\centering
-\includegraphics[scale=0.1]{Sketch2}
-\caption{The second sketch} \label{Sketch2}
-\end{figure}
+\begin{minipage}{\linewidth}% to keep image and caption on one page
+\makebox[\linewidth]{%        to center the image
+\includegraphics[keepaspectratio=true,scale=0.1]{Sketch2}}
+\captionof{figure}{Second set of sketches after some changes}}\label{Sketch2}
+\end{minipage}\\
 
-Colour was also added to the copper foil, a different one on the index and middle finger and then both on the thumb. This was done to create a connection between fingers and thumb.
+Colour was also added to the copper foil, a different one on the index and middle finger and then both on the thumb. This was done to create perceived affordance between the fingers and thumb.
 
-LEDs were added to create some feedback on the actions.
+LEDs were added on the circuit board to create some feedback for the actions. The middle LED showing if the system was on or off. The two other LEDs showing an increase or decrease in the effect, with a minus and a plus sign.\\
 
-An quick informal test was done with two participants with the revised sketch. Now there were a better indication that one needed to connect two fingers, but not anything that indicated that they needed to stay connected.
+A quick informal test was done with two participants with the revised sketch. Now there was a better indication that they needed to connect two fingers, but not anything that indicated that they needed to stay connected.
+Additional results from the test:
+
 \begin{itemize}
-	\item One suggested that instead of on/off LED maybe a connected/not connected LED.
+	\item One suggested that instead of the on/off LED, maybe a connected/not connected LED.
 	\item The arrows were found to be confusing for one tester.
 	\item Another tester easily understood the pitch action but was a bit confused with the placement of the arrow on the harmonise action.
-	\item The dual colour on the thumb suggested that both actions could be done at the same time.
+	\item One tester thought tht the dual colour on the thumb suggested that both actions could be done at the same time.
 	\item The plus and minus LEDs confused one tester, but this could also be because the drawing was unclear.
-\end{itemize}
+\end{itemize} 
+
+\section{Lo-Fi}
+
+Based on the previous test, a new design iteration of the glove was made, now also in the form of a lo-fi model, as seen in figure \ref{LoFiHand}. This lo-fi was created in order to make a mental model test. The desire was to both get some feedback on the general design, but also to weigh the feedback against an affordance scheme.
+
+\begin{minipage}{\linewidth}% to keep image and caption on one page
+\makebox[\linewidth]{%        to center the image
+\includegraphics[keepaspectratio=true,scale=0.1]{LoFiHand}}
+\captionof{figure}{The Lo-fi of the system}}\label{LoFiHand}
+\end{minipage}\\
 
 \subsection{Affordance Scheme}
-This affordance scheme shows how intuitive, the expected results of interaction and the feedback of interacting with the system. The affordance scheme is then tested on users to see if it is intuitive and to eliminate assumptions on the system. The system is then evaluated based on the results from the users. Below is the affordance scheme as it looked before the test. 
+The affordance scheme is separated into three categories: perceived affordance, feedforward, and feedback. Perceived affordance is the perception that something is interactable, e.g. a user would assume a button can be pressed no matter what state the system is in. Feedforward is what is expected to happen after a certain action, e.g. after pressing the "On" button, the system will turn On. Finally, feedback is what the system does to indicate an action has taken place, e.g. after pressing the "On" button, a display lights up and says "Turning On".
 
-\subsection{Mental Model Lo-Fi test}
+The following table shows the affordance scheme for the current lo-fi design, as seen in figure \ref{LoFiHand}.
 
-Based on the feedback from the previous test, a new iteration of the lo-fi model (see below fig[??]) was created to be used for the mental model lo-fi test. This new iteration was created to be used with our affordance scheme, to test whether it would fit with the users’ mental model.
-
-The test started with a short introduction to the overall purpose of device. Then the participants were asked to explain everything they saw, and to try it on. After this they were given the tasks of turning harmonics up and pitch down. The results were compared to the affordance scheme 
-
-Below is the updated affordance scheme based on user feedback. The parts of the system the participants had a hard time understanding or felt non intuitive is marked with red/orange and the things they found intuitive is marked in green. The notable thing here is the participants had a hard time understanding the feedback of the system, in particular the LEDs turning on/off depending on the state, this might be because the test was low fidelity, thus it being harder to simulate the feedback. Another thing hard for the users to understand was the colour coding on the fingers, even though the users knew how to put the device on they did not understand the connections with the fingers until it was explained. Since almost all participants did not correctly connect the fingers to activate the system there was not any feedforward assumptions from the users. 
-
-As mentioned before the participants understood the affordance of the system being used as a glove, the system not being an actual glove but rather three cylinders for the thumb, index- and ring finger. After the updates from the very early testing the icons had better success with this iteration, where 6 out 7 found the icons/illustrations helpful. Understanding the icons also allowed the participants to understand the feedforward of decreasing and increasing the chosen effect. 
-\subsection{Conclusion}
-The first concept of the system was a glove that uses a gyroscope to sense hand movement, and apply voice filters according to the movement. A storyboard was created to show how the system would be used and in want context. The first sketch showcased the system with copper foils on the fingers, and labels to explain how to operate the device. This sketch included reverb as an effect to apply, this was later changed because reverb is mostly irrelevant for the singer. The second iteration also included new labels to explain better and LEDs for feedback when interacting with the system. After the second iteration an affordance scheme was created to be compared to the third iteration. The third iteration once again included new labels this time with more success and was made into a lo-fi model. This iteration was compared to the affordance scheme with the results showing the labels being more intuitive but the system lacking elsewhere, namely the connection of the fingers to apply an effect. The test participants also had some trouble understanding the feedback of the system, as in how the LEDs worked and what sort of feedback they actually provided.
+\begin{center}
+  \begin{tabular}{| c | c | c | c |}
+    \hline
+    \textbf{State} & \textbf{Perceived Affordance} & \textbf{Feedforward} & \textbf{Feedback} \\ \hline
+    \textbf{Inactive} & It is a wearable glove & & All LEDs are OFF \\ \hline
+    \textbf{Active} &  & Connect fingers + perform gesture on labels = effect change & "Connected" LED is ON \\ \hline        
+    \textbf{Performing Gesture} &  & Connect fingers + perform gesture = effect change & Voice Changes and the plus and minus LEDs light accordingly \\ \hline
+  \end{tabular}
+\end{center}
