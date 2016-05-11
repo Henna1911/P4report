@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.8)  11 MAY 2016 10:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.8)  11 MAY 2016 13:50
 entering extended mode
 **master.tex
 (master.tex
@@ -1371,7 +1371,7 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \titlepageleftcolumnwidth=\skip75
 \titlepagerightcolumnwidth=\skip76
 
-<figures/aau_logo_en.pdf, id=167, 115.43124pt x 77.28876pt>
+<figures/aau_logo_en.pdf, id=175, 115.43124pt x 77.28876pt>
 File: figures/aau_logo_en.pdf Graphic file (type pdf)
 
 <use figures/aau_logo_en.pdf>
@@ -1429,7 +1429,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
-[4] <figures/tchelicon.png, id=277, 600.2425pt x 577.15625pt>
+[4] <figures/tchelicon.png, id=287, 600.2425pt x 577.15625pt>
 File: figures/tchelicon.png Graphic file (type png)
 
 <use figures/tchelicon.png>
@@ -1462,7 +1462,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
-<figures/voice_box.png, id=283, 808.01875pt x 642.4pt>
+<figures/voice_box.png, id=293, 808.01875pt x 642.4pt>
 File: figures/voice_box.png Graphic file (type png)
 
 <use figures/voice_box.png>
@@ -1489,7 +1489,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
-<figures/mimu.png, id=298, 646.415pt x 725.71124pt>
+<figures/mimu.png, id=308, 646.415pt x 725.71124pt>
 File: figures/mimu.png Graphic file (type png)
  <use figures/mimu.png>
 Package pdftex.def Info: figures/mimu.png used on input line 79.
@@ -1521,7 +1521,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
 
-<figures/puppet1.png, id=311, 332.24126pt x 236.885pt>
+<figures/puppet1.png, id=321, 332.24126pt x 236.885pt>
 File: figures/puppet1.png Graphic file (type png)
 
 <use figures/puppet1.png>
@@ -1549,7 +1549,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--97
  []
 
 [7 <./figures/mimu.png> <./figures/puppet1.png>]
-<figures/puppet2.png, id=324, 463.7325pt x 171.64125pt>
+<figures/puppet2.png, id=334, 463.7325pt x 171.64125pt>
 File: figures/puppet2.png Graphic file (type png)
 
 <use figures/puppet2.png>
@@ -1576,7 +1576,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
-<figures/Gestures.jpg, id=329, 613.0905pt x 257.763pt>
+<figures/Gestures.jpg, id=339, 613.0905pt x 257.763pt>
 File: figures/Gestures.jpg Graphic file (type jpg)
 
 <use figures/Gestures.jpg>
@@ -1620,224 +1620,263 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
 ) (sections/Concept&Design.tex [10]
 Chapter 3.
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
-
- []
-
-<figures/Storyboard2.png, id=354, 1204.5pt x 903.375pt>
-File: figures/Storyboard2.png Graphic file (type png)
-
-<use figures/Storyboard2.png>
-Package pdftex.def Info: figures/Storyboard2.png used on input line 26.
-(pdftex.def)             Requested size: 361.35278pt x 271.01459pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 27.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 24--29
-[]$[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--29
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
 [11
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
+] <figures/Storyboard2.png, id=370, 1204.5pt x 903.375pt>
+File: figures/Storyboard2.png Graphic file (type png)
+
+<use figures/Storyboard2.png>
+Package pdftex.def Info: figures/Storyboard2.png used on input line 22.
+(pdftex.def)             Requested size: 361.35278pt x 271.01459pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 23.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (17.0pt too wide) in paragraph at lines 20--25
+[]$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--25
 
  []
 
-<figures/Sketch1.jpg, id=363, 3414.7575pt x 2389.92876pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+<figures/Sketch1.jpg, id=372, 3414.7575pt x 2389.92876pt>
 File: figures/Sketch1.jpg Graphic file (type jpg)
 
 <use figures/Sketch1.jpg>
-Package pdftex.def Info: figures/Sketch1.jpg used on input line 38.
+Package pdftex.def Info: figures/Sketch1.jpg used on input line 34.
 (pdftex.def)             Requested size: 341.49576pt x 239.00688pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 39.
+(caption)                particular \caption on input line 35.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 36--41
+Overfull \hbox (17.0pt too wide) in paragraph at lines 32--37
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--41
+Underfull \hbox (badness 10000) in paragraph at lines 32--37
 
  []
 
 [12 <./figures/Storyboard2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
-<figures/Sketch2.jpg, id=371, 3396.69pt x 2843.62375pt>
+<figures/Sketch2.jpg, id=380, 3396.69pt x 2843.62375pt>
 File: figures/Sketch2.jpg Graphic file (type jpg)
 
 <use figures/Sketch2.jpg>
-Package pdftex.def Info: figures/Sketch2.jpg used on input line 61.
+Package pdftex.def Info: figures/Sketch2.jpg used on input line 57.
 (pdftex.def)             Requested size: 339.6889pt x 284.37903pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 62.
+(caption)                particular \caption on input line 58.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 59--64
+Overfull \hbox (17.0pt too wide) in paragraph at lines 55--60
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--64
+Underfull \hbox (badness 10000) in paragraph at lines 55--60
 
  []
 
 [13 <./figures/Sketch1.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
 [14 <./figures/Sketch2.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
-<figures/LoFiHand.jpg, id=382, 2409.0pt x 1596.96625pt>
+<figures/LoFiHand.jpg, id=391, 2409.0pt x 1596.96625pt>
 File: figures/LoFiHand.jpg Graphic file (type jpg)
 
 <use figures/LoFiHand.jpg>
-Package pdftex.def Info: figures/LoFiHand.jpg used on input line 86.
+Package pdftex.def Info: figures/LoFiHand.jpg used on input line 82.
 (pdftex.def)             Requested size: 240.91411pt x 159.70598pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 87.
+(caption)                particular \caption on input line 83.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 84--89
+Overfull \hbox (17.0pt too wide) in paragraph at lines 80--85
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--89
+Underfull \hbox (badness 10000) in paragraph at lines 80--85
 
  []
 
-[15 <./figures/LoFiHand.jpg>] [16]) (sections/ImplementedTheory.tex [17]
-[18
+[15 <./figures/LoFiHand.jpg>] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+
+ []
+
+<figures/SynthAmp.jpg, id=403, 2601.72pt x 1734.48pt>
+File: figures/SynthAmp.jpg Graphic file (type jpg)
+
+<use figures/SynthAmp.jpg>
+Package pdftex.def Info: figures/SynthAmp.jpg used on input line 148.
+(pdftex.def)             Requested size: 260.18724pt x 173.45816pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 149.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (17.0pt too wide) in paragraph at lines 146--151
+[]$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--151
+
+ []
+
+[17]) (sections/ImplementedTheory.tex [18 <./figures/SynthAmp.jpg>] [19]
+[20
 
 ]
 Chapter 4.
-) (sections/Implementation.tex [19] [20
+) (sections/Implementation.tex [21] [22
 
 ]
 Chapter 5.
-<figures/Imu_Glove_Schematic.png, id=414, 359.744pt x 494.648pt>
+<figures/Imu_Glove_Schematic.png, id=436, 359.744pt x 494.648pt>
 File: figures/Imu_Glove_Schematic.png Graphic file (type png)
 
 <use figures/Imu_Glove_Schematic.png>
-Package pdftex.def Info: figures/Imu_Glove_Schematic.png used on input line 25.
+Package pdftex.def Info: figures/Imu_Glove_Schematic.png used on input line 27.
 
 (pdftex.def)             Requested size: 359.74312pt x 494.64679pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 26.
+(caption)                particular \caption on input line 28.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 23--28
+Overfull \hbox (17.0pt too wide) in paragraph at lines 25--30
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--28
+Underfull \hbox (badness 10000) in paragraph at lines 25--30
 
  []
 
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 29--37
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 31--39
 
  []
 
-[22 <./figures/Imu_Glove_Schematic.png>]
+[24 <./figures/Imu_Glove_Schematic.png>]
 
-LaTeX Warning: Reference `Pull_down' on page 23 undefined on input line 40.
+LaTeX Warning: Reference `Pull_down' on page 25 undefined on input line 42.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--41
+Underfull \hbox (badness 10000) in paragraph at lines 41--43
 
  []
 
-<figures/Pull_down_resistor.png, id=428, 239.89626pt x 356.33125pt>
+<figures/Pull_down_resistor.png, id=451, 239.89626pt x 356.33125pt>
 File: figures/Pull_down_resistor.png Graphic file (type png)
 
 <use figures/Pull_down_resistor.png>
-Package pdftex.def Info: figures/Pull_down_resistor.png used on input line 45.
+Package pdftex.def Info: figures/Pull_down_resistor.png used on input line 47.
 (pdftex.def)             Requested size: 167.92622pt x 249.43016pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 46.
+(caption)                particular \caption on input line 48.
 See the caption package documentation for explanation.
 
 
-Package natbib Warning: Citation `Pull_down_res' on page 23 undefined on input 
-line 46.
+Package natbib Warning: Citation `Pull_down_res' on page 25 undefined on input 
+line 48.
 
 
-Package natbib Warning: Citation `Pull_down_res' on page 23 undefined on input 
-line 46.
+Package natbib Warning: Citation `Pull_down_res' on page 25 undefined on input 
+line 48.
 
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 43--48
+Overfull \hbox (17.0pt too wide) in paragraph at lines 45--50
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--48
+Underfull \hbox (badness 10000) in paragraph at lines 45--50
 
  []
 
-[23 <./figures/Pull_down_resistor.png>]
-<figures/Arduino_while_loop.png, id=437, 788.9475pt x 456.70625pt>
+[25 <./figures/Pull_down_resistor.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--67
+
+ []
+
+<figures/Arduino_while_loop.png, id=460, 788.9475pt x 456.70625pt>
 File: figures/Arduino_while_loop.png Graphic file (type png)
 
 <use figures/Arduino_while_loop.png>
-Package pdftex.def Info: figures/Arduino_while_loop.png used on input line 68.
-(pdftex.def)             Requested size: 552.25948pt x 319.69218pt.
+Package pdftex.def Info: figures/Arduino_while_loop.png used on input line 70.
+(pdftex.def)             Requested size: 394.47278pt x 228.35255pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 69.
+(caption)                particular \caption on input line 71.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 66--71
+Overfull \hbox (17.0pt too wide) in paragraph at lines 68--73
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--71
+Underfull \hbox (badness 10000) in paragraph at lines 68--73
 
  []
 
@@ -1846,50 +1885,106 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--77
 
  []
 
-<figures/PitchShifting_PD.png, id=440, 688.5725pt x 630.355pt>
-File: figures/PitchShifting_PD.png Graphic file (type png)
+<figures/Ardunio_Index_Finger.png, id=462, 488.82625pt x 584.1825pt>
+File: figures/Ardunio_Index_Finger.png Graphic file (type png)
 
-<use figures/PitchShifting_PD.png>
-Package pdftex.def Info: figures/PitchShifting_PD.png used on input line 84.
-(pdftex.def)             Requested size: 481.99745pt x 441.24548pt.
+<use figures/Ardunio_Index_Finger.png>
+Package pdftex.def Info: figures/Ardunio_Index_Finger.png used on input line 81
+.
+(pdftex.def)             Requested size: 244.41252pt x 292.09053pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 85.
+(caption)                particular \caption on input line 82.
 See the caption package documentation for explanation.
 
 
-Package natbib Warning: Citation `PitchShifting_PD' on page 24 undefined on inp
-ut line 85.
-
-
-Package natbib Warning: Citation `PitchShifting_PD' on page 24 undefined on inp
-ut line 85.
-
-) (sections/Evaluation.tex
-Overfull \hbox (17.0pt too wide) in paragraph at lines 82--1
+Overfull \hbox (17.0pt too wide) in paragraph at lines 79--84
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--1
+Underfull \hbox (badness 10000) in paragraph at lines 79--84
 
  []
 
-[24 <./figures/Arduino_while_loop.png>] [25 <./figures/PitchShifting_PD.png>]
-[26
+[26 <./figures/Arduino_while_loop.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 85--89
+
+ []
+
+<figures/Arduino_Middle_Finger.png, id=472, 485.815pt x 532.99126pt>
+File: figures/Arduino_Middle_Finger.png Graphic file (type png)
+
+<use figures/Arduino_Middle_Finger.png>
+Package pdftex.def Info: figures/Arduino_Middle_Finger.png used on input line 9
+2.
+(pdftex.def)             Requested size: 242.9069pt x 266.49498pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 93.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (17.0pt too wide) in paragraph at lines 90--95
+[]$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--95
+
+ []
+
+[27 <./figures/Ardunio_Index_Finger.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 98--101
+
+ []
+
+<figures/PitchShifting_PD.png, id=480, 688.5725pt x 630.355pt>
+File: figures/PitchShifting_PD.png Graphic file (type png)
+
+<use figures/PitchShifting_PD.png>
+Package pdftex.def Info: figures/PitchShifting_PD.png used on input line 107.
+(pdftex.def)             Requested size: 481.99745pt x 441.24548pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 108.
+See the caption package documentation for explanation.
+
+
+Package natbib Warning: Citation `PitchShifting_PD' on page 28 undefined on inp
+ut line 108.
+
+
+Package natbib Warning: Citation `PitchShifting_PD' on page 28 undefined on inp
+ut line 108.
+
+) (sections/Evaluation.tex
+Overfull \hbox (17.0pt too wide) in paragraph at lines 105--1
+[]$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--1
+
+ []
+
+[28 <./figures/Arduino_Middle_Finger.png>] [29 <./figures/PitchShifting_PD.png>
+] [30
 
 ]
 Chapter 6.
-) (sections/Discussion.tex [27] [28
+) (sections/Discussion.tex [31] [32
 
 ]
 Chapter 7.
-) (sections/Conclusion.tex [29] [30
+) (sections/Conclusion.tex [33] [34
 
 ]
 Chapter 8.
-) (master.bbl [31] [32
+) (master.bbl [35] [36
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 4--7
@@ -1965,23 +2060,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--55
  []
 
 
-Overfull \hbox (8.18723pt too wide) in paragraph at lines 57--58
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+[]\T1/lmr/m/n/10.95 AudioFanzine, ``Ax 301 syn-the-sizer am-pli-fier.''
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+\T1/lmr/m/n/10.95 http://en.audiofanzine.com/keyboard-amplifier/moog-music/ax-3
+01-
+ []
+
+[37]
+Overfull \hbox (8.18723pt too wide) in paragraph at lines 61--62
 []\T1/lmr/m/n/10.95 ``Arduino mega 2560.'' http://www.arduino.cc/en/Main/Arduin
 oBoardMega2560. 
  []
 
-[33]
-Underfull \hbox (badness 10000) in paragraph at lines 60--62
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
 []\T1/lmr/m/n/10.95 Sparfun, ``Spark-fun 9 de-grees of free-dom.''
  []
 
 
-Overfull \hbox (48.51894pt too wide) in paragraph at lines 64--66
+Overfull \hbox (48.51894pt too wide) in paragraph at lines 68--70
 []\T1/lmr/m/n/10.95 ``Pull down re-sis-tor.'' http://playground.arduino.cc/Comm
 onTopics/PullUpDownResistor. 
  []
 
-) (sections/appAname.tex [34]
+) (sections/appAname.tex [38]
 Appendix A.
 )
 \tf@thm=\write6
@@ -1989,7 +2095,7 @@ Appendix A.
 
 Package natbib Warning: There were undefined citations.
 
-[35
+[39
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 37.
@@ -1997,31 +2103,22 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 37.
  (master.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 37.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 37.
+Package rerunfilecheck Info: File `master.out' has not changed.
+(rerunfilecheck)             Checksum: F7E6B60A28E8663FD2BBC228264E121C;2439.
 
-
-Package rerunfilecheck Warning: File `master.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `master.out':
-(rerunfilecheck)             Before: 47B43755FD608667BFF7487001D95F44;2311
-(rerunfilecheck)             After:  83055653F1457D6CA50071BA683F7FC3;2373.
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 37.
  ) 
 Here is how much of TeX's memory you used:
- 22264 strings out of 493673
- 395138 string characters out of 3141534
- 489413 words of memory out of 3000000
- 24975 multiletter control sequences out of 15000+200000
+ 22218 strings out of 493673
+ 393979 string characters out of 3141534
+ 487413 words of memory out of 3000000
+ 24918 multiletter control sequences out of 15000+200000
  70519 words of font info for 51 fonts, out of 3000000 for 9000
  1030 hyphenation exceptions out of 8191
- 64i,14n,122p,1130b,714s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,14n,122p,1130b,521s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Program Files (x86)/MiK
 TeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
@@ -2034,9 +2131,9 @@ ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files
 ype1/public/lm/lmri9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
 lm/lmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10
 .pfb>
-Output written on master.pdf (43 pages, 11719060 bytes).
+Output written on master.pdf (47 pages, 11990774 bytes).
 PDF statistics:
- 567 PDF objects out of 1000 (max. 8388607)
- 129 named destinations out of 1000 (max. 500000)
- 384 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 605 PDF objects out of 1000 (max. 8388607)
+ 137 named destinations out of 1000 (max. 500000)
+ 415 words of extra memory for PDF output out of 10000 (max. 10000000)
 
