@@ -90,10 +90,12 @@ Based on the previous test, a new design iteration of the glove was made, now al
 \subsection{Affordance Scheme}
 The affordance scheme is separated into three categories: perceived affordance, feedforward, and feedback. Perceived affordance is the perception that something is interactable, e.g. a user would assume a button can be pressed no matter what state the system is in. Feedforward is what is expected to happen after a certain action, e.g. after pressing the "On" button, the system will turn On. Finally, feedback is what the system does to indicate an action has taken place, e.g. after pressing the "On" button, a display lights up and says "Turning On".
 
-The following table shows the affordance scheme for the current lo-fi design, seen in figure \ref{LoFiHand}.
+The following table shows the affordance scheme for the system.
+
+\newcolumntype{c}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 
 \begin{center}
-  \begin{tabular}{| c | c | c | c |}
+  \begin{tabular}{| c{2cm} | c{3cm} | c{3cm} | c{3cm} |}
     \hline
     \textbf{State} & \textbf{Perceived Affordance} & \textbf{Feedforward} & \textbf{Feedback} \\ \hline
     \textbf{Inactive} & It is a wearable glove & & All LEDs are OFF \\ \hline
@@ -126,11 +128,11 @@ The table below shows a revised affordance scheme based on the user feedback. Th
 The participants had a hard time understanding some of the feedback in the system, particularly the LEDs. While they knew that they were LEDs, they were not sure what each of them was signifying.
 
 \begin{center}
-  \begin{tabular}{| c | c | c | c |}
+  \begin{tabular}{| c{2cm} | c{3cm} | c{3cm} | c{3cm} |}
     \hline
     \textbf{State} & \textbf{Perceived Affordance} & \textbf{Feedforward} & \textbf{Feedback} \\ \hline
-    \textbf{Inactive} & \underline{It is a wearable glove} & & \textit{All LEDs are OFF} \\ \hline
-    \textbf{Active} &  & Connect fingers + perform gesture on labels = effect change & "Connected" LED is ON \\ \hline        
-    \textbf{Performing Gesture} &  & Connect fingers + perform gesture = effect change & Voice Changes and the plus and minus LEDs light accordingly \\ \hline
+    \textbf{Inactive} & \textcolor{green}{It is a wearable glove} & & \textcolor{red}{All LEDs are OFF} \\ \hline
+    \textbf{Active} &  & \textcolor{red}{Connect fingers} + \textcolor{green}{perform gesture on labels} = effect change & \textcolor{red}{"Connected" LED is ON} \\ \hline        
+    \textbf{Performing Gesture} &  & \textcolor{red}{Connect fingers} + \textcolor{green}{perform gesture} = effect change & \textcolor{red}{Voice Changes and the plus and minus LEDs light accordingly} \\ \hline
   \end{tabular}
 \end{center}
