@@ -10,6 +10,8 @@ The following chapter describes how the protoype has been implemented and the ma
 
 \section{Hardware and Software}
 
+This sections describes the hardware that has been used. It also explains the software part of the prototype. 
+
 \subsection{Hardware}
 
 The prototype consists of an Arduino Mega 2560\citep{Arduino}, with a connection to a circuit board with an inertial measurement unit(IMU). 
@@ -58,15 +60,37 @@ The prototype has cloth sewed onto it, which makes it possible to wrap it around
 The following section describes the software part of the implementation. 
 
 \subsubsection{Arduino}
-The Arduino language is based on C/C++, and whenever a sketch is compiled, it is sent to a C/C++ compiler \citep{Arduino_FAQ}.
+The Arduino language is based on C/C++, and whenever a sketch is compiled, it is sent to a C/C++ compiler \citep{Arduino_FAQ}.\\
 
+Figure \ref{while_loop} shows a part of the code in Arduino. The specific code in the figure, is a while-loop, which reads the data from the IMU sensor and displays it.
+This information is translated into values which is used to determine the pitch or harmoniser. \\
 
+\begin{minipage}{\linewidth}% to keep image and caption on one page
+\makebox[\linewidth]{%        to center the image
+\includegraphics[keepaspectratio=true,scale=0.5]{Arduino_while_loop}}
+\captionof{figure}{While loop}\label{while_loop}
+\end{minipage}\\
+
+The first part of the code in figure \ref{index_finger} reads the state of the copper plates. The following if-statement is executed whenever the index finger is connected. 
+If one turns the hand to the left, the code sends the information to PureData, and if the hand is turned to the right, it sends that information. 
+The direction of the hand determines the pitch within a value of 0-255. The motion is a rolling motion, which resembles the motion of turning a knob. \\ 
 
 
 \begin{minipage}{\linewidth}% to keep image and caption on one page
 \makebox[\linewidth]{%        to center the image
-\includegraphics[keepaspectratio=true,scale=0.7]{Arduino_while_loop}}
-\captionof{figure}{While loop}\label{while_loop}
+\includegraphics[keepaspectratio=true,scale=0.5]{Arduino_Index_Finger}}
+\captionof{figure}{Defining what happens when the index finger is connected}\label{index_finger}
+\end{minipage}\\
+
+Figure \ref{middle_finger} shows the code, which determines what happens whenever the middle finger and thumb is connected. The code is similar to the code for the index finger.
+The main difference is however, that this motion is determined from a raising and lowering action. The motion resembles using a slider. The effect affected by this motion is the harmonising effect. 
+The information is also send in the form of a value within 0-255. 
+The last part of the code makes sure, that whenever there is no copperplates connected, the LEDs are turned off.\\ 
+
+\begin{minipage}{\linewidth}% to keep image and caption on one page
+\makebox[\linewidth]{%        to center the image
+\includegraphics[keepaspectratio=true,scale=0.5]{Arduino_Middle_Finger}}
+\captionof{figure}{Defining what happens when the Middle finger is connected}\label{middle_finger}
 \end{minipage}\\
 
 \subsubsection{PureData}
@@ -76,7 +100,6 @@ The program uses patches where one can create objects which makes it possible to
 and explains the patches made for this project. \\
 
 The follwing figure \ref{PitchShifting_PD} shows the pitch shifting patch made in PD. 
-
 
 
 \begin{minipage}{\linewidth}% to keep image and caption on one page

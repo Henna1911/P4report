@@ -10,6 +10,8 @@ The following chapter describes how the protoype has been implemented and the ma
 
 \section{Hardware and Software}
 
+This sections describes the hardware that has been used. It also explains the software part of the prototype. 
+
 \subsection{Hardware}
 
 The prototype consists of an Arduino Mega 2560\citep{Arduino}, with a connection to a circuit board with an inertial measurement unit(IMU). 
@@ -58,9 +60,35 @@ The prototype has cloth sewed onto it, which makes it possible to wrap it around
 The following section describes the software part of the implementation. 
 
 \subsubsection{Arduino}
-The Arduino language is based on C/C++, and whenever a sketch is compiled, it is sent to a C/C++ compiler \citep{Arduino_FAQ}.
+The Arduino language is based on C/C++, and whenever a sketch is compiled, it is sent to a C/C++ compiler \citep{Arduino_FAQ}.\\
+
+Figure \ref{while_loop} shows a part of the code in Arduino. The specific code in the figure, is a while-loop, which reads the data from the IMU sensor and displays it. 
+\\
+
+\begin{minipage}{\linewidth}% to keep image and caption on one page
+\makebox[\linewidth]{%        to center the image
+\includegraphics[keepaspectratio=true,scale=0.5]{Arduino_while_loop}}
+\captionof{figure}{While loop}\label{while_loop}
+\end{minipage}\\
+
+The first part of the code in figure \ref{index_finger} reads the state of the copper plates. The following if-statement is executed whenever the index finger is connected. 
+If one turns the hand to the left, the code sends the information to PureData, and if the hand is turned to the right, it sends that information. 
+The direction of the hand determines the pitch within a value of 0-255. 
 
 
+\begin{minipage}{\linewidth}% to keep image and caption on one page
+\makebox[\linewidth]{%        to center the image
+\includegraphics[keepaspectratio=true,scale=0.5]{Arduino_Index_Finger}}
+\captionof{figure}{Defining what happens when the index finger is connected}\label{index_finger}
+\end{minipage}\\
+
+
+
+\begin{minipage}{\linewidth}% to keep image and caption on one page
+\makebox[\linewidth]{%        to center the image
+\includegraphics[keepaspectratio=true,scale=0.5]{Arduino_Middle_Finger}}
+\captionof{figure}{Defining what happens when the Middle finger is connected}\label{middle_finger}
+\end{minipage}\\
 
 \subsubsection{PureData}
 
