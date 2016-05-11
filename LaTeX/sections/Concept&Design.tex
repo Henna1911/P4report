@@ -1,15 +1,11 @@
 \chapter{Design}
-\todo{short introduction to what will be addressed in this chapter}
-This chapter describes the design process for this project. Initially, the concept of the product is presented...
+
+This chapter describes the design process for this project. Initially, the concept of the product is presented with the storyboard to explain the product of the project. The product is then shown and described with the sketches and the iterations that the product went through in the project. Next a walkthrough of the mental model lo-fi test together with the affordance scheme and the results of the test. In the end of the chapter, the design choices for the product are discussed and a conclusion for the chapter.
 
 \section{Concept}
-The concept of the product is to be able to apply voice effects in real-time without having to turn to a panel or having someone do it for you. 
-
-A thing most singers almost always have available are their hands. Therefore a device controlled by the hands movements seems the obvious choice.
-
-The device will implement a gyroscope to sense the movements of the hand.
-
-The device then needs to be told that an effect has been initiated. This is done by connecting the thumb to the finger in control of the desired effect.
+The concept of the product is to be able to apply voice effects in real-time without using a panel or have someone backstage do it for you. The idea is based on giving the singer/performer more freedom and control over how they want to sound in a natural way, compared to turning knobs or using sliders. Most singers always have their hands available, therefore the concept is based on a controller based on hand movement. The hand movement would be different gestures to control which effect to apply and the degree of it.
+The controller would implement a gyroscope to sense the hand and wrist movement. The chosen gesture is based on which two fingers the user connects. The index- or middle finger each control their own effect when the finger is connected to the thumb.
+The two original ideas for voice effects were pitch shift and reverb. Reverb was later changed to harmonization as this effect was more common in the industry.
 
 
 \begin{itemize}
@@ -140,6 +136,25 @@ The participants had a hard time understanding some of the feedback in the syste
 Another thing that the users had a hard time understanding was the colour coding on the fingers. Most did not connect their fingers to initiate the effect change.
 
 The things that the users perceived correctly was that the system was to be used as a glove. After the alterations based off of earlier tests, the new illustrations had much more success regarding the gestures. Most understood the feedforward provided by the labels and performed the gesture correctly, although without connecting the fingers.
+
+\section{Design Choices}
+
+Throughout the design process a lot of choices have been made regarding the design of the system. The reasoning behind these decisions will be discussed in this section.\\
+
+Very early on in the process, it was decided to make the gestures base off of some gestures that people would normally associate with manipulating music, like a volume knob or a slider on an equalizer, as seen in figure \ref{SynthAmp}.\\
+
+\begin{minipage}{\linewidth}% to keep image and caption on one page
+\makebox[\linewidth]{%        to center the image
+\includegraphics[keepaspectratio=true,scale=0.1]{SynthAmp}}
+\captionof{figure}{The AX 301 Synthesizer Amplifier with knobs and sliders\citep{AudioFan}}\label{SynthAmp}
+\end{minipage}\\
+
+The gesture of turning a knob was assigned to the harmonize effect, while the vertical slider gesture was assigned to the pitch shift. Since pitch shift is manipulated by making a higher or lower pitch, it makes sense to make the gestures simulate a vertical slider, with a higher pitch being assigned to moving up, and lower pitch assigned to moving down.
+Furthermore, in accordance to the "turning a knob" and "moving a slider" sentiment, it had to be implemented on the actual glove. This was done by adding some copper band on some velcro for the fingers. This copper was then connected to the circuit board with wires. When connecting the fingers, this would then allow the corresponding effect to be activated, and then the effect could be changed by using the gestures.
+
+When looking at the feedback for the glove, other than the voice changing, it was decided to use LEDs as a way to communicate state changes. A red LED was used to indicate that the effects were being changed in the negative direction, e.g. pitch being lowered, and a green LED was used for the positive direction. Additionally, these LEDs would be accompanied by labels. A minus sign for the negative direction and a plus sign for the positive. The red LED and the minus sign would be placed on the left side of the circuit board to indicate the negative direction the "knob" had to move. The green LED and the plus sign would be placed on the right side to indicate the positive direction.
+Finally, a yellow LED was placed in the center of the circuit board. This LED will indicate whether the glove was active or not. Active being the state where an effect could be changed.
+
 
 \section{Conclusion}
 
