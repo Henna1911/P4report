@@ -92,6 +92,16 @@
   Url                      = {http://www.mitpressjournals.org/doi/pdf/10.1162/COMJ_a_00054}
 }
 
+@Misc{PD_Info,
+  Title                    = {Pure Data},
+
+  Author                   = {PureData.info},
+  HowPublished             = {https://puredata.info/},
+
+  Timestamp                = {2016.05.10},
+  Url                      = {https://puredata.info/}
+}
+
 @Misc{Redmon_1997,
   Title                    = {A bit about reverb},
 

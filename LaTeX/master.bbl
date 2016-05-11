@@ -60,11 +60,14 @@ D.~Wigdor and D.~Wixon, ``Brave nui world.''
 Sparfun, ``Sparkfun 9 degrees of freedom.''
   https://www.sparkfun.com/products/retired/11486.
 
-\bibitem{Pull_down_res}
+\bibitem{Pulldown_res}
 ``Pull down resistor.''
   http://playground.arduino.cc/CommonTopics/PullUpDownResistor.
 
 \bibitem{Arduino_FAQ}
 Arduino.cc, ``Frequently asked questions.'' http://www.arduino.cc/en/main/faq.
+
+\bibitem{PD_Info}
+PureData.info, ``Pure data.'' https://puredata.info/.
 
 \end{thebibliography}
