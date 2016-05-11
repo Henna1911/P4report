@@ -2,6 +2,15 @@
 % Encoding: UTF8
 
 
+@Misc{Arduino_FAQ,
+  Title                    = {Frequently Asked Questions},
+
+  Author                   = {Arduino.cc},
+  HowPublished             = {http://www.arduino.cc/en/main/faq},
+
+  Url                      = {http://www.arduino.cc/en/main/faq}
+}
+
 @Article{dolson,
   Title                    = {The phase vocoder: A tutorial},
   Author                   = {Dolson, Mark},
@@ -139,5 +148,13 @@
 
   Timestamp                = {2016.04.28},
   Url                      = {http://www.arduino.cc/en/Main/ArduinoBoardMega2560}
+}
+
+@Misc{Pull_down_res,
+  Title                    = {Pull Down Resistor},
+  HowPublished             = {http://playground.arduino.cc/CommonTopics/PullUpDownResistor},
+
+  Timestamp                = {2016.04.28},
+  Url                      = {http://playground.arduino.cc/CommonTopics/PullUpDownResistor}
 }
 

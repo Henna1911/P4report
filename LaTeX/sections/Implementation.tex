@@ -2,6 +2,14 @@
 
 The following chapter describes how the protoype has been implemented and the materials needed to build the prototype. 
 
+\section{Theory}
+
+
+%Write about pitchshifting and stuff, not code
+
+
+\section{Harware & Software}
+
 \subsection{Hardware}
 
 The prototype consists of an Arduino Mega 2560\citep{Arduino}, with a connection to a circuit board with an inertial measurement unit(IMU). 
@@ -48,7 +56,24 @@ The prototype has cloth sewed onto it, which makes it possible to wrap it around
 
 \subsection{Software}
 
+The following section describes the software part of the implementation. 
+
+\subsubsection{Arduino}
 The Arduino language is based on C/C++, and whenever a sketch is compiled, it is sent to a C/C++ compiler \citep{Arduino_FAQ}.
 
-%Arduino
-%PD
+
+
+\subsubsection{PureData}
+
+The audio processing has been done in PureData(PD)\citep{PD_Info}, which is an open source programming language. It is used to generate and process sound, in a graphical way. 
+The program uses patches where one can create objects which makes it possible to create different audio effects. The following subsection describes how PD has been used in this project,
+and explains the patches made for this project. \\
+
+The follwing figure \ref{PitchShifting_PD} shows the pitch shifting patch made in PD. 
+
+
+\begin{minipage}{\linewidth}% to keep image and caption on one page
+\makebox[\linewidth]{%        to center the image
+\includegraphics[keepaspectratio=true,scale=0.7]{PitchShifting_PD}}
+\captionof{figure}{Pitchshifting in PureData\citep{PitchShifting_PD}}\label{PitchShifting_PD}
+\end{minipage}\\
