@@ -8,7 +8,7 @@ The following chapter describes how the protoype has been implemented and the ma
 %Write about pitchshifting and stuff, not code
 
 
-\section{Harware & Software}
+\section{Hardware and Software}
 
 \subsection{Hardware}
 
@@ -36,8 +36,7 @@ The white wire beside it, is connected to the index finger, and pin four on the 
 The wire which is connected to the thumb creates a circuit to the LEDs whenever the connection is created between either the thumb and index finger or thumb and middle finger. \\
 
 
-The LEDs has to be connected to a pull-down resistor\citep{Pull_down_res},
-which makes sure, that the Arduino does not 'float' between two different values. A pull-down resistor ensures, that the value is zero, when no active device is connected.
+The LEDs has to be connected to a pull-down resistor\citep{Pulldown_res}, which makes sure, that the Arduino does not 'float' between two different values. A pull-down resistor ensures, that the value is zero, when no active device is connected.
 The following figure \ref{Pull_down} shows what a circuit with a pull-down resistor might look like. \\
 
 
@@ -69,7 +68,7 @@ The audio processing has been done in PureData(PD)\citep{PD_Info}, which is an o
 The program uses patches where one can create objects which makes it possible to create different audio effects. The following subsection describes how PD has been used in this project,
 and explains the patches made for this project. \\
 
-The follwing figure \ref{PitchShifting_PD} shows the 
+The follwing figure \ref{PitchShifting_PD} shows the pitch shifting patch made in PD. 
 
 
 \begin{minipage}{\linewidth}% to keep image and caption on one page
