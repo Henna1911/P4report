@@ -4,7 +4,7 @@ The following chapter describes how the protoype has been implemented and the ma
 
 \section{Theory}
 
-
+This section explains the theory behind the effects that has been used in the implementation. 
 %Write about pitchshifting and stuff, not code
 
 
@@ -29,7 +29,7 @@ represents the three connections, which is put on the thumb, index and middle fi
 \end{minipage}\\
 
 The circuit board consists of three LEDs, a yellow, green and red. They light up at different points, which is explained in the next section of this chapter.
-The LEDs are connected to resistors of 220 ohm which is wired to the arduino as seen in the schematic. The green LED is connected to pin 3. 
+The LEDs are connected to resistors of 220 Ohm which is wired to the arduino as seen in the schematic. The green LED is connected to pin 3. 
 The yellow LED is connected to pin 6 and the red is connected to pin 9. This is essential to make it work in the Arduino code, which will be described later. 
 The black wire connects all the LEDs and runs from them, to the ground on the Arduino. The blue circuit board represents the IMU. The necessary connections are: SDA, SCL, GND and VCC. 
 The SDA connection is connected to pin 20 and the SCL is connected to pin 21. GND is connected to ground on the Arduino and the VCC connection powers the sensor and is therefore
@@ -48,11 +48,12 @@ The following figure \ref{Pull_down} shows what a circuit with a pull-down resis
 \captionof{figure}{Schematic of Pull-down resistor\citep{Pull_down_res}}\label{pull_down}
 \end{minipage}\\
 
-%Picture of prototype maybe?
-%Five 220 ohm resistors (Two Pull-down resistor), three LEDs red, yellow, green. Copper tape. RedS Tape and velcro. 
-The following figure shows the prototype. As one can see, the velcro for the fingers has copper tape on it, which has been glued onto the velcro. 
+
+
+The following figure shows the prototype. As one can see, the velcro for the fingers has copper tape on it, which has been glued onto the velcro. The velcro enables the user to wear the glove, and use it properly.  
 This means that whenever the copper tape gets connected with the copper tape on the thumb, it creates the connection as mentioned earlier. 
 The prototype has cloth sewed onto it, which makes it possible to wrap it around the wrist. 
+%Picture of prototype maybe?
 
 
 \subsection{Software}
@@ -73,7 +74,8 @@ This information is translated into values which is used to determine the pitch 
 
 The first part of the code in figure \ref{index_finger} reads the state of the copper plates. The following if-statement is executed whenever the index finger is connected. 
 If one turns the hand to the left, the code sends the information to PureData, and if the hand is turned to the right, it sends that information. 
-The direction of the hand determines the pitch within a value of 0-255. The motion is a rolling motion, which resembles the motion of turning a knob. \\ 
+The direction of the hand determines the pitch within a value of 0-255. The motion is a rolling motion, which resembles the motion of turning a knob. 
+The code used for the middle finger is almost identical. It does however use different pins. \\ 
 
 
 \begin{minipage}{\linewidth}% to keep image and caption on one page
@@ -82,16 +84,14 @@ The direction of the hand determines the pitch within a value of 0-255. The moti
 \captionof{figure}{Defining what happens when the index finger is connected}\label{index_finger}
 \end{minipage}\\
 
-Figure \ref{middle_finger} shows the code, which determines what happens whenever the middle finger and thumb is connected. The code is similar to the code for the index finger.
-The main difference is however, that this motion is determined from a raising and lowering action. The motion resembles using a slider. The effect affected by this motion is the harmonising effect. 
-The information is also send in the form of a value within 0-255. 
-The last part of the code makes sure, that whenever there is no copperplates connected, the LEDs are turned off.\\ 
+The following figure \ref{Arduino_else} shows the last part of the code. This is an else statement that makes sure that the button is off whenever the copper plate is released. 
 
 \begin{minipage}{\linewidth}% to keep image and caption on one page
 \makebox[\linewidth]{%        to center the image
-\includegraphics[keepaspectratio=true,scale=0.5]{Arduino_Middle_Finger}}
-\captionof{figure}{Defining what happens when the Middle finger is connected}\label{middle_finger}
+\includegraphics[keepaspectratio=true,scale=0.5]{Ardunio_else}}
+\captionof{figure}{Else statement which makes sure the button is off when released}\label{Arduino_else}
 \end{minipage}\\
+
 
 \subsubsection{PureData}
 
@@ -104,6 +104,8 @@ The follwing figure \ref{PitchShifting_PD} shows the pitch shifting patch made i
 
 \begin{minipage}{\linewidth}% to keep image and caption on one page
 \makebox[\linewidth]{%        to center the image
-\includegraphics[keepaspectratio=true,scale=0.7]{PitchShifting_PD}}
-\captionof{figure}{Pitchshifting in PureData\citep{PitchShifting_PD}}\label{PitchShifting_PD}
+\includegraphics[keepaspectratio=true,scale=0.5]{PitchShifting_PD}}
+\captionof{figure}{Pitchshifting in PureData}\label{PitchShifting_PD}
 \end{minipage}\\
+
+The patch uses the input, which might be comming from a microphone input. The slider called pitch shows how much the voice is actually being pitched. 
