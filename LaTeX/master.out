@@ -25,15 +25,26 @@
 \BOOKMARK [2][-]{subsection.3.4.2}{3.4.2 The Test}{section.3.4}% 25
 \BOOKMARK [1][-]{section.3.5}{3.5 Design Choices}{chapter.3}% 26
 \BOOKMARK [1][-]{section.3.6}{3.6 Conclusion}{chapter.3}% 27
-\BOOKMARK [0][-]{chapter.4}{4 Implemented Theory}{}% 28
-\BOOKMARK [0][-]{chapter.5}{5 Implementation}{}% 29
-\BOOKMARK [1][-]{section.5.1}{5.1 Theory}{chapter.5}% 30
-\BOOKMARK [1][-]{section.5.2}{5.2 Hardware and Software}{chapter.5}% 31
-\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 Hardware}{section.5.2}% 32
-\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 Schematic}{section.5.2}% 33
-\BOOKMARK [2][-]{subsection.5.2.3}{5.2.3 Software}{section.5.2}% 34
-\BOOKMARK [0][-]{chapter.6}{6 Evaluation}{}% 35
-\BOOKMARK [0][-]{chapter.7}{7 Discussion}{}% 36
-\BOOKMARK [0][-]{chapter.8}{8 Conclusion}{}% 37
-\BOOKMARK [0][-]{chapter*.17}{Bibliography}{}% 38
-\BOOKMARK [0][-]{appendix.A}{A Appendix}{}% 39
+\BOOKMARK [0][-]{chapter.4}{4 Implementation}{}% 28
+\BOOKMARK [1][-]{section.4.1}{4.1 Theory}{chapter.4}% 29
+\BOOKMARK [1][-]{section.4.2}{4.2 Hardware and Software}{chapter.4}% 30
+\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 Hardware}{section.4.2}% 31
+\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 Schematic}{section.4.2}% 32
+\BOOKMARK [2][-]{subsection.4.2.3}{4.2.3 Software}{section.4.2}% 33
+\BOOKMARK [0][-]{chapter.5}{5 Evaluation}{}% 34
+\BOOKMARK [1][-]{section.5.1}{5.1 Purpose of Evaluation}{chapter.5}% 35
+\BOOKMARK [1][-]{section.5.2}{5.2 Internal Test}{chapter.5}% 36
+\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 Evaluation Plan}{section.5.2}% 37
+\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 Results}{section.5.2}% 38
+\BOOKMARK [1][-]{section.5.3}{5.3 User Test}{chapter.5}% 39
+\BOOKMARK [2][-]{subsection.5.3.1}{5.3.1 Evaluation Plan}{section.5.3}% 40
+\BOOKMARK [2][-]{subsection.5.3.2}{5.3.2 Apparatus and Setup}{section.5.3}% 41
+\BOOKMARK [2][-]{subsection.5.3.3}{5.3.3 Results}{section.5.3}% 42
+\BOOKMARK [1][-]{section.5.4}{5.4 Analysis}{chapter.5}% 43
+\BOOKMARK [2][-]{subsection.5.4.1}{5.4.1 Theory}{section.5.4}% 44
+\BOOKMARK [2][-]{subsection.5.4.2}{5.4.2 Results}{section.5.4}% 45
+\BOOKMARK [1][-]{section.5.5}{5.5 Conclusion}{chapter.5}% 46
+\BOOKMARK [0][-]{chapter.6}{6 Discussion}{}% 47
+\BOOKMARK [0][-]{chapter.7}{7 Conclusion}{}% 48
+\BOOKMARK [0][-]{chapter*.17}{Bibliography}{}% 49
+\BOOKMARK [0][-]{appendix.A}{A Appendix}{}% 50
