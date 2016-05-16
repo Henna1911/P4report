@@ -11,6 +11,17 @@
   Url                      = {http://www.arduino.cc/en/main/faq}
 }
 
+@Misc{AudioFan,
+  Title                    = {AX 301 Synthesizer Amplifier},
+
+  Author                   = {AudioFanzine},
+  HowPublished             = {http://en.audiofanzine.com/keyboard-amplifier/moog-music/ax-301-synthesizer-amplifier/medias/},
+
+  Owner                    = {Alex},
+  Timestamp                = {2016.05.11},
+  Url                      = {http://en.audiofanzine.com/keyboard-amplifier/moog-music/ax-301-synthesizer-amplifier/medias/}
+}
+
 @Article{dolson,
   Title                    = {The phase vocoder: A tutorial},
   Author                   = {Dolson, Mark},
@@ -92,6 +103,15 @@
   Url                      = {http://www.mitpressjournals.org/doi/pdf/10.1162/COMJ_a_00054}
 }
 
+@Misc{Harmonise01,
+  Title                    = {7 Harmonies Tutorial},
+
+  Author                   = {MusicAwareness.com},
+  HowPublished             = {http://www.musicawareness.com/Tutorial3.html},
+
+  Url                      = {http://www.musicawareness.com/Tutorial3.html}
+}
+
 @Misc{PD_Info,
   Title                    = {Pure Data},
 
@@ -158,6 +178,13 @@
 
   Timestamp                = {2016.04.28},
   Url                      = {http://www.arduino.cc/en/Main/ArduinoBoardMega2560}
+}
+
+@Misc{Harmonise02,
+  Title                    = {Music Theory: Harmony Part One (basics)},
+  HowPublished             = {https://www.mymusicmasterclass.com/blog/music-theory-and-composition-basics-pt-1/},
+
+  Url                      = {https://www.mymusicmasterclass.com/blog/music-theory-and-composition-basics-pt-1/}
 }
 
 @Misc{Pulldown_res,
