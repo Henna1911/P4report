@@ -1,6 +1,6 @@
 \chapter{Implementation}
 
-The following chapter describes the theory behind the implemented effects, the hardware and software required for the prototype to work as intended, and in the end a conclusion of the process is made. 
+This chapter describes the theory behind the technical aspects of the prototype and how they were implemented into the prototype. This includes the necessary hardware to make the prototype and how these were used in conjunction with the software to make the prototype work. The software includes both the operations of the hardware and the musical processing of the input sounds.
 
 \section{Theory}
 
@@ -8,7 +8,14 @@ This section explains the theory behind the effects that has been used in the im
 
 \subsection{Pitch Shift}
 
-The pitch shifter is built based on the principle of a rotating tape head, instead of using six tape heads as a machine would, the code uses two\citep{Katjaas_00}. The tape heads read the signal at a speed independent from the tape speed, thus the speed of the tape determines the duration of the sound and the direction of tape heads control the pitch shift. When the head rotates in the same direction as the tape, the pitch is lowered and if it rotates in the other direction, the pitch is increased. 
+The pitch shifter is built based on the principle of a rotating tape head, instead of using six tape heads as a machine would, the code uses two\citep{Katjaas_00}. The tape heads read the signal at a speed independent from the tape speed, thus the speed of the tape determines the duration of the sound and the direction of tape heads control the pitch shift. When the head rotates in the same direction as the tape, the pitch is lowered and if it rotates in the other direction, the pitch is increased, as seen in figure \ref{TapeHead}. \\
+
+\begin{minipage}{\linewidth}% to keep image and caption on one page
+\makebox[\linewidth]{%        to center the image
+\includegraphics[keepaspectratio=true,scale=1]{TapeHead}}
+\captionof{figure}{Graphical Impression of the tape head principle\citep{Katjaas_00}}\label{TapeHead}
+\end{minipage}\\
+
 In a digital setting the tape heads are replaced with two read pointers that change their delay depending on the required pitch shift. Increasing the delay when lowered pitch is needed and decreasing it if a raised pitch is needed. 
 The read pointer will at some point pass the write pointer, because of the delay. When this happens a click can be heard if audio from only one read point is played. To combat this the cos~ object is used which creates a smooth crossfade to the second read pointer.
 
@@ -21,14 +28,14 @@ In western music there are seven main harmonies, three major, three minor and on
 
 \section{Making the Prototype}
 
-This section describes the making of the prototype, it describes the hardware that has been used and explains the software part of the prototype.
+This section describes the hardware for the system and how it was made into a working prototype. This includes both the schematic, which explains how the system is put together, and the software for the prototype which both covers the software for the Arduino and sensor, and how they work together with Pure Data to process the input sounds for both harmonizing and pitch shift.
 
 \subsection{Hardware}
 
 The prototype consists of an Arduino Mega 2560\citep{Arduino}, with a connection to a circuit board with an inertial measurement unit(IMU). 
 The IMU uses the MPU 9150 sensor with 9 degrees of freedom\citep{MPU}. It has a tri-axis gyroscope, magnetometer, and accelerometer.
 
-\subsection{Schematic} 
+\subsubsection{Schematic}
 
 The following figure \ref{schematic} shows the connection from the Arduino to the circuit board with the IMU. The black switch at the top of the circuit board
 represents the three connections, which is put on the thumb, index and middle finger. These are velcro based, with copper tape on them, to create the connection when pressed together. \\
@@ -62,8 +69,8 @@ The following figure \ref{pull_down} shows how a circuit with a pull-down resist
 Figure \ref{prototype} shows the prototype. As one can see, the velcro for the fingers has copper tape on it, which has been glued onto the velcro. The velcro enables the user to wear the glove, and use it properly.  
 This means that whenever the copper tape gets connected with the copper tape on the thumb, it creates the connection as mentioned earlier. 
 The prototype has cloth sewed onto it, which makes it possible to wrap it around the wrist. \\
-%Picture of prototype maybe?
 
+\todo{Picture with front and back of prototype here}
 %\begin{minipage}{\linewidth}% to keep image and caption on one page
 %\makebox[\linewidth]{%        to center the image
 %\includegraphics[keepaspectratio=true,scale=0.7]{Prototype}}
