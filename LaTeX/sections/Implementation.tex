@@ -103,7 +103,7 @@ Figure \ref{Arduino_else} shows the last part of the code. This is an else state
 
 \begin{minipage}{\linewidth}% to keep image and caption on one page
 \makebox[\linewidth]{%        to center the image
-\includegraphics[keepaspectratio=true,scale=0.5]{Ardunio_else}}
+\includegraphics[keepaspectratio=true,scale=0.7]{Ardunio_else}}
 \captionof{figure}{Else statement which makes sure the button is off when released}\label{Arduino_else}
 \end{minipage}
 
@@ -112,6 +112,20 @@ Figure \ref{Arduino_else} shows the last part of the code. This is an else state
 
 The audio processing has been done in Pure Data(PD)\citep{PD_Info}, which is an open source programming language. It is used to generate and process sound, in a graphical way. 
 The program uses patches where one can create objects which makes it possible to create different audio effects. The following subsection describes how PD has been used in this project, and explains the patches made for this project. \\
+
+The first figure shows the main patch of the PD program, see figure \ref{PD_main}. The figure shows three coloured rectangles, red, green, and blue. 
+The content of the red rectangle is Arduino related. PD gets data from the Arduino from the "comport" object, which is a serial port interface. 
+The comport objects needs a device number, and a baudrate, in our case device 1, and the baudrate 4800 (must be the same as the Arduino program baudrate). The comport object takes three message objects as input, the name of USB-device which starts the comport object, a message which shows which ports are available, and a close message.   //
+
+The green rectangle processes the output from the comport object. The "route" object takes the data from the comport and splits it up into five parts. 
+Route output number two and four correspond to the copper-plate buttons. E.g. if the index finger is connected, route output number two activates the toggle. 
+The last route output is the sensor data, which goes to an "expr" object. 
+
+\begin{minipage}{\linewidth}% to keep image and caption on one page
+\makebox[\linewidth]{%        to center the image
+\includegraphics[keepaspectratio=true,scale=0.5]{PD_main}}
+\captionof{figure}{The PD Patch. Red rectangle is the Arduino part, green is variable part, and blue is effects part.}\label{PD_main}
+\end{minipage}
 
 The following figure \ref{PitchShifting_PD} shows the pitch shifting patch made in PD. \\
 
