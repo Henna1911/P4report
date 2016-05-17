@@ -72,6 +72,10 @@ MusicAwareness.com, ``7 harmonies tutorial.''
 Sparfun, ``Sparkfun 9 degrees of freedom.''
   https://www.sparkfun.com/products/retired/11486.
 
+\bibitem{Arduino_SDA}
+Arduino.cc, ``Master writer/slave receiver.''
+  https://www.arduino.cc/en/Tutorial/MasterWriter, August 2015.
+
 \bibitem{Pulldown_res}
 ``Pull down resistor.''
   http://playground.arduino.cc/CommonTopics/PullUpDownResistor.
@@ -81,5 +85,8 @@ Arduino.cc, ``Frequently asked questions.'' http://www.arduino.cc/en/main/faq.
 
 \bibitem{PD_Info}
 PureData.info, ``Pure data.'' https://puredata.info/.
+
+\bibitem{R}
+T.~R. Foundation, ``Introduction to r.'' https://www.r-project.org/about.html.
 
 \end{thebibliography}
