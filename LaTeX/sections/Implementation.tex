@@ -115,24 +115,41 @@ The program uses patches where one can create objects which makes it possible to
 
 The first figure shows the main patch of the PD program, see figure \ref{PD_main}. The figure shows three coloured rectangles, red, green, and blue. 
 The content of the red rectangle is Arduino related. PD gets data from the Arduino from the "comport" object, which is a serial port interface. 
-The comport objects needs a device number, and a baudrate, in our case device 1, and the baudrate 4800 (must be the same as the Arduino program baudrate). The comport object takes three message objects as input, the name of USB-device which starts the comport object, a message which shows which ports are available, and a close message.   //
-
-The green rectangle processes the output from the comport object. The "route" object takes the data from the comport and splits it up into five parts. 
-Route output number two and four correspond to the copper-plate buttons. E.g. if the index finger is connected, route output number two activates the toggle. 
-The last route output is the sensor data, which goes to an "expr" object. 
+The comport objects needs a device number, and a baudrate, in our case device 1, and the baudrate 4800 (must be the same as the Arduino program baudrate). The comport object takes three message objects as input, the name of USB-device which starts the comport object, a message which shows which ports are available, and a close message.   \\
 
 \begin{minipage}{\linewidth}% to keep image and caption on one page
 \makebox[\linewidth]{%        to center the image
-\includegraphics[keepaspectratio=true,scale=0.5]{PD_main}}
+\includegraphics[keepaspectratio=true,scale=0.5]{PD_Main}}
 \captionof{figure}{The PD Patch. Red rectangle is the Arduino part, green is variable part, and blue is effects part.}\label{PD_main}
 \end{minipage}
+
+The green rectangle processes the output from the comport object. The "route" object takes the data from the comport and splits it up into five parts. 
+Route output number two and four correspond to the copper-plate buttons. E.g. if the index finger is connected, route output number two activates the toggle. 
+The last route output is the sensor data, which goes to an "expr" object. The positive sensor data is between 10 and 100, and the negative between 255 and 155. 
+The "expr" object splits the positive and "negative" values from each other, and divides them with 80 (the "negative" values are subtracted to 255 first). 
+The values go to two sliders.\\
+
+The blue rectangle does the audio processing. Firstly, the "adc\~" object (analog to digital) takes the microphone input and goes into a "expr\~" object. If the index finger is connected, 
+the audio goes to the "HarmPatch" patch, and if the middle finger is connected, the audio goes to the "PitchOnly" patch. Both the "HarmPatch" and "PitchOnly" takes 
+the arguments of the sliders from the green rectangle. The outputs from the effects then goes to the "dac\~" object (digital to analog), which will go to the headphones.\\
+
+See figure \ref{HarmPatch} for the "HarmPatch" patch. As you can see in the figure, the audio coming from the "inlet\~" goes to four "PitchShifters". The "PitchShifter" object
+takes a message as an argument, which corresponds to number of halftones one would like to pitch-shift. The two first "Pitchshifters" make a minor chord by pitchshifting by three and seven halftones.  The last two "PitchShifters" make a major chord by pitchshifting by four and seven halftones. The outputs from the four "PitchShifters" are then added in an "expr\~" object, which takes the
+sensor input from the green rectangle from figure \ref{PD_Main}. The output from the "expr\~" object then goes to the "outlet" object.
+ 
+\begin{minipage}{\linewidth}% to keep image and caption on one page
+\makebox[\linewidth]{%        to center the image
+\includegraphics[keepaspectratio=true,scale=0.5]{HarmPatch}}
+\captionof{figure}{The "HarmPatch" Patch. Audio goes to four PitchShift patches, and are added again after}\label{HarmPatch}
+\end{minipage}
+
 
 The following figure \ref{PitchShifting_PD} shows the pitch shifting patch made in PD. \\
 
 
 \begin{minipage}{\linewidth}% to keep image and caption on one page
 \makebox[\linewidth]{%        to center the image
-\includegraphics[keepaspectratio=true,scale=0.5]{PitchShifting_PD}}
+\includegraphics[keepaspectratio=true,scale=0.7]{PitchShifting_PD}}
 \captionof{figure}{Pitchshifting in PureData}\label{PitchShifting_PD}
 \end{minipage}\\
 
