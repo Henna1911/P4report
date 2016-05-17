@@ -49,9 +49,9 @@ represents the three connections, which is put on the thumb, index and middle fi
 The circuit board consists of three LEDs, a yellow, green and red. They light up at different points, which is explained in the next section of this chapter.
 The LEDs are connected to resistors of 220 Ohm, which are wired to the Arduino as seen in the schematic. The green LED is connected to pin 3. 
 The yellow LED is connected to pin 6 and the red is connected to pin 9. This is essential to make it work in the Arduino code, which will be described later. 
-The black wire connects all the LEDs and runs to the ground(GND) on the Arduino. The blue circuit board represents the IMU. The necessary connections are: SDA, SCL, GND and VCC. 
-The SDA connection is connected to pin 20 and the SCL is connected to pin 21. GND is connected to ground on the Arduino and the VCC connection powers the sensor and is therefore
-connected to 3.3V on the Arduino. The white wires are also connected to the Arduino. The first wire from the left, which goes to the thumb, is connected to the 5V on the Arduino. 
+The red wire connects all the LEDs and the black wire runs to the ground(GND) on the Arduino. The little blue circuit board on the yellow board represents the IMU. The necessary connections are: SDA, SCL, GND and VCC. 
+SDA is the data line that sends data between the two devices, and the SCL is the clock line that sends pulses at a regular interval. Every time the SCL changes from low to high, a single bit of information is send over the SDA.
+The SDA connection is connected to pin 20 and the SCL is connected to pin 21. GND is connected to ground on the Arduino and the VCC connection powers the sensor and is therefore connected to 3.3V on the Arduino. The white wires are also connected to the Arduino. The first wire from the left, which goes to the thumb, is connected to the 5V on the Arduino. 
 The white wire beside it, is connected to the index finger, and pin four on the Arduino. The last white wire is connected to the middle finger and pin two on the Arduino.
 The wire which is connected to the thumb creates a circuit to the LEDs whenever the connection is created between either the thumb and index finger or thumb and middle finger. \\
 
@@ -83,6 +83,8 @@ The following section describes the software part of the implementation.
 
 \subsubsection{Arduino}
 The Arduino language is based on C/C++, and whenever a sketch is compiled, it is sent to a C/C++ compiler \citep{Arduino_FAQ}.\\
+
+Information from the IMU is continually read and send to the Arduino program. This data is then calculated by the Arduino program. It gives the pose, the angle, and the current movement of the IMU. All based on the data from the gyroscope, accelerometer and magnetometer.
 
 The first part of the code shown in figure \ref{index_finger} reads the state of the copper plates. The following if-statement is executed whenever the index finger is connected with the thumb. 
 If the user turns the hand to the left, the code sends the information to PureData, and if the hand is turned to the right, it sends that information. 
