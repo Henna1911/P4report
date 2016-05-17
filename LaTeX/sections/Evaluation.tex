@@ -1,45 +1,42 @@
 \chapter{Evaluation}
 
-The following chapter describes the evaulation and introduces the results from the testing of the prototype. 
+The following chapter describes the evaluation and introduces the results from the testing of the prototype. 
 
-\section{Purpose of Evaluation}
-
-The following evaluation has been conducted to test the system. The system has been tested internally to test whether the system is stable or not. 
-A user test has been conducted to test if the user are able to use the system and evaulate their opinion of the system. 
+There were conducted two tests, an internal and a user test. This was done to test whether the prototype was functional on a technical level and to test whether is was usable by people not part of this project. 
 
 
 \section{Internal Test}
 
-To test the accuracy of the prototype, an internal test were carried out. The following hypotheses has been stated for the internal test: \\\\
-H\textsubscript{0}: The system works 95\% of the time.\\
-H\textsubscript{A}: The system does not work 95\% of the time.\\\\
+To test the accuracy of the prototype, an internal test was carried out. The following hypotheses have been stated for the internal test: \\\\
+H\textsubscript{0}: The prototype works 95\% of the time.\\
+H\textsubscript{A}: The prototype does not work 95\% of the time.\\\\
 
-The test consisted of the copper plates being connected 25 times each. Firstly the index finger were tested with the thumb, secondly the middle finger. Whenever the yellow light on the system
-lit up, it was considered a success. If the light did not turn on, it was considered a failure. The times it succeeded and failed were counted.\\\\
+The test consisted of the copper plates being connected 25 times each. First the index finger were tested with the thumb afterwards the middle finger with the thumb. Whenever the yellow light on the system lit up it was considered a success. If the light did not turn on it was considered a failure. The times it succeeded and failed were counted.\\\\
 
 The results ended up being as follows:\\
-Index finger connection test: 23 out of 25. \\
-Middle finger connection test: 25 out of 25.\\\\
+\begin{itemize}
+\item Index finger connection test: 23 out of 25. \\
+\item Middle finger connection test: 25 out of 25.\\
+\end{itemize}
 
 
-The results has been analysed statistically using R\citep{R}. R is a language used for statistical analysis. All the statistics has been calculated with a probability of succes at 95\%.\\\\
+The results have been analysed statistically using R\citep{R}. R is a language used for statistical analysis. All the statistics have been calculated with a probability of success at 95\%.\\\\
 The results from the index finger connection test showed a p-value of 0.3576 which is less than the significance level of 0.5. 
-Whenever the p-value is less than 0.5 the H\textsubscript{0} is rejected. Which means that the system did not work 95\% of the time. \\
 
-The results for the middle finger connection test, showed a p-value of 0.635 which means that the H\textsubscript{0} is accepted,
-and that connection works at least 95\% of the time. \\
+Whenever the p-value is less than 0.5 the H\textsubscript{0} is rejected. Which means that the prototype did not work 95\% of the time when connecting index finger and thumb. \\
 
-Another internal test has been carried out to test the accuracy of the effects. The test were conducted in a similar way, the effect were applied and then used. 
+The results for the middle finger connection test showed a p-value of 0.635 which means that the H\textsubscript{0} is accepted, and that this connection works at least 95\% of the time. \\
+
+Another internal test was carried out to test the accuracy of the effects. The test was conducted in a similar way, the effects were applied and then used. 
 As long as the effect worked and changed the voice input, it was considered a success. \\\\
 The system worked 18 out of 25 times. \\\\
 
 Since the gesture effects showed the same results, the p-value is the same for both gestures. 
-The p-value ended up being 0.00016 which is lower than 0.5 and therefore the H\textsubscript{0} is rejected. 
-Meaning that the gestures did not work 95\% of the time. \\
+The p-value ended up being 0.00016 which is lower than 0.5 and therefore the H\textsubscript{0} is rejected meaning that the gestures did not work 95\% of the time. \\
 
 During the first tests, the system had a loose wire. The issue were fixed and the tests were then conducted once again. With the following results:\\\\
 All the tests worked 25 out of 25 times. \\
-This gave a p-value of 0.635 which is more than 0.5 and therefore the H\textsubscript{0} is accepted. 
+This gave a p-value of 0.635 which is more than 0.5 and therefore all the H\textsubscript{0} are accepted.  
 
 \section{User Test}
 
@@ -47,32 +44,52 @@ This gave a p-value of 0.635 which is more than 0.5 and therefore the H\textsubs
 
 \subsection{Evaluation Plan}
 When conducting this user test, it is the intention to get some data from the users about the different effects and gestures. 
-Initially, the users are asked to sign a consent form, see Appendix \ref{Consent} and \ref{Script} for script and consent form. They are then told to put on the glove and try to apply the effects. Afterwards, they are then asked to answer a questionnaire, see Appendix \ref{Questionnaire}. 
+
+To evaluate the working prototype three hypotheses based on the device were stated. They are as follows:
+
+\begin{enumerate}
+\item Participants understand the link between gesture and effect
+\item The design is awkward to wear
+\item The participants will have no clear preference of effect
+\end{enumerate} 
+
+To evaluate the hypotheses a test was conducted with the goal to either prove or disprove them. First the participants were asked to sign a consent form which together with the script can be found here: Appendix \ref{Consent} and \ref{Script}. The test then consisted of a semi-structured interview having the participants doing different tasks. After doing the different tasks they were asked a few questions to determine whether to prove or disprove the hypotheses. The results of those questions can be found in \ref{ch:appB} The questions can be found her Appendix \ref{Questionnaire}. 
 
 \subsection{Apparatus and Setup}
 
-To perform the test, the following equipment is needed:
+The following equipment was used to perform the test:
 \begin{itemize}
  \item Two laptops
  \item Zoom H4N microphone 
  \item Headphones
- \item The Protoype
+ \item The Prototype
 \end{itemize}
 
-The following figure \ref{Setup} shows the setup of the evaulation. One person wearing the system, a facilitator and one person that makes sure the system works. 
+The following figure \ref{Setup} shows the setup of the evaluation. One person wearing the system, a facilitator and one person that makes sure the system works. 
 
 \begin{minipage}{\linewidth}% to keep image and caption on one page
 \makebox[\linewidth]{%        to center the image
-\includegraphics[keepaspectratio=true,scale=0.1]{Setup}}
+\includegraphics[keepaspectratio=true,scale=0.5]{Setup}}
 \captionof{figure}{The Test Setup}\label{Setup}
 \end{minipage}\\
 
 \subsection{Results}
+The hypotheses previously stated will be rejected or kept based on the results from the questions asked during the interview.
 
+The first hypothesis deals with the link between the gesture and the effect. Here the question were asked: Did the gesture makes sense together with the effect? All the participants answered yes to this and also provided with, why. A female participant said “[it is] like turning a button up and down”. A male participant mentioned that “It is like turning [the volume] up and down”. Another male participant said “[it is] like turning a knob”. These three are examples of the exact idea the gesture was based upon. 
 
-\subsection{Analysis}
+The second hypothesis deals with the physical aspects of the prototype. Here the question asked was: Was the device comfortable to wear? Again all participants agreed. The device was comfortable to wear. 
 
-\subsection{Theory}
+The third hypothesis deals with preference of effect. The participants were asked: Which effect did you prefer? Here all but one participant answered pitch-shifting. This presents a clear preference for the pitch-shifting effect. 
 
+Aside from what the quantitative data from the questions, there were some additional data. Mainly the comments and feedback from the participants during the test which is analysed as qualitative data. Especially the participant with a musical background gave a lot of useful feedback regarding the prototype. 
+
+Four out of the ten participants stated that they could not hear a difference between the major and minor harmonics. The participant with a musical background heard the difference clearly. However an assumption could then be made that the other participants could not hear the difference since they did not know what they were listening for. 
+
+They could all clearly hear the difference between shifting the pitch up or down. However five participants mentioned that the pitch-shifting is very sensitive and that there is not a lot of middle ground between no effect and full effect. 
+
+Another thing mentioned by three of the participants is that even though all participants found the gestures intuitive, holding them for longer periods of time could be very straining and cramp-inducing. 
+
+When asked whether they thought the prototype useful or not, nine of the ten participants said that they thought it could be. Some said that it could be useful in theatre performance and another said that it gives more control to the singer. Both of these are some of the ideas this project is based on. 
 
 \section{Conclusion}
