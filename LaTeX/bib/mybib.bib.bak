@@ -41,6 +41,16 @@
   Url                      = {http://www.ehx.com/products/voice-box}
 }
 
+@Misc{R,
+  Title                    = {Introduction to R},
+
+  Author                   = {The R Foundation},
+  HowPublished             = {https://www.r-project.org/about.html},
+
+  Timestamp                = {2016.05.17},
+  Url                      = {https://www.r-project.org/about.html}
+}
+
 @Misc{Hadhazy_2010,
   Title                    = {What's Auto-Tune and How Does it Work?},
 
