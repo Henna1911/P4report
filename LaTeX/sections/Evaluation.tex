@@ -9,8 +9,8 @@ The following chapter describes the evaulation and introduces the results from t
 \section{Internal Test}
 
 To test the accuracy of the prototype, an internal test were carried out. The following hypotheses has been stated for the internal test: \\\\
-H\textsubscript{0}: The system works every time.\\
-H\textsubscript{A}: The system does not work every time.\\\\
+H\textsubscript{0}: The system works 95\% every time.\\
+H\textsubscript{A}: The system does not work 95\% of the time.\\\\
 
 The test consisted of the copper plates being connected 25 times each. Firstly the index finger were tested with the thumb, secondly the middle finger. Whenever the yellow light on the system
 lit up, it was considered a success. If the light did not turn on, it was considered a failure. The times it succeeded and failed were counted.\\\\
@@ -18,6 +18,11 @@ lit up, it was considered a success. If the light did not turn on, it was consid
 The results ended up being as follows:\\
 Index finger connection test: 23 out of 25. \\
 Middle finger connection test: 25 out of 25.\\\\
+
+%Refernce to R? Explain it maybe?
+The results has been analysed statistically using R\citep{R}. R is a language used for statistical analysis.\\
+The results from the index finger connection test showed a p-value of 0.635 which is more than the significance level of 0.5. 
+Whenever the p-value is more than 0.5 the H\testsubscript{0} is rejected. Which means that the system did not 
 
 Another internal test has been carried out to test the accuracy of the effects. The test were conducted in a similar way, the effect were applied and then used. 
 As long as the effect worked and changed the voice input, it was considered a success. \\\\
@@ -31,9 +36,9 @@ During the first tests, the system had a loose wire. The issue were fixed and th
 Index finger connection test: 25 out of 25 times. \\
 Middle finger connection test: 25 out of 25 times. \\
 
-The results of the accuracy of the effects gave the following results:\\\\
+The results of the accuracy of the effects showed the following results:\\\\
 
-Harmonise application effect: 
+Harmonise application effect: 25 out of 25 times. \\
 Pitch shift application effect: 25 out of 25 times. 
 
 \subsection{Evaluation Plan}
