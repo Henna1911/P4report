@@ -1,0 +1,59 @@
+\BOOKMARK [0][-]{label:frontpage.0}{Front page}{}% 1
+\BOOKMARK [0][-]{label:titlepage_en.0}{English title page}{}% 2
+\BOOKMARK [0][-]{label:contents.0}{Contents}{}% 3
+\BOOKMARK [0][-]{chapter*.2}{Preface}{}% 4
+\BOOKMARK [0][-]{chapter.1}{1 Introduction}{}% 5
+\BOOKMARK [1][-]{section.1.1}{1.1 Initial Problem Statement}{chapter.1}% 6
+\BOOKMARK [2][-]{subsection.1.1.1}{1.1.1 Statement}{section.1.1}% 7
+\BOOKMARK [2][-]{subsection.1.1.2}{1.1.2 Target Group}{section.1.1}% 8
+\BOOKMARK [0][-]{chapter.2}{2 Problem Analysis}{}% 9
+\BOOKMARK [1][-]{section.2.1}{2.1 Effects}{chapter.2}% 10
+\BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 Delay}{section.2.1}% 11
+\BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 Reverberation}{section.2.1}% 12
+\BOOKMARK [2][-]{subsection.2.1.3}{2.1.3 Pitch Shift}{section.2.1}% 13
+\BOOKMARK [2][-]{subsection.2.1.4}{2.1.4 Auto-Tune}{section.2.1}% 14
+\BOOKMARK [2][-]{subsection.2.1.5}{2.1.5 Vocoder}{section.2.1}% 15
+\BOOKMARK [2][-]{subsection.2.1.6}{2.1.6 Discussion}{section.2.1}% 16
+\BOOKMARK [1][-]{section.2.2}{2.2 State of the Art}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 TC Helicon Perform V}{section.2.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 Electro Harmonix Voice Box}{section.2.2}% 19
+\BOOKMARK [2][-]{subsection.2.2.3}{2.2.3 Mi.Mu Gloves}{section.2.2}% 20
+\BOOKMARK [2][-]{subsection.2.2.4}{2.2.4 HandySinger: Expressive Singing Voice Morphing using Personified Hand-puppet Interface}{section.2.2}% 21
+\BOOKMARK [2][-]{subsection.2.2.5}{2.2.5 The 'One-Person Choir': A Multidisciplinary Approach to the Development of an Embodied Human-Computer Interface}{section.2.2}% 22
+\BOOKMARK [2][-]{subsection.2.2.6}{2.2.6 Discussion}{section.2.2}% 23
+\BOOKMARK [1][-]{section.2.3}{2.3 Gestures}{chapter.2}% 24
+\BOOKMARK [2][-]{subsection.2.3.1}{2.3.1 Discussion}{section.2.3}% 25
+\BOOKMARK [1][-]{section.2.4}{2.4 Conclusion}{chapter.2}% 26
+\BOOKMARK [1][-]{section.2.5}{2.5 Problem Statement}{chapter.2}% 27
+\BOOKMARK [2][-]{subsection.2.5.1}{2.5.1 Success Criteria}{section.2.5}% 28
+\BOOKMARK [2][-]{subsection.2.5.2}{2.5.2 Minimum Implementation}{section.2.5}% 29
+\BOOKMARK [0][-]{chapter.3}{3 Design}{}% 30
+\BOOKMARK [1][-]{section.3.1}{3.1 Concept}{chapter.3}% 31
+\BOOKMARK [1][-]{section.3.2}{3.2 Storyboard}{chapter.3}% 32
+\BOOKMARK [1][-]{section.3.3}{3.3 Sketching and Testing}{chapter.3}% 33
+\BOOKMARK [1][-]{section.3.4}{3.4 Lo-Fi}{chapter.3}% 34
+\BOOKMARK [2][-]{subsection.3.4.1}{3.4.1 Affordance Scheme}{section.3.4}% 35
+\BOOKMARK [2][-]{subsection.3.4.2}{3.4.2 The Test}{section.3.4}% 36
+\BOOKMARK [1][-]{section.3.5}{3.5 Design Choices}{chapter.3}% 37
+\BOOKMARK [1][-]{section.3.6}{3.6 Conclusion}{chapter.3}% 38
+\BOOKMARK [0][-]{chapter.4}{4 Implementation}{}% 39
+\BOOKMARK [1][-]{section.4.1}{4.1 Theory}{chapter.4}% 40
+\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 Pitch Shift}{section.4.1}% 41
+\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 Harmonise}{section.4.1}% 42
+\BOOKMARK [1][-]{section.4.2}{4.2 Making the Prototype}{chapter.4}% 43
+\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 Hardware}{section.4.2}% 44
+\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 Software}{section.4.2}% 45
+\BOOKMARK [1][-]{section.4.3}{4.3 Conclusion}{chapter.4}% 46
+\BOOKMARK [0][-]{chapter.5}{5 Evaluation}{}% 47
+\BOOKMARK [1][-]{section.5.1}{5.1 Internal Test}{chapter.5}% 48
+\BOOKMARK [1][-]{section.5.2}{5.2 User Test}{chapter.5}% 49
+\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 Evaluation Plan}{section.5.2}% 50
+\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 Apparatus and Setup}{section.5.2}% 51
+\BOOKMARK [2][-]{subsection.5.2.3}{5.2.3 Results}{section.5.2}% 52
+\BOOKMARK [1][-]{section.5.3}{5.3 Discussion}{chapter.5}% 53
+\BOOKMARK [1][-]{section.5.4}{5.4 Conclusion}{chapter.5}% 54
+\BOOKMARK [0][-]{chapter.6}{6 Discussion}{}% 55
+\BOOKMARK [0][-]{chapter.7}{7 Conclusion}{}% 56
+\BOOKMARK [0][-]{chapter*.8}{Bibliography}{}% 57
+\BOOKMARK [0][-]{appendix.A}{A Appendix}{}% 58
+\BOOKMARK [1][-]{section.A.1}{A.1 Results from Questionnaire}{appendix.A}% 59
