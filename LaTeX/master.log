@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.8)  17 MAY 2016 14:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.8)  18 MAY 2016 09:04
 entering extended mode
 **master.tex
 (master.tex
@@ -1412,8 +1412,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--50
 
 ] (sections/Introduction.tex
 Chapter 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 9.
+ine 14.
 [1
 
 ]) (sections/ProblemAnalysis.tex [2]
@@ -2320,7 +2330,7 @@ ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files
 e1/public/lm/lmri10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/l
 m/lmri9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb
 ><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on master.pdf (54 pages, 13827002 bytes).
+Output written on master.pdf (54 pages, 13828151 bytes).
 PDF statistics:
  714 PDF objects out of 1000 (max. 8388607)
  166 named destinations out of 1000 (max. 500000)
