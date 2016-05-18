@@ -146,7 +146,7 @@ sensor input from the green rectangle from figure \ref{PD_main}. The output from
 See figure \ref{Pitch_harm} for the Pitchshifting patch used in the harmoniser effect. The green rectangle receives a message, the halftone number, but must first convert it to 
 a value that PD will be used later. The conversion uses this equation (REF):
 
-\[ converted value = 2^(h/12) = e^(0.05776*h) \] where h is the halftone number.
+\[ 2^{h/12} = e^{0.05776*h} \] where h is the halftone number. E.g. three halftones would give the converted number 1.189. 
 
 
 \begin{minipage}{\linewidth}% to keep image and caption on one page
