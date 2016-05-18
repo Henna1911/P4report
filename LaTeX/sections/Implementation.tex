@@ -163,5 +163,21 @@ the input from 0-2, where 1 is regular pitch, the slider data is either added or
 \captionof{figure}{How the Pitchshifting patch handles slider data}\label{Pitch_pitch}
 \end{minipage}\\
 
+The red box in figure \ref{Pitch_expl} shows the part of the patch that indicates how big the increments in shifting should be. To raise the pitch by one octave, the playback speed has to be doubled. Knowing that an octave consists of 12 halftones it means that to raise a pitch by a halftone the playback speed should be raised by 2^(1/12). The prototype was made to pitch shift 3 halftones at a time, meaning that the playback speed has to be raised by 2^(3/12) which equals 1.189 for each pitch shift.
+\begin{minipage}{\linewidth}% to keep image and caption on one page
+\makebox[\linewidth]{%        to center the image
+\includegraphics[keepaspectratio=true,scale=0.7]{Pitch_Explained}}
+\captionof{figure}{The pitch patch}\label{Pitch_expl}
+\end{minipage}\\
+
+The "tapes" speed is 1 so to make the pitch shift, one of the read points scans
+the sound, delayed but at a faster rate than the "tape" is playing, so that the delay progressively goes to 0. To support this the sawtooth signal is inverted allowing for the delay to start at maximum values and to go to minimal values before resetting back to the maximum values. This is shown in the yellow box on figure \ref{Pitch_expl}.
+
+The green box on figure \ref{Pitch_expl} illustrates the read point objects, which each scan 20 frames of the signal per second, which means that each frame is 50 ms long.
+
+The blue box on figure \ref{Pitch_expl} shows the offset between read points created by the +~0.5, so that when one of them is at the maximal or minimal value the other one is in the middle.
+
+Finally, the black box on figure \ref{Pitch_expl} describes how the patch removes glitch objects. When one of the read pointers would reach maximum delay or 0, there would be an audible glitch if audio from only one of them is taken. To remove the glitch objects cos~ are used for the smooth crossfade between both read points. 
+
 \section{Conclusion}
 
