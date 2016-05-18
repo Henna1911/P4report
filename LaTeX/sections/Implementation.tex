@@ -146,8 +146,7 @@ sensor input from the green rectangle from figure \ref{PD_main}. The output from
 See figure \ref{Pitch_harm} for the Pitchshifting patch used in the harmoniser effect. The green rectangle receives a message, the halftone number, but must first convert it to 
 a value that PD will be used later. The conversion uses this equation (REF):
 
-\[ 2^{h/12} = e^{0.05776*h} \] where h is the halftone number. E.g. three halftones would give the converted number 1.189. 
-
+\[ 2^{h/12} = e^{0.05776*h} \] where h is the halftone number. E.g. three halftones would give the converted number 1.189. \\
 
 \begin{minipage}{\linewidth}% to keep image and caption on one page
 \makebox[\linewidth]{%        to center the image
@@ -155,7 +154,14 @@ a value that PD will be used later. The conversion uses this equation (REF):
 \captionof{figure}{The Pitchshifting Patch used for the harmonize effect. The green rectangle is a bit different compared to the Pitchshifting effect.}\label{Pitch_harm}
 \end{minipage}\\
 
-The patch uses the input, which might be coming from a microphone input. The slider called pitch shows how much the voice is actually being pitched. 
+The pitchshifting effect's patch does not convert numbers, but instead gets the slider data from the main patch, see figure \ref{Pitch_pitch}. Since the pitchshifting effect takes 
+the input from 0-2, where 1 is regular pitch, the slider data is either added or subtracted with 1. 
+
+\begin{minipage}{\linewidth}% to keep image and caption on one page
+\makebox[\linewidth]{%        to center the image
+\includegraphics[keepaspectratio=true,scale=0.7]{Pitch_pitch}}
+\captionof{figure}{How the Pitchshifting patch handles slider data}\label{Pitch_pitch}
+\end{minipage}\\
 
 \section{Conclusion}
 
