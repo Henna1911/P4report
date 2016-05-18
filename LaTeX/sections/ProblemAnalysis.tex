@@ -19,20 +19,22 @@ In this section, there will be short descriptions of some common effects.
 
 \subsection{Delay}
 
-A delay effect creates a repetition of the original sound after a period of time\citep{Loeffler_2014}. By using the delay effect, it is possible to simulate the sound of the echo created when yelling into a cave or over a canyon.
+A delay effect creates a repetition of the original sound after a period of time\citep{Loeffler_2014}. By using the delay effect, it is possible to simulate the sound of the echo created when yelling into a cave or over a canyon, which some people may find desirable to use in their song. 
 
 \subsection{Reverberation}
 
 When sound reflects off surfaces in a confined space, its called natural reverberation\citep{Redmon_1997}. Reverberation like this works best when the sound hits hard surfaces. For example, the sound effect that comes when you sing or yell in a church, is reverberation. The sound bounces all around the church's hard walls.
-Digitally, the way to simulate reverberation is to use a multitude of delays and feedback. This then creates a series of echoes that then slowly decays.
+Digitally, the way to simulate reverberation is to use a multitude of delays and feedback. This then creates a series of echoes that then slowly decays. 
+If the amount of reverberation is small, it can simulate singing in a small or medium sized room, even though the voice input has no natural reverbaration. If the amount of reverberation is big, it can make the voice sound like singing in a church, even though you are not in a church. This can make a person's voice sound "big".
 
 \subsection{Pitch Shift}
 
 The frequency of a harmonic sound is called its pitch\citep{Katjaas_00}. By shifting the pitch, the sound will effectively become deeper or higher. An example of this is the voice that anonymous people get when they want to hide their voice, this is a lowered pitch. Another example is the “chipmunk voice”, which is achieved through a raised pitch.
 Pitch shifting can be done by using the "phase vocoder", which is a digital signal processing technique\citep{dolson}. The phase vocoder works by analysis and synthesis. The analysis part takes the signal, and models it as a sine wave in which one can find the amplitude, phase, and frequency of the sine wave. In the synthesis part, one can manipulate these parameters. 
-The phase vocoder can do many things, e.g. change the pitch of a sound without changing the duration of the sound - make a sound deeper or higher. 
+The phase vocoder can do many things, e.g. change the pitch of a sound without changing the duration of the sound - make a sound deeper or higher in real time. 
+People use pitchshifting to make their voice deeper or higher. People want to make their voice deeper to e.g. simulate a bass guitar, and make their voice higher to achieve e.g. a "chipmunk" voice.
 
-Pitch shifting is also used to create the harmonizer effect. It takes the input voice and shifts its pitch a certain amount, and then adds it as an additional voice. This can effectively simulate a choir.
+Pitch shifting is also used to create the harmonizer effect. It takes the input voice and shifts its pitch a certain amount (in relation to half tones), and then adds it as an additional voice. This can effectively simulate a choir.
 
 \subsection{Auto-Tune}
 
