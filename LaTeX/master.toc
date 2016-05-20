@@ -54,7 +54,10 @@
 \contentsline {section}{\numberline {5.3}Discussion}{41}{section.5.3}
 \contentsline {section}{\numberline {5.4}Conclusion}{41}{section.5.4}
 \contentsline {chapter}{\numberline {6}Discussion}{43}{chapter.6}
-\contentsline {chapter}{\numberline {7}Conclusion}{45}{chapter.7}
-\contentsline {chapter}{Bibliography}{47}{chapter*.8}
-\contentsline {chapter}{\numberline {A}Appendix}{49}{appendix.A}
-\contentsline {section}{\numberline {A.1}Results from Questionnaire}{50}{section.A.1}
+\contentsline {section}{\numberline {6.1}Quality of Solution}{44}{section.6.1}
+\contentsline {section}{\numberline {6.2}Validity and Reliability}{45}{section.6.2}
+\contentsline {section}{\numberline {6.3}Further Development}{45}{section.6.3}
+\contentsline {chapter}{\numberline {7}Conclusion}{47}{chapter.7}
+\contentsline {chapter}{Bibliography}{49}{chapter*.8}
+\contentsline {chapter}{\numberline {A}Appendix}{51}{appendix.A}
+\contentsline {section}{\numberline {A.1}Results from Questionnaire}{52}{section.A.1}

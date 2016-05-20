@@ -1,2 +1,51 @@
 \chapter{Discussion}
-dsf
+
+The problems this project address is that singers or performers cannot apply voice effects easily. The problem analysis chapter covered which kind of voice effects exist today, current voice effect pedals and interfaces, studies regarding voice effects and gestures, and what a gesture is and how it can be used.
+
+There are two kinds of effect interfaces, some are on the floor and highly customisable but hard to reach/change while performing. Some effect interfaces are small and on a microphone stand, but are hard to customise. 
+We had no qualitative or quantitative data telling us if there was a problem.
+
+During state of the art research, it was found that there are studies focusing on using gestures to change effects, and a project that focuses on a highly advanced system. 
+The studies focusing on gestures that change effects, “HandySinger” and “One Person Choir” found that having gestures which make sense to the user is both possible and beneficial. Additionally, a project with a very similar concept was discovered, the Mi.Mu glove. Their project was focused around making a glove for musical interaction with a wide variety of features. In order to differ from their project, we decided to focus our project around making a glove with less features, but much more focus on making it intuitive for the user.
+
+Many voice effects exist. Instead of turning an effect on and off, changing an effect parameter could sound better or make more sense. We chose the effects “harmonise” and “pitch shift” because they could benefit from continuous change, and because a parameter change would be easier to hear compared to an effect like the reverb. This does not mean effects like reverb, delay, vocoder etc. are bad effects to change parameters to, but rather effects that could be added in further development.
+
+When deciding on a fitting gesture for the different effects introduced during the problem analysis, it was important to think about each effect individually. Should they just turn on and off or are there parameters that needs to be changed? Which parameters needs to be changed and in what way?
+In the case of our project, it was important to be able to change the parameters of each effect. The pitch shift needs to be able to lower and heighten based on the user's wishes. The harmonise should be able to change between minor and major, and the degree of which it can be heard. It was decided the most fitting gesture for pitch shift was to simulate a vertical slider, moving to heighten and down to lower. The gesture for harmonise was to simulate a knob, like when changing the volume on an old radio.
+
+The prototype was designed to be worn on the right hand on the thumb, index and middle fingers. At this point, the prototype must be connected to an Arduino with a lot of wires, which means the user has limited movability. We also found that there was no room for effect icons even though we had drawn them in the Lo-Fi prototype. This will be considered in further development.
+
+The prototype only understands the knob-turning gesture. We did manage to get the horizontal slider gesture working, but it was not stable enough to include in the evaluation tests. At first, the sampling rate of the Pure Data program was at 44.100 Hz, but it was found that it created unwanted audio problems sometimes, such as a delay, and was fixed by using a sampling rate of 48.000 Hz.
+
+\section{Quality of Solution}
+
+This section will discuss the qualities of the system. Our first success criteria states that we have to implement at least two effects.The prototype can process audio, more specifically take the microphone input and apply two effects, whose parameters users can change. The two chosen effects ended up being a harmoniser and a pitch-shifter, because they are easy to hear, and would benefit from gesture manipulation. A reverb effects was also considered but later discarded, since we felt that the effect did not fully benefit as much from parameter change in a live performance.
+
+The second success criteria stated that the user should use the correct gesture for the intended effect. This was based off of the fact that we wanted to implement different gestures at the time. During the implementation it was discovered that the slider gesture worked, but was not reliable. So we decided to use the knob-turning gesture for both effects. Given this, the third success criteria, stating that the system should not misinterpret between gestures, was not fully achieved. Beyond that, the system had no problem recognising the knob-turning gesture.
+
+The system fulfils all of the minimum implementation requirements by using an Arduino, utilising a sensor that works with the Arduino, implementing the system using audio processing in PD and connecting it with the Arduino software, and using a microphone to record the audio.
+
+Even though the success criteria are approximately fulfilled there were some issues with the prototype. The prototype has many long wires attached to the Arduino, which is attached to a PC, and can accidentally disconnect from the Arduino. This limited the movements of the participants of the test, which might have affected the results of the test.
+
+A problem that was encountered was that some users using the prototype for a long period of time, started to feel discomfort in their palms. 
+Additionally, the users missed a source of feedback when turning their hand over too much, causing the LEDs to disappear from view. This might have affected their understanding of what was going on.
+Another thing to consider is the plus and minus icons that were designed to indicate what was happening with the parameters when tilting the hand. Plus and minus is not necessarily the best signs for both of the effects, but it was decided to go with this since it was hard to find a uniform indication that fit both effects.This may not make sense to some of the users.
+
+\section{Validity and Reliability}
+
+A problem we acknowledge is the fact that nine out of ten users that tested our system were not singers or performers. They had basic knowledge about some effects, but no experience performing. This means we cannot consider their answers, about whether it would be beneficial for a performer, valid, but rather look at their answers from a usability standpoint. On a note, the nine out of ten participants were Medialogy students, which means they may be a little biased regarding the topic of the project.
+We had one participant, a non-Medialogy student, who is within our target group and therefore can be considered valid. However one participant cannot be considered reliable, since reliability requires replication.
+
+Regarding the actual prototype, the soldering on the circuit board and copper plates on the fingers was not optimal, and had to be fixed a couple of times. This resulted in some users  trying a prototype that was faulty which also might have affected the results of the test.
+
+The test was conducted in a small room and the user was using headphones to listen to the output of the system. The ideal setting would be on a stage and with a normal performance setup - this would be a dynamic microphone and speakers so as to avoid a feedback loop. 
+Furthermore, the user was the only one hearing his or her voice with effects, meaning no one conducting the test could hear the output. By watching the PD program and LEDs it could be observed whether or not it was working properly.
+
+\section{Further Development}
+
+During evaluation several ideas arose on how to improve the prototype. Some of them were obvious, for example making the prototype wireless. This would make it easier to manage and manoeuvre. 
+Another rather obvious improvement would be to add more effects on the remaining fingers. This could be done by using different kind of sensors, e.g. flex sensors on the fingers.
+Which effect these are to be are not clear but the possibility is there.
+More minute control of the effects would also be an improvement. This would mean that there would be a more gradual change to changing the pitch or more control of which harmonies are added by the harmoniser. 
+An improvement of the design would also be on the table. A more easily wearable design, that one person could put on alone, would be a lot more useful and comfortable. A design similar to the Mi.Mu glove introduced in the State of the Art could be considered..
+It would also be interesting to see if the colour of the LEDs would matter or not.
