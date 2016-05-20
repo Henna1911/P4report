@@ -124,13 +124,16 @@ During their research, they found that gesture control is a big part of singing,
 
 \subsection{Discussion}
 
+Researching the state of the art has shown, that there exist different kinds of products that all are able to manipulate a performer's voice. There exist many different pedals that can change effects, but such pedals has to be on the ground out of reach. 
+While the TC Helicon Perform V enables voice manipulation from an easier to reach point, it does also limit the performer to stand in front of the microphone stand. 
+The Mi.Mu gloves shows how it is possible to enable a performer to manipulate a voice while moving freely around. Studies by Yonezawa et al. and Maes et al. shows that gesture control is a big part of singing. Combining gesture control with the concept of the Mi.Mu glove could be interesting.
 
 
 \section{Gestures}
 
-When designing a way to control effects, there are several ways to approach it. One of these ways is through gesture control.
+When designing a way to control effects, there are several ways to approach it. One of these ways is through hand gesture control.
 
-There are also several ways to approach gesture control. For example, there are three stages of a gesture: registration, continuation, and termination\citep[pp. 127-134]{Wigdor_2011}.\\
+There are three stages of a gesture: registration, continuation, and termination\citep[pp. 127-134]{Wigdor_2011}.\\
 
 \begin{minipage}{\linewidth}% to keep image and caption on one page
 \makebox[\linewidth]{%        to center the image
@@ -144,15 +147,15 @@ The next stage is continuation. In this stage, the user uses movement to adjust 
 
 The final stage is termination, where the user simply ends the gesture, e.g. by lifting their finger(s) from a touch display.
 
-In some cases the continuation stage can be skipped. Whether or not it is a good idea to skip this stage is decided by the number of different gestures one wants to implement, and whether they want the gesture to be able to change the parameters or not, e.g. a zoom that does not have one set amount of zoom, but rather it is specified by how much you move your fingers. By removing the continuation stage, it also removes the possibility to differentiate between a lot of gestures. \\
+In some cases the continuation stage can be skipped. Whether or not it is a good idea to skip this stage is decided by whether they want the gesture to be able to change the parameters or not, e.g. a zoom that does not have one set amount of zoom, but rather it is specified by how much you move your fingers. By removing the continuation stage, it also removes the possibility to differentiate between a lot of gestures. \\
 
 A good thing to do, when choosing a gesture for a specific action, is to keep it as unambiguous as possible. This helps reduce future errors. This being said, it is also important to minimise the amount of steps the user has to go through for the gesture.
 
-While the previously mentioned ‘zoom’ gesture is a rather good example of a gesture, a bad example of a gesture would be the use of the ‘flick’ action to execute a gesture. The ‘flick’ action is when you execute an action by ‘flicking’ an object to e.g. delete it. The bad thing about this design is the fact that you have to specify a border between the action of moving something and ‘flicking’ something
+While the previously mentioned 'zoom' gesture is a rather good example of a gesture used to change parameters, a bad example of such a gesture would be the use of the 'flick' action to execute a gesture. The 'flick' action is when you execute an action by 'flicking' an object to e.g. delete it. The bad thing about this is that it implements no way to change the parameters dynamically. Another bad thing about it is that one has to specify a border between the action of simply moving something across the screen and 'flicking' something on the screen.
 
 \subsection{Discussion}
 
-
+The desire of this project is to not only apply effects, but also be able to change the parameters dynamically during a performance. With this in mind, it is a requirement to include all three stages to make a fitting gesture for the different effects, since including the continuation stage is the only way to make this possible.
 
 
 \section{Conclusion}
@@ -170,7 +173,7 @@ Furthermore, when looking at the previous state of the art examples, it can be c
 
 Based on the findings from the research a final problem statement has been made:\\
 
-\textit{Audio effects for the voice exist but they are impractical to change while performing. Technology exists that address this problem, e.g. gloves that use sensors. We want to make a glove that can change voice effect and their parameters.}
+\textit{How can one design and implement a wearable device with an intuitive interface that applies voice effects in real time using gestures, without the restraints of existing solutions?}
 
 \subsection{Success Criteria}
 

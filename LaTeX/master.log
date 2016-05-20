@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.8)  20 MAY 2016 11:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.8)  20 MAY 2016 13:51
 entering extended mode
 **master.tex
 (master.tex
@@ -1616,7 +1616,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--124
  []
 
 [8 <./figures/puppet2.png> <./figures/One_Person_Choir.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+Overfull \hbox (0.92131pt too wide) in paragraph at lines 136--137
+[]\T1/lmr/m/n/10.95 There are three stages of a ges-ture: reg-is-tra-tion, con-
+tin-u-a-tion, and termination[[],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
 
@@ -1624,41 +1630,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--134
 File: figures/Gestures.jpg Graphic file (type jpg)
 
 <use figures/Gestures.jpg>
-Package pdftex.def Info: figures/Gestures.jpg used on input line 137.
+Package pdftex.def Info: figures/Gestures.jpg used on input line 140.
 (pdftex.def)             Requested size: 306.5445pt x 128.88118pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 138.
+(caption)                particular \caption on input line 141.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 135--140
+Overfull \hbox (17.0pt too wide) in paragraph at lines 138--143
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--140
+Underfull \hbox (badness 10000) in paragraph at lines 138--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
  []
 
 [9 <./figures/Gestures.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 160--162
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 163--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
+Underfull \hbox (badness 10000) in paragraph at lines 166--168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
 
  []
 
@@ -2455,7 +2461,7 @@ iKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
 onts/type1/public/lm/lmri9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
 ublic/lm/lmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lm
 ssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on master.pdf (60 pages, 14020706 bytes).
+Output written on master.pdf (60 pages, 14011109 bytes).
 PDF statistics:
  846 PDF objects out of 1000 (max. 8388607)
  177 named destinations out of 1000 (max. 500000)
