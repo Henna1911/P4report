@@ -149,7 +149,6 @@ Very early on in the process, it was decided to make the gestures base off of so
 \captionof{figure}{The AX 301 Synthesizer Amplifier with knobs and sliders\citep{AudioFan}}\label{SynthAmp}
 \end{minipage}\\
 
-According to Wigdor and Wixon it is important to mimick real world physical interactions to create more natural experiences for the user\citep[pp. 47]{Wigdor_2011}. 
 The gesture of turning a knob was assigned to the harmonize effect, while the vertical slider gesture was assigned to the pitch shift. Since pitch shift is manipulated by making a higher or lower pitch, it makes sense to make the gestures simulate a vertical slider, with a higher pitch being assigned to moving up, and lower pitch assigned to moving down.
 Furthermore, in accordance to the "turning a knob" and "moving a slider" sentiment, it had to be implemented on the actual glove. This was done by adding some copper band on some velcro for the fingers. This copper was then connected to the circuit board with wires. When connecting the fingers, this would then allow the corresponding effect to be activated, and then the effect could be changed by using the gestures.
 
