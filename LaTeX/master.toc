@@ -24,40 +24,41 @@
 \contentsline {section}{\numberline {2.4}Conclusion}{11}{section.2.4}
 \contentsline {section}{\numberline {2.5}Problem Statement}{12}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}Success Criteria}{12}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Minimum Implementation}{12}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.2}Minimum Implementation Requirements}{12}{subsection.2.5.2}
 \contentsline {chapter}{\numberline {3}Design}{13}{chapter.3}
 \contentsline {section}{\numberline {3.1}Concept}{13}{section.3.1}
-\contentsline {section}{\numberline {3.2}Storyboard}{13}{section.3.2}
+\contentsline {section}{\numberline {3.2}Storyboard}{14}{section.3.2}
 \contentsline {section}{\numberline {3.3}Sketching and Testing}{14}{section.3.3}
 \contentsline {section}{\numberline {3.4}Lo-Fi}{17}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Affordance Scheme}{17}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}The Test}{18}{subsection.3.4.2}
 \contentsline {section}{\numberline {3.5}Design Choices}{19}{section.3.5}
 \contentsline {section}{\numberline {3.6}Conclusion}{20}{section.3.6}
-\contentsline {chapter}{\numberline {4}Implementation}{23}{chapter.4}
-\contentsline {section}{\numberline {4.1}Theory}{23}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Pitch Shift}{23}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Harmonise}{24}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Making the Prototype}{25}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Hardware}{25}{subsection.4.2.1}
-\contentsline {subsubsection}{Schematic}{25}{subsubsection*.4}
-\contentsline {subsection}{\numberline {4.2.2}Software}{28}{subsection.4.2.2}
-\contentsline {subsubsection}{Arduino}{28}{subsubsection*.6}
-\contentsline {subsubsection}{Pure Data}{30}{subsubsection*.7}
-\contentsline {section}{\numberline {4.3}Conclusion}{36}{section.4.3}
-\contentsline {chapter}{\numberline {5}Evaluation}{37}{chapter.5}
-\contentsline {section}{\numberline {5.1}Internal Test}{37}{section.5.1}
-\contentsline {section}{\numberline {5.2}User Test}{38}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Evaluation Plan}{38}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Apparatus and Setup}{39}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Results}{39}{subsection.5.2.3}
-\contentsline {section}{\numberline {5.3}Discussion}{41}{section.5.3}
-\contentsline {section}{\numberline {5.4}Conclusion}{41}{section.5.4}
-\contentsline {chapter}{\numberline {6}Discussion}{43}{chapter.6}
-\contentsline {section}{\numberline {6.1}Quality of Solution}{44}{section.6.1}
-\contentsline {section}{\numberline {6.2}Validity and Reliability}{45}{section.6.2}
-\contentsline {section}{\numberline {6.3}Further Development}{45}{section.6.3}
-\contentsline {chapter}{\numberline {7}Conclusion}{47}{chapter.7}
-\contentsline {chapter}{Bibliography}{49}{chapter*.8}
-\contentsline {chapter}{\numberline {A}Appendix}{51}{appendix.A}
-\contentsline {section}{\numberline {A.1}Results from Questionnaire}{52}{section.A.1}
+\contentsline {chapter}{\numberline {4}Theory}{23}{chapter.4}
+\contentsline {chapter}{\numberline {5}Implementation}{25}{chapter.5}
+\contentsline {section}{\numberline {5.1}Theory}{25}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Pitch Shift}{25}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Harmonise}{26}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}Making the Prototype}{27}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Hardware}{27}{subsection.5.2.1}
+\contentsline {subsubsection}{Schematic}{27}{subsubsection*.4}
+\contentsline {subsection}{\numberline {5.2.2}Software}{30}{subsection.5.2.2}
+\contentsline {subsubsection}{Arduino}{30}{subsubsection*.6}
+\contentsline {subsubsection}{Pure Data}{32}{subsubsection*.7}
+\contentsline {section}{\numberline {5.3}Conclusion}{38}{section.5.3}
+\contentsline {chapter}{\numberline {6}Evaluation}{39}{chapter.6}
+\contentsline {section}{\numberline {6.1}Internal Test}{39}{section.6.1}
+\contentsline {section}{\numberline {6.2}User Test}{40}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Evaluation Plan}{40}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Apparatus and Setup}{41}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Results}{42}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Discussion}{43}{section.6.3}
+\contentsline {section}{\numberline {6.4}Conclusion}{44}{section.6.4}
+\contentsline {chapter}{\numberline {7}Discussion}{45}{chapter.7}
+\contentsline {section}{\numberline {7.1}Quality of Solution}{46}{section.7.1}
+\contentsline {section}{\numberline {7.2}Validity and Reliability}{47}{section.7.2}
+\contentsline {section}{\numberline {7.3}Further Development}{47}{section.7.3}
+\contentsline {chapter}{\numberline {8}Conclusion}{49}{chapter.8}
+\contentsline {chapter}{Bibliography}{51}{chapter*.8}
+\contentsline {chapter}{\numberline {A}Appendix}{53}{appendix.A}
+\contentsline {section}{\numberline {A.1}Results from Questionnaire}{54}{section.A.1}
