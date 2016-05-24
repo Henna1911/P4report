@@ -53,12 +53,14 @@
 \contentsline {subsection}{\numberline {6.2.2}Apparatus and Setup}{41}{subsection.6.2.2}
 \contentsline {subsection}{\numberline {6.2.3}Results}{42}{subsection.6.2.3}
 \contentsline {section}{\numberline {6.3}Discussion}{43}{section.6.3}
-\contentsline {section}{\numberline {6.4}Conclusion}{44}{section.6.4}
+\contentsline {section}{\numberline {6.4}Conclusion}{43}{section.6.4}
 \contentsline {chapter}{\numberline {7}Discussion}{45}{chapter.7}
 \contentsline {section}{\numberline {7.1}Quality of Solution}{46}{section.7.1}
 \contentsline {section}{\numberline {7.2}Validity and Reliability}{47}{section.7.2}
 \contentsline {section}{\numberline {7.3}Further Development}{47}{section.7.3}
 \contentsline {chapter}{\numberline {8}Conclusion}{49}{chapter.8}
-\contentsline {chapter}{Bibliography}{51}{chapter*.8}
+\contentsline {chapter}{Bibliography}{51}{chapter*.9}
 \contentsline {chapter}{\numberline {A}Appendix}{53}{appendix.A}
-\contentsline {section}{\numberline {A.1}Results from Questionnaire}{54}{section.A.1}
+\contentsline {section}{\numberline {A.1}Script}{54}{section.A.1}
+\contentsline {section}{\numberline {A.2}Consent Form}{55}{section.A.2}
+\contentsline {section}{\numberline {A.3}Results from Questionnaire}{56}{section.A.3}

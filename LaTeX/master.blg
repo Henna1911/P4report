@@ -1,6 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: master.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: master.aux
 The style file: ieeetr.bst
 White space in argument---line 127 of file master.aux
  : \citation{Steiglitz[pp.
@@ -11,45 +9,4 @@ White space in argument---line 128 of file master.aux
  :                         44]}
 I'm skipping whatever remains of this command
 Database file #1: bib/mybib.bib
-You've used 24 entries,
-            1876 wiz_defined-function locations,
-            604 strings with 6498 characters,
-and the built_in function-call counts, 3278 in all, are:
-= -- 271
-> -- 136
-< -- 0
-+ -- 60
-- -- 36
-* -- 159
-:= -- 470
-add.period$ -- 24
-call.type$ -- 24
-change.case$ -- 24
-chr.to.int$ -- 0
-cite$ -- 24
-duplicate$ -- 107
-empty$ -- 442
-format.name$ -- 36
-if$ -- 823
-int.to.chr$ -- 0
-int.to.str$ -- 24
-missing$ -- 1
-newline$ -- 75
-num.names$ -- 21
-pop$ -- 127
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 0
-skip$ -- 133
-stack$ -- 0
-substring$ -- 24
-swap$ -- 7
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 24
-width$ -- 26
-write$ -- 179
 (There were 2 error messages)
