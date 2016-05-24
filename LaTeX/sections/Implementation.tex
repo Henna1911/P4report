@@ -2,40 +2,6 @@
 
 This chapter describes the theory behind the technical aspects of the prototype and how they were implemented into the prototype. This includes the necessary hardware to make the prototype and how these were used in conjunction with the software to make the prototype work. The software includes both the operations of the hardware and the musical processing of the input sounds.
 
-<<<<<<< HEAD
-\section{Theory}
-
-This section explains the theory behind the effects that has been used in the implementation. 
-
-\subsection{Pitch Shift}
-
-The pitch shifter is built based on the principle of a rotating tape head, instead of using six tape heads as a machine would, the code uses two\citep{Katjaas_00}. The tape heads read the signal at a speed independent from the tape speed, thus the speed of the tape determines the duration of the sound and the direction of tape heads control the pitch shift. When the head rotates in the same direction as the tape, the pitch is lowered and if it rotates in the other direction, the pitch is increased, as seen in figure \ref{TapeHead}. \\
-
-\begin{minipage}{\linewidth}% to keep image and caption on one page
-\makebox[\linewidth]{%        to center the image
-\includegraphics[keepaspectratio=true,scale=1]{TapeHead}}
-\captionof{figure}{Graphical Impression of the tape head principle\citep{Katjaas_00}}\label{TapeHead}
-\end{minipage}\\
-
-In a digital setting the tape heads are replaced with two read pointers that change their delay depending on the required pitch shift. Increasing the delay when lowered pitch is needed and decreasing it if a raised pitch is needed. 
-The read pointer will at some point pass the write pointer, because of the delay. When this happens a click can be heard if audio from only one read point is played. To combat this the cos~ object is used which creates a smooth crossfade to the second read pointer.
-
-\subsection{Harmonise}
-
-A harmony is a sound created by playing or singing different notes at the same time\citep{Harmonise02}.
-Singing harmony means that a backup vocalist or someone else is singing the needed notes in conjunction with the lead singer singing the main melody notes. In a digital setting this effect can be achieved with a single voice. This is done by pitch-shifting the voice multiple times, each time with a different shift in semitones and stacking them together creating the effect of singing in harmony. 
-A chord or a harmony is multiple notes, usually three or more, played at the same time. A chord in which three notes are played is called a "triad"\citep{Harmonise01}. A triad is build on thirds, a root, a third, and a fifth note. In figure \ref{triadPic}, the root note in the C major triad is the bottom note, the third the middle, and the fifth the top note. The third note is a third above the root and fifth being a third above third, or a fifth above the root. \\
-
-\begin{minipage}{\linewidth}% to keep image and caption on one page
-\makebox[\linewidth]{%        to center the image
-\includegraphics[keepaspectratio=true,scale=1]{triad}}
-\captionof{figure}{A major, minor, diminished, and a augmented triad \citep{triad}. The root is the bottom note, third is the middle note, and fifth the top note}\label{triadPic}
-\end{minipage}\\
-
-If the third is a minor third above the root, it is a minor triad. If the third is a major third above the root, it is a major triad. There are also diminished and augmented triads, but they will not be used in this project.
-
-=======
->>>>>>> origin/master
 \section{Making the Prototype}
 
 This section describes the hardware for the system and how it was made into a working prototype. This includes both the schematic, which explains how the system is put together, and the software for the prototype which both covers the software for the Arduino and sensor, and how they work together with Pure Data to process the input sounds for both harmonizing and pitch shift.
