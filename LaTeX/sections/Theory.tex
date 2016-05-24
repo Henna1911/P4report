@@ -17,13 +17,20 @@ The most common sampling rate used when it is needed to capture the entire range
 
 \subsection{Pitch Shift}
 
-The pitch shifter is built based on the principle of a rotating tape head, instead of using six tape heads as a machine would, the code uses two\citep{Katjaas_00}. The tape heads read the signal at a speed independent from the tape speed, thus the speed of the tape determines the duration of the sound and the direction of tape heads control the pitch shift. When the head rotates in the same direction as the tape, the pitch is lowered and if it rotates in the other direction, the pitch is increased, as seen in figure \ref{TapeHead}. \\
+The first pitch shifters were built based on the principle of a rotating tape heads \citep{Katjaas_00}. They were used in the 60's to change e.g. radio interviews, so they could speed up the interview, but still maintain the same pitch. They used six tape heads to read the normal tape that you want to pitch shift at a speed independent from the tape speed. The speed of the tape head determined the duration of the sound, and the direction of tape heads controlled the pitch shift. When the head rotates in the same direction as the tape, the pitch is lowered and if it rotates in the other direction, the pitch is increased, as seen in figure \ref{TapeHead}. \\
 
 \begin{minipage}{\linewidth}% to keep image and caption on one page
 \makebox[\linewidth]{%        to center the image
 \includegraphics[keepaspectratio=true,scale=1]{TapeHead}}
 \captionof{figure}{Graphical Impression of the tape head principle\citep{Katjaas_00}}\label{TapeHead}
 \end{minipage}\\
+
+The first pitch shifters used six tape heads, but digitally you only need two. If you want to raise the pitch by e.g. three semitones, how much faster must the tape reader go?
+This equation converts the semitone number to a "tape reader speed" number:
+
+\[ 2^{h/12} = e^{0.05776*h} \] where h is the halftone number. E.g. three halftones would give the "tape head reader speed" number 1.189. \\
+
+This means that we have a tape playing at a speed of one, and a tape head reader reading at a speed of 1.189. 
 
 In a digital setting the tape heads are replaced with two read pointers that change their delay depending on the required pitch shift. Increasing the delay when lowered pitch is needed and decreasing it if a raised pitch is needed. 
 The read pointer will at some point pass the write pointer, because of the delay. When this happens a click can be heard if audio from only one read point is played. To combat this the cos~ object is used which creates a smooth crossfade to the second read pointer.
