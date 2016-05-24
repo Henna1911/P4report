@@ -92,6 +92,15 @@
   Url                      = {http://www.innovativesynthesis.com/introduction-to-vocoders/}
 }
 
+@Misc{Affordance,
+  Title                    = {Affordances},
+
+  Author                   = {Victor Kaptelinin},
+  HowPublished             = {https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/affordances},
+
+  Url                      = {https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/affordances}
+}
+
 @Misc{Katjaas_00,
   Title                    = {Pitch Shifting},
 
@@ -175,7 +184,7 @@
   Title                    = {Brave NUI World},
 
   Author                   = {Daniel Wigdor AND Dennis Wixon},
-  HowPublished             = {http://www.gm.fh-koeln.de/%7ehk/lehre/sgmci/ss2015/Literatur/Wigdor\_Wixon\_-\_Brave\_NUI\_World.pdf},
+  HowPublished             = {http://www.gm.fh-koeln.de/\%7ehk/lehre/sgmci/ss2015/Literatur/Wigdor\_Wixon\_-\_Brave\_NUI\_World.pdf},
   Year                     = {2011},
 
   Url                      = {http://www.gm.fh-koeln.de/%7ehk/lehre/sgmci/ss2015/Literatur/Wigdor_Wixon_-_Brave_NUI_World.pdf}
