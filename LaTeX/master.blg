@@ -2,7 +2,16 @@ This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: master.aux
 The style file: ieeetr.bst
+White space in argument---line 127 of file master.aux
+ : \citation{Steiglitz[pp.
+ :                         44]}
+I'm skipping whatever remains of this command
+White space in argument---line 128 of file master.aux
+ : \citation{Steiglitz[pp.
+ :                         44]}
+I'm skipping whatever remains of this command
 Database file #1: bib/mybib.bib
+<<<<<<< HEAD
 You've used 24 entries,
             1876 wiz_defined-function locations,
             604 strings with 6498 characters,
@@ -44,3 +53,6 @@ warning$ -- 0
 while$ -- 24
 width$ -- 26
 write$ -- 179
+=======
+(There were 2 error messages)
+>>>>>>> origin/master

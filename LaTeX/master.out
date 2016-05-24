@@ -36,27 +36,28 @@
 \BOOKMARK [2][-]{subsection.3.4.2}{3.4.2 The Test}{section.3.4}% 36
 \BOOKMARK [1][-]{section.3.5}{3.5 Design Choices}{chapter.3}% 37
 \BOOKMARK [1][-]{section.3.6}{3.6 Conclusion}{chapter.3}% 38
-\BOOKMARK [0][-]{chapter.4}{4 Implementation}{}% 39
-\BOOKMARK [1][-]{section.4.1}{4.1 Theory}{chapter.4}% 40
-\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 Pitch Shift}{section.4.1}% 41
-\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 Harmonise}{section.4.1}% 42
-\BOOKMARK [1][-]{section.4.2}{4.2 Making the Prototype}{chapter.4}% 43
-\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 Hardware}{section.4.2}% 44
-\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 Software}{section.4.2}% 45
-\BOOKMARK [1][-]{section.4.3}{4.3 Conclusion}{chapter.4}% 46
-\BOOKMARK [0][-]{chapter.5}{5 Evaluation}{}% 47
-\BOOKMARK [1][-]{section.5.1}{5.1 Internal Test}{chapter.5}% 48
-\BOOKMARK [1][-]{section.5.2}{5.2 User Test}{chapter.5}% 49
-\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 Evaluation Plan}{section.5.2}% 50
-\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 Apparatus and Setup}{section.5.2}% 51
-\BOOKMARK [2][-]{subsection.5.2.3}{5.2.3 Results}{section.5.2}% 52
-\BOOKMARK [1][-]{section.5.3}{5.3 Discussion}{chapter.5}% 53
-\BOOKMARK [1][-]{section.5.4}{5.4 Conclusion}{chapter.5}% 54
-\BOOKMARK [0][-]{chapter.6}{6 Discussion}{}% 55
-\BOOKMARK [1][-]{section.6.1}{6.1 Quality of Solution}{chapter.6}% 56
-\BOOKMARK [1][-]{section.6.2}{6.2 Validity and Reliability}{chapter.6}% 57
-\BOOKMARK [1][-]{section.6.3}{6.3 Further Development}{chapter.6}% 58
-\BOOKMARK [0][-]{chapter.7}{7 Conclusion}{}% 59
-\BOOKMARK [0][-]{chapter*.8}{Bibliography}{}% 60
-\BOOKMARK [0][-]{appendix.A}{A Appendix}{}% 61
-\BOOKMARK [1][-]{section.A.1}{A.1 Results from Questionnaire}{appendix.A}% 62
+\BOOKMARK [0][-]{chapter.4}{4 Theory}{}% 39
+\BOOKMARK [1][-]{subsection.4.0.1}{4.0.1 Sampling}{chapter.4}% 40
+\BOOKMARK [2][-]{subsection.4.0.2}{4.0.2 Pitch Shift}{subsection.4.0.1}% 41
+\BOOKMARK [2][-]{subsection.4.0.3}{4.0.3 Harmonise}{subsection.4.0.1}% 42
+\BOOKMARK [0][-]{chapter.5}{5 Implementation}{}% 43
+\BOOKMARK [1][-]{section.5.1}{5.1 Making the Prototype}{chapter.5}% 44
+\BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 Hardware}{section.5.1}% 45
+\BOOKMARK [2][-]{subsection.5.1.2}{5.1.2 Software}{section.5.1}% 46
+\BOOKMARK [1][-]{section.5.2}{5.2 Conclusion}{chapter.5}% 47
+\BOOKMARK [0][-]{chapter.6}{6 Evaluation}{}% 48
+\BOOKMARK [1][-]{section.6.1}{6.1 Internal Test}{chapter.6}% 49
+\BOOKMARK [1][-]{section.6.2}{6.2 User Test}{chapter.6}% 50
+\BOOKMARK [2][-]{subsection.6.2.1}{6.2.1 Evaluation Plan}{section.6.2}% 51
+\BOOKMARK [2][-]{subsection.6.2.2}{6.2.2 Apparatus and Setup}{section.6.2}% 52
+\BOOKMARK [2][-]{subsection.6.2.3}{6.2.3 Results}{section.6.2}% 53
+\BOOKMARK [1][-]{section.6.3}{6.3 Discussion}{chapter.6}% 54
+\BOOKMARK [1][-]{section.6.4}{6.4 Conclusion}{chapter.6}% 55
+\BOOKMARK [0][-]{chapter.7}{7 Discussion}{}% 56
+\BOOKMARK [1][-]{section.7.1}{7.1 Quality of Solution}{chapter.7}% 57
+\BOOKMARK [1][-]{section.7.2}{7.2 Validity and Reliability}{chapter.7}% 58
+\BOOKMARK [1][-]{section.7.3}{7.3 Further Development}{chapter.7}% 59
+\BOOKMARK [0][-]{chapter.8}{8 Conclusion}{}% 60
+\BOOKMARK [0][-]{chapter*.8}{Bibliography}{}% 61
+\BOOKMARK [0][-]{appendix.A}{A Appendix}{}% 62
+\BOOKMARK [1][-]{section.A.1}{A.1 Results from Questionnaire}{appendix.A}% 63
