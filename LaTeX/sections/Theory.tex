@@ -3,7 +3,7 @@ This section explains the theory behind the effects that has been used in the im
 
 \subsection{Sampling}
 
-Sampling and quantizing is used as a way to convert analog signals into digital. Sampling is discretizing the time variable. Meaning splitting the continuous signal into discrete signals, by isolating values at regularly spaced time intervals. Quantizing is the same operation but done for the pressure signal, which represents the displacement of microphones diagram from its resting place, these value range from -1 to 1.
+Sampling and quantizing is used as a way to convert analog signals into digital. Sampling is discretising the time variable. Meaning splitting the continuous signal into discrete signals, by isolating values at regularly spaced time intervals. Quantizing is the same operation but done for the pressure signal, which represents the displacement of microphones diagram from its resting place, these value range from -1 to 1.
 
 When the signals have been converted into discrete signals they can be split up into samples. Sample being a value or sometimes a set of values in time. The average amount of samples that each second is split up into depends on the goal and use of the signal. This is called the sampling rate/frequency(Hz) and generally speaking the higher the sampling rate the wider range of sounds can be heard and the signal is higher quality. However after it passes a certain threshold human ears cannot tell the difference. If a sampling rate which is high compared to the frequency of the signal is used, the outcome signal is of good quality  since there are several samples to represent each period of the signal. If an increasingly smaller sampling rate is used on the same signal then at one point there will not be enough samples representing each period to give the correct representation of the signal’s frequency. An example can be seen in Figure \ref(Sampling) showing how a smaller sampling rate than the signal’s frequency is used and creates a signal with lower frequency than the original.
 
@@ -40,7 +40,7 @@ A phasor generates a sawtooth, and compared to the sinusoid, which from -1 to 1,
 \begin{minipage}{\linewidth}% to keep image and caption on one page
 \makebox[\linewidth]{%        to center the image
 \includegraphics[keepaspectratio=true,scale=1]{sawtoothwave}}
-\captionof{figure}{A Sawtooth wave\citep{sawtooth}}\label{sawtoothPic}
+\captionof{figure}{A Sawtooth wave\citep{Sawtooth}}\label{sawtoothPic}
 \end{minipage}\\
 
 

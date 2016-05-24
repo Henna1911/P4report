@@ -56,7 +56,7 @@
   Title                    = {Oscillators},
 
   Author                   = {FlossManuals.net},
-  HowPublished             = {http://en.flossmanuals.net/pure-data/ch018_oscillators/},
+  HowPublished             = {http://en.flossmanuals.net/pure-data/ch018\_oscillators/},
 
   Timestamp                = {2016.05.24},
   Url                      = {http://en.flossmanuals.net/pure-data/ch018_oscillators/}
@@ -251,5 +251,15 @@
 
   Timestamp                = {2016.04.28},
   Url                      = {http://playground.arduino.cc/CommonTopics/PullUpDownResistor}
+}
+
+@Misc{Sawtooth,
+  Title                    = {Sawtooth Wave Generator},
+  HowPublished             = {http://vhdlguru.blogspot.dk/2015/04/sawtooth-wave-generator-in-vhdl.html},
+  Month                    = {April},
+  Year                     = {2015},
+
+  Timestamp                = {2016.05.24},
+  Url                      = {http://vhdlguru.blogspot.dk/2015/04/sawtooth-wave-generator-in-vhdl.html}
 }
 
