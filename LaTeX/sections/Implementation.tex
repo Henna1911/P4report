@@ -109,7 +109,7 @@ The blue rectangle does the audio processing. Firstly, the "adc\textasciitilde" 
 the audio goes to the "HarmPatch" patch, and if the middle finger is connected, the audio goes to the "PitchOnly" patch. Both the "HarmPatch" and "PitchOnly" takes 
 the arguments of the sliders from the green rectangle. The outputs from the effects then goes to the "dac\textasciitilde" object (digital to analog), which will go to the headphones.\\
 
-See figure \ref{HarmPatch} for the "HarmPatch" patch used for harmonising. As you can see in the figure, the audio coming from the "inlet\textasciitilde" goes to four "PitchShifters". The "PitchShifter" object
+See figure \ref{HarmPatch} for the "HarmPatch" patch used for harmonising. As one can see in the figure, the audio coming from the "inlet\textasciitilde" goes to four "PitchShifters". The "PitchShifter" object
 takes a message as an argument, which corresponds to number of halftones one would like to pitch-shift. The two first "Pitchshifters" make a minor chord by pitchshifting by three and seven halftones.  The last two "PitchShifters" make a major chord by pitchshifting by four and seven halftones. The outputs from the four "PitchShifters" are then added in an "expr\textasciitilde" object, which takes the
 sensor input from the green rectangle from figure \ref{PD_main}. The output from the "expr\textasciitilde" object then goes to the "outlet" object.
  
@@ -140,6 +140,25 @@ the input from 0-2, where 1 is regular pitch, the slider data is either added or
 \end{minipage}\\
 
 The red box in figure \ref{Pitch_expl} shows the conversion from halftone to pitch-shift value, as discussed earlier. 
+
+We find the delay by going through some steps. First, we find the difference between the "tape speed" and the original tape, e.g. 1.189-1 = 0.189. 
+Secondly, we multiply this number by -20. This is found by dividing the sample rate, 44100 Hz by the offset maximum, in this case 2205 samples,
+and it is negative because of the next part. The "phasor" object, which makes a sawtooth, takes the number we have just found as input, and gives its output to the two delays (read pointers). 
+
+A phasor generates a sawtooth, and compared to the sinusoid, which from -1 to 1, the sawtooth goes from 0 to 1 \citep{FlossManuals}. Normally, the sawtooth goes from low to high, and then abruptly to low again, see figure \ref{sawtoothPic}. Since our tape head speed is going faster than the tape, it will progressively go to zero. In order to make the phasor fit with the delay, it must be inverted, by making the input negative. It will go from high to low, and then to high again.   
+
+\begin{minipage}{\linewidth}% to keep image and caption on one page
+\makebox[\linewidth]{%        to center the image
+\includegraphics[keepaspectratio=true,scale=1]{sawtoothwave}}
+\captionof{figure}{A Sawtooth wave\citep{Sawtooth}}\label{sawtoothPic}
+\end{minipage}\\
+
+The output of the phasor goes four ways. It goes to two variabl edelays, "vd" objects, and two "cos" object. Before going to the vd-objects, one output is shifted half a cycle by adding 0.5. 
+
+
+
+The read pointer will at some point pass the write pointer, because of the delay. When this happens a click can be heard if audio from only one read point is played. To combat this the cos~ object is used which creates a smooth crossfade to the second read pointer.
+
 
 \begin{minipage}{\linewidth}% to keep image and caption on one page
 \makebox[\linewidth]{%        to center the image
