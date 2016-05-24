@@ -52,6 +52,16 @@
   Url                      = {http://www.ehx.com/products/voice-box}
 }
 
+@Misc{FlossManuals,
+  Title                    = {Oscillators},
+
+  Author                   = {FlossManuals.net},
+  HowPublished             = {http://en.flossmanuals.net/pure-data/ch018_oscillators/},
+
+  Timestamp                = {2016.05.24},
+  Url                      = {http://en.flossmanuals.net/pure-data/ch018_oscillators/}
+}
+
 @Misc{R,
   Title                    = {Introduction to R},
 
@@ -179,6 +189,16 @@
 
   Timestamp                = {2016.04.27},
   Url                      = {https://www.sparkfun.com/products/retired/11486}
+}
+
+@Book{Steiglitz,
+  Title                    = {A Digital Signal Processing Primer with Applications to Digital Audio and Computer Music},
+  Author                   = {Ken Steiglitz},
+  Publisher                = {Addison-Wesley},
+  Year                     = {1996},
+
+  Owner                    = {daniel},
+  Timestamp                = {2016.05.24}
 }
 
 @Misc{TC,
