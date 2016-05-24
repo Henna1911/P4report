@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.8)  24 MAY 2016 10:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.8)  24 MAY 2016 10:32
 entering extended mode
 **master.tex
 (master.tex
@@ -1819,110 +1819,188 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--151
 
 ]
 Chapter 4.
-) (sections/Implementation.tex [23] [24
 
-]
-Chapter 5.
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+LaTeX Warning: Reference `(' on page 23 undefined on input line 8.
+
+<figures/Sampling.png, id=557, 415.5525pt x 231.86626pt>
+File: figures/Sampling.png Graphic file (type png)
+
+<use figures/Sampling.png>
+Package pdftex.def Info: figures/Sampling.png used on input line 12.
+(pdftex.def)             Requested size: 415.55148pt x 231.86568pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 13.
+See the caption package documentation for explanation.
+
+
+Package natbib Warning: Citation `Steiglitz[pp. 44]' on page 23 undefined on in
+put line 13.
+
+
+Package natbib Warning: Citation `Steiglitz[pp. 44]' on page 23 undefined on in
+put line 13.
+
+
+Overfull \hbox (17.0pt too wide) in paragraph at lines 10--15
+[]$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--15
 
  []
 
-<figures/TapeHead.jpg, id=568, 300.52275pt x 224.037pt>
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+<figures/TapeHead.jpg, id=565, 300.52275pt x 224.037pt>
 File: figures/TapeHead.jpg Graphic file (type jpg)
 
 <use figures/TapeHead.jpg>
-Package pdftex.def Info: figures/TapeHead.jpg used on input line 15.
+Package pdftex.def Info: figures/TapeHead.jpg used on input line 24.
 (pdftex.def)             Requested size: 300.522pt x 224.03644pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 16.
+(caption)                particular \caption on input line 25.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 13--18
+Overfull \hbox (17.0pt too wide) in paragraph at lines 22--27
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--18
+Underfull \hbox (badness 10000) in paragraph at lines 22--27
 
  []
 
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 24--27
+[24 <./figures/Sampling.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 33--36
 
  []
 
-<figures/triad.jpg, id=579, 377.91188pt x 79.79813pt>
+<figures/triad.jpg, id=578, 377.91188pt x 79.79813pt>
 File: figures/triad.jpg Graphic file (type jpg)
  <use figures/triad.jpg>
-Package pdftex.def Info: figures/triad.jpg used on input line 30.
+Package pdftex.def Info: figures/triad.jpg used on input line 39.
 (pdftex.def)             Requested size: 377.91095pt x 79.79791pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 31.
+(caption)                particular \caption on input line 40.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 28--33
+Overfull \hbox (17.0pt too wide) in paragraph at lines 37--42
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--33
+Underfull \hbox (badness 10000) in paragraph at lines 37--42
 
  []
 
-[26 <./figures/TapeHead.jpg>]
+[25 <./figures/TapeHead.jpg>]) (sections/Implementation.tex [26 <./figures/tria
+d.jpg>]
+Chapter 5.
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 44.
+ine 13.
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--49
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
 
  []
 
-<figures/Imu_Glove_Schematic.png, id=592, 359.744pt x 494.648pt>
+<figures/Imu_Glove_Schematic.png, id=596, 359.744pt x 494.648pt>
 File: figures/Imu_Glove_Schematic.png Graphic file (type png)
 
 <use figures/Imu_Glove_Schematic.png>
-Package pdftex.def Info: figures/Imu_Glove_Schematic.png used on input line 52.
+Package pdftex.def Info: figures/Imu_Glove_Schematic.png used on input line 21.
 
 (pdftex.def)             Requested size: 359.74312pt x 494.64679pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 53.
+(caption)                particular \caption on input line 22.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 50--55
+Overfull \hbox (17.0pt too wide) in paragraph at lines 19--24
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--55
+Underfull \hbox (badness 10000) in paragraph at lines 19--24
 
  []
 
-[27 <./figures/triad.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 56--64
+[27
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 25--33
 
  []
 
 [28 <./figures/Imu_Glove_Schematic.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 66--68
+Underfull \hbox (badness 10000) in paragraph at lines 35--37
 
  []
 
-<figures/Pull_down_resistor.png, id=611, 239.89626pt x 356.33125pt>
+<figures/Pull_down_resistor.png, id=614, 239.89626pt x 356.33125pt>
 File: figures/Pull_down_resistor.png Graphic file (type png)
 
 <use figures/Pull_down_resistor.png>
-Package pdftex.def Info: figures/Pull_down_resistor.png used on input line 72.
+Package pdftex.def Info: figures/Pull_down_resistor.png used on input line 41.
 (pdftex.def)             Requested size: 167.92622pt x 249.43016pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 42.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (17.0pt too wide) in paragraph at lines 39--44
+[]$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--44
+
+ []
+
+
+LaTeX Warning: Reference `prototype' on page 29 undefined on input line 45.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--48
+
+ []
+
+[29 <./figures/Pull_down_resistor.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--68
+
+ []
+
+<figures/Ardunio_Index_Finger.png, id=627, 488.82625pt x 584.1825pt>
+File: figures/Ardunio_Index_Finger.png Graphic file (type png)
+
+<use figures/Ardunio_Index_Finger.png>
+Package pdftex.def Info: figures/Ardunio_Index_Finger.png used on input line 72
+.
+(pdftex.def)             Requested size: 244.41252pt x 292.09053pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -1939,90 +2017,109 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--75
 
  []
 
-
-LaTeX Warning: Reference `prototype' on page 29 undefined on input line 76.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--79
-
- []
-
-[29 <./figures/Pull_down_resistor.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--99
-
- []
-
-<figures/Ardunio_Index_Finger.png, id=624, 488.82625pt x 584.1825pt>
-File: figures/Ardunio_Index_Finger.png Graphic file (type png)
-
-<use figures/Ardunio_Index_Finger.png>
-Package pdftex.def Info: figures/Ardunio_Index_Finger.png used on input line 10
-3.
-(pdftex.def)             Requested size: 244.41252pt x 292.09053pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 104.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 101--106
-[]$[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--106
-
- []
-
 [30]
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
-<figures/Ardunio_else.png, id=634, 511.9125pt x 246.9225pt>
+<figures/Ardunio_else.png, id=637, 511.9125pt x 246.9225pt>
 File: figures/Ardunio_else.png Graphic file (type png)
 
 <use figures/Ardunio_else.png>
-Package pdftex.def Info: figures/Ardunio_else.png used on input line 113.
+Package pdftex.def Info: figures/Ardunio_else.png used on input line 82.
 (pdftex.def)             Requested size: 358.3363pt x 172.84456pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 114.
+(caption)                particular \caption on input line 83.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 111--116
+Overfull \hbox (17.0pt too wide) in paragraph at lines 80--85
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--116
+Underfull \hbox (badness 10000) in paragraph at lines 80--85
 
  []
 
 [31 <./figures/Ardunio_Index_Finger.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 120--122
+Underfull \hbox (badness 10000) in paragraph at lines 89--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--126
+Underfull \hbox (badness 10000) in paragraph at lines 92--95
 
  []
 
-<figures/PD_Main.png, id=642, 581.17125pt x 479.7925pt>
+<figures/PD_Main.png, id=645, 581.17125pt x 479.7925pt>
 File: figures/PD_Main.png Graphic file (type png)
 
 <use figures/PD_Main.png>
-Package pdftex.def Info: figures/PD_Main.png used on input line 129.
+Package pdftex.def Info: figures/PD_Main.png used on input line 98.
 (pdftex.def)             Requested size: 348.70544pt x 287.8777pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 99.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (17.0pt too wide) in paragraph at lines 96--101
+[]$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--101
+
+ []
+
+[32 <./figures/Ardunio_else.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 102--107
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--111
+
+ []
+
+[33 <./figures/PD_Main.png>]
+<figures/HarmPatch.png, id=662, 513.92pt x 346.29375pt>
+File: figures/HarmPatch.png Graphic file (type png)
+
+<use figures/HarmPatch.png>
+Package pdftex.def Info: figures/HarmPatch.png used on input line 118.
+(pdftex.def)             Requested size: 308.35437pt x 207.77785pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 119.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (17.0pt too wide) in paragraph at lines 116--121
+[]$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--121
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+
+ []
+
+<figures/Pitch_harm.png, id=664, 694.595pt x 636.3775pt>
+File: figures/Pitch_harm.png Graphic file (type png)
+
+<use figures/Pitch_harm.png>
+Package pdftex.def Info: figures/Pitch_harm.png used on input line 129.
+(pdftex.def)             Requested size: 486.21318pt x 445.46121pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -2039,109 +2136,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--132
 
  []
 
-[32 <./figures/Ardunio_else.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 133--138
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--142
-
- []
-
-[33 <./figures/PD_Main.png>]
-<figures/HarmPatch.png, id=659, 513.92pt x 346.29375pt>
-File: figures/HarmPatch.png Graphic file (type png)
-
-<use figures/HarmPatch.png>
-Package pdftex.def Info: figures/HarmPatch.png used on input line 149.
-(pdftex.def)             Requested size: 308.35437pt x 207.77785pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 150.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 147--152
-[]$[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--152
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--157
-
- []
-
-<figures/Pitch_harm.png, id=661, 694.595pt x 636.3775pt>
-File: figures/Pitch_harm.png Graphic file (type png)
-
-<use figures/Pitch_harm.png>
-Package pdftex.def Info: figures/Pitch_harm.png used on input line 160.
-(pdftex.def)             Requested size: 486.21318pt x 445.46121pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 161.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 158--163
-[]$[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 158--163
-
- []
-
 [34 <./figures/HarmPatch.png>]
-<figures/Pitch_pitch.png, id=674, 381.425pt x 160.6pt>
+<figures/Pitch_pitch.png, id=677, 381.425pt x 160.6pt>
 File: figures/Pitch_pitch.png Graphic file (type png)
 
 <use figures/Pitch_pitch.png>
-Package pdftex.def Info: figures/Pitch_pitch.png used on input line 169.
+Package pdftex.def Info: figures/Pitch_pitch.png used on input line 138.
 (pdftex.def)             Requested size: 266.99567pt x 112.41922pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 170.
+(caption)                particular \caption on input line 139.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 167--172
+Overfull \hbox (17.0pt too wide) in paragraph at lines 136--141
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--172
+Underfull \hbox (badness 10000) in paragraph at lines 136--141
 
  []
 
 [35 <./figures/Pitch_harm.png>]
-<figures/Pitch_Explained.png, id=683, 826.287pt x 756.426pt>
+<figures/Pitch_Explained.png, id=686, 826.287pt x 756.426pt>
 File: figures/Pitch_Explained.png Graphic file (type png)
 
 <use figures/Pitch_Explained.png>
-Package pdftex.def Info: figures/Pitch_Explained.png used on input line 177.
+Package pdftex.def Info: figures/Pitch_Explained.png used on input line 146.
 (pdftex.def)             Requested size: 578.39696pt x 529.49458pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 178.
+(caption)                particular \caption on input line 147.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 175--180
+Overfull \hbox (17.0pt too wide) in paragraph at lines 144--149
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--180
+Underfull \hbox (badness 10000) in paragraph at lines 144--149
 
  []
 
@@ -2154,114 +2191,119 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--14
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--34
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
 
 [39
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--45
+Underfull \hbox (badness 10000) in paragraph at lines 44--46
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--49
+Underfull \hbox (badness 10000) in paragraph at lines 47--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
 
-LaTeX Warning: Reference `Consent' on page 40 undefined on input line 68.
+LaTeX Warning: Reference `Consent' on page 40 undefined on input line 69.
 
 
-LaTeX Warning: Reference `Script' on page 40 undefined on input line 68.
+LaTeX Warning: Reference `Script' on page 40 undefined on input line 69.
 
 
-LaTeX Warning: Reference `ch:appB' on page 40 undefined on input line 68.
+LaTeX Warning: Reference `ch:appB' on page 40 undefined on input line 69.
 
 
-LaTeX Warning: Reference `Questionnaire' on page 40 undefined on input line 68.
+LaTeX Warning: Reference `Questionnaire' on page 40 undefined on input line 69.
 
 
-[40] <figures/Setup.png, id=721, 1339.0025pt x 752.8125pt>
+[40] <figures/Setup.png, id=724, 1339.0025pt x 752.8125pt>
 File: figures/Setup.png Graphic file (type png)
 
 <use figures/Setup.png>
-Package pdftex.def Info: figures/Setup.png used on input line 85.
+Package pdftex.def Info: figures/Setup.png used on input line 86.
 (pdftex.def)             Requested size: 535.59152pt x 301.11966pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 86.
+(caption)                particular \caption on input line 87.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 83--88
+Overfull \hbox (17.0pt too wide) in paragraph at lines 84--89
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--88
+Underfull \hbox (badness 10000) in paragraph at lines 84--89
 
  []
 
 [41]
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
 [42 <./figures/Setup.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
 
@@ -2414,18 +2456,8 @@ Appendix A.
 [53
 
 ] (sections/AppendixQResults.tex
-Overfull \hbox (20.3702pt too wide) in paragraph at lines 3--17
-[] 
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 3--17
 
- []
-
-
-Overfull \hbox (319.40909pt too wide) in paragraph at lines 18--32
-[][] 
  []
 
 
@@ -2433,28 +2465,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--32
 
  []
 
-))
-\tf@thm=\write6
 
-Overfull \hbox (902.73978pt too wide) in paragraph at lines 33--37
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--37
+Underfull \hbox (badness 10000) in paragraph at lines 33--47
 
  []
 
 [54
 
-]
+]))
+\tf@thm=\write6
+
+
+Package natbib Warning: There were undefined citations.
+
+[55]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 37.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 37.
  (master.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 37.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 37.
 Package rerunfilecheck Info: File `master.out' has not changed.
-(rerunfilecheck)             Checksum: 7475F36A94435D70F95F73C9BB2E0175;4306.
+(rerunfilecheck)             Checksum: AF4E4D3AE9E942C5070BFC9F9D2F9C98;4325.
 
 
 LaTeX Warning: There were undefined references.
@@ -2462,13 +2493,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 37.
  ) 
 Here is how much of TeX's memory you used:
- 22529 strings out of 493673
- 398777 string characters out of 3141534
- 490287 words of memory out of 3000000
- 25165 multiletter control sequences out of 15000+200000
+ 22539 strings out of 493673
+ 398945 string characters out of 3141534
+ 492287 words of memory out of 3000000
+ 25172 multiletter control sequences out of 15000+200000
  73617 words of font info for 53 fonts, out of 3000000 for 9000
  1030 hyphenation exceptions out of 8191
- 64i,14n,122p,1130b,714s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,14n,122p,1153b,714s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files (x86)/
 MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/
@@ -2487,9 +2518,9 @@ onts/type1/public/lm/lmri9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
 ublic/lm/lmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lm
 ssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on master.pdf (62 pages, 14031877 bytes).
+Output written on master.pdf (63 pages, 14061212 bytes).
 PDF statistics:
- 884 PDF objects out of 1000 (max. 8388607)
- 185 named destinations out of 1000 (max. 500000)
- 642 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 892 PDF objects out of 1000 (max. 8388607)
+ 187 named destinations out of 1000 (max. 500000)
+ 647 words of extra memory for PDF output out of 10000 (max. 10000000)
 

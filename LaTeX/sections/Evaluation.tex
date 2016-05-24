@@ -10,6 +10,7 @@ There were conducted two tests, an internal and a user test. This was done to te
 To test the accuracy of the prototype, an internal test was carried out. The following hypotheses have been stated for the internal test: \\
 
 H\textsubscript{0}: The prototype works less than 90\% of the time.\\
+
 H\textsubscript{A}: The prototype works more than or equal to 90\% of the time.\\
 
 The test consisted of the copper plates being connected 25 times each. First the index finger were tested with the thumb afterwards the middle finger with the thumb. Whenever the yellow light on the system lit up it was considered a success. If the light did not turn on it was considered a failure. The times it succeeded and failed were counted.\\
@@ -26,7 +27,7 @@ The results have been analysed statistically using R\citep{R}. R is a language u
 The results from the index finger connection test showed a p-value of:
 
 \begin{equation}
-	1.943*10^(-5)
+	1.943*10^{-5}
 \end{equation} 
 
 Whenever the p-value is less than the 0.05 significance level, a conclusion can be drawn from the test. In this case the H\textsubscript{0} is rejected for the index finger, since the test gave a probability of success of 0.92(92\%).
@@ -35,7 +36,7 @@ prototype worked at least 90\% of the time when connecting the index finger and 
 The results for the middle finger connection test showed a p-value of:
 
 \begin{equation}\label{Pval2}
-	5.96*10^(-8)
+	5.96*10^{-8}
 \end{equation} 
 
 The p-value lies below the 0.05 significance level, so a conclusion can be made. This means that this connection works at least 90\% of the time, and the H\textsubscript{0} is rejected for the middle finger also. \\
@@ -51,7 +52,7 @@ During the first tests, the system had a loose wire. The issue was fixed and the
 
 All the tests worked 25 out of 25 times. \\
 
-This gave a p-value equal to \ref{Pval2}, which is much less than the 0.05 significance level and a probability of success equal to 1(100\%) and therefore H\textsubscript{0} are rejected for all the tests.
+This gave a p-value equal to equation \ref{Pval2}, which is much less than the 0.05 significance level and a probability of success equal to 1(100\%) and therefore H\textsubscript{0} are rejected for all the tests.
 
 \section{User Test}
 When conducting this user test, it was the intention to get some data from the users about the different effects and gestures. 

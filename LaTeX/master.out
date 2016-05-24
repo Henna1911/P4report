@@ -37,14 +37,14 @@
 \BOOKMARK [1][-]{section.3.5}{3.5 Design Choices}{chapter.3}% 37
 \BOOKMARK [1][-]{section.3.6}{3.6 Conclusion}{chapter.3}% 38
 \BOOKMARK [0][-]{chapter.4}{4 Theory}{}% 39
-\BOOKMARK [0][-]{chapter.5}{5 Implementation}{}% 40
-\BOOKMARK [1][-]{section.5.1}{5.1 Theory}{chapter.5}% 41
-\BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 Pitch Shift}{section.5.1}% 42
-\BOOKMARK [2][-]{subsection.5.1.2}{5.1.2 Harmonise}{section.5.1}% 43
-\BOOKMARK [1][-]{section.5.2}{5.2 Making the Prototype}{chapter.5}% 44
-\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 Hardware}{section.5.2}% 45
-\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 Software}{section.5.2}% 46
-\BOOKMARK [1][-]{section.5.3}{5.3 Conclusion}{chapter.5}% 47
+\BOOKMARK [1][-]{subsection.4.0.1}{4.0.1 Sampling}{chapter.4}% 40
+\BOOKMARK [2][-]{subsection.4.0.2}{4.0.2 Pitch Shift}{subsection.4.0.1}% 41
+\BOOKMARK [2][-]{subsection.4.0.3}{4.0.3 Harmonise}{subsection.4.0.1}% 42
+\BOOKMARK [0][-]{chapter.5}{5 Implementation}{}% 43
+\BOOKMARK [1][-]{section.5.1}{5.1 Making the Prototype}{chapter.5}% 44
+\BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 Hardware}{section.5.1}% 45
+\BOOKMARK [2][-]{subsection.5.1.2}{5.1.2 Software}{section.5.1}% 46
+\BOOKMARK [1][-]{section.5.2}{5.2 Conclusion}{chapter.5}% 47
 \BOOKMARK [0][-]{chapter.6}{6 Evaluation}{}% 48
 \BOOKMARK [1][-]{section.6.1}{6.1 Internal Test}{chapter.6}% 49
 \BOOKMARK [1][-]{section.6.2}{6.2 User Test}{chapter.6}% 50
