@@ -15,7 +15,7 @@
 \BOOKMARK [2][-]{subsection.2.1.5}{2.1.5 Vocoder}{section.2.1}% 15
 \BOOKMARK [2][-]{subsection.2.1.6}{2.1.6 Discussion}{section.2.1}% 16
 \BOOKMARK [1][-]{section.2.2}{2.2 State of the Art}{chapter.2}% 17
-\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 TC Helicon Perform V}{section.2.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 TC-Helicon's Perform V}{section.2.2}% 18
 \BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 Electro Harmonix Voice Box}{section.2.2}% 19
 \BOOKMARK [2][-]{subsection.2.2.3}{2.2.3 Mi.Mu Gloves}{section.2.2}% 20
 \BOOKMARK [2][-]{subsection.2.2.4}{2.2.4 HandySinger: Expressive Singing Voice Morphing using Personified Hand-puppet Interface}{section.2.2}% 21
@@ -37,9 +37,9 @@
 \BOOKMARK [1][-]{section.3.5}{3.5 Design Choices}{chapter.3}% 37
 \BOOKMARK [1][-]{section.3.6}{3.6 Conclusion}{chapter.3}% 38
 \BOOKMARK [0][-]{chapter.4}{4 Theory}{}% 39
-\BOOKMARK [1][-]{subsection.4.0.1}{4.0.1 Sampling}{chapter.4}% 40
-\BOOKMARK [2][-]{subsection.4.0.2}{4.0.2 Pitch Shift}{subsection.4.0.1}% 41
-\BOOKMARK [2][-]{subsection.4.0.3}{4.0.3 Harmonise}{subsection.4.0.1}% 42
+\BOOKMARK [1][-]{section.4.1}{4.1 Sampling}{chapter.4}% 40
+\BOOKMARK [1][-]{section.4.2}{4.2 Pitch Shift}{chapter.4}% 41
+\BOOKMARK [1][-]{section.4.3}{4.3 Harmonise}{chapter.4}% 42
 \BOOKMARK [0][-]{chapter.5}{5 Implementation}{}% 43
 \BOOKMARK [1][-]{section.5.1}{5.1 Making the Prototype}{chapter.5}% 44
 \BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 Hardware}{section.5.1}% 45
@@ -57,7 +57,7 @@
 \BOOKMARK [1][-]{section.7.2}{7.2 Validity and Reliability}{chapter.7}% 57
 \BOOKMARK [1][-]{section.7.3}{7.3 Further Development}{chapter.7}% 58
 \BOOKMARK [0][-]{chapter.8}{8 Conclusion}{}% 59
-\BOOKMARK [0][-]{chapter*.9}{Bibliography}{}% 60
+\BOOKMARK [0][-]{chapter*.5}{Bibliography}{}% 60
 \BOOKMARK [0][-]{appendix.A}{A Appendix}{}% 61
 \BOOKMARK [1][-]{section.A.1}{A.1 Script}{appendix.A}% 62
 \BOOKMARK [1][-]{section.A.2}{A.2 Consent Form}{appendix.A}% 63

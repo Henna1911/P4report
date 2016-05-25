@@ -66,6 +66,11 @@ V.~Kaptelinin, ``Affordances.''
 AudioFanzine, ``Ax 301 synthesizer amplifier.''
   http://en.audiofanzine.com/keyboard-amplifier/moog-music/ax-301-synthesizer-amplifier/medias/.
 
+\bibitem{Steiglitz}
+K.~Steiglitz, {\em A Digital Signal Processing Primer with Applications to
+  Digital Audio and Computer Music}.
+\newblock Addison-Wesley, 1996.
+
 \bibitem{Harmonise02}
 ``Music theory: Harmony part one (basics).''
   https://www.mymusicmasterclass.com/blog/music-theory-and-composition-basics-pt-1/.
@@ -98,6 +103,10 @@ Arduino.cc, ``Frequently asked questions.'' http://www.arduino.cc/en/main/faq.
 
 \bibitem{PD_Info}
 PureData.info, ``Pure data.'' https://puredata.info/.
+
+\bibitem{Puckette_2006}
+M.~Puckette, ``Pitch shifter.''
+  http://msp.ucsd.edu/techniques/v0.11/book-html/node125.html, 2006.
 
 \bibitem{FlossManuals}
 FlossManuals.net, ``Oscillators.''
