@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{Tyrangiel_2009}
+J.~Tyrangiel, ``Singer's little helper.''
+  http://web.a.ebscohost.com/ehost/detail/detail?sid=d06a0fe3-92e7-46d8-92b4-c3646f32137c\%40sessionmgr4002\&vid=0\&hid=4112\&bdata=JnNpdGU9ZWhvc3QtbGl2ZQ\%3d\%3d\#AN=36432961\&db=buh,
+  February 2009.
+
 \bibitem{Loeffler_2014}
 C.~Loeffler, ``A brief history of time-based effects (part 1).''
   http://www.harmonycentral.com/articles/exploring-time-based-effects,
@@ -61,15 +66,6 @@ V.~Kaptelinin, ``Affordances.''
 AudioFanzine, ``Ax 301 synthesizer amplifier.''
   http://en.audiofanzine.com/keyboard-amplifier/moog-music/ax-301-synthesizer-amplifier/medias/.
 
-\bibitem{FlossManuals}
-FlossManuals.net, ``Oscillators.''
-  http://en.flossmanuals.net/pure-data/ch018\_oscillators/.
-
-\bibitem{Sawtooth}
-``Sawtooth wave generator.''
-  http://vhdlguru.blogspot.dk/2015/04/sawtooth-wave-generator-in-vhdl.html,
-  April 2015.
-
 \bibitem{Harmonise02}
 ``Music theory: Harmony part one (basics).''
   https://www.mymusicmasterclass.com/blog/music-theory-and-composition-basics-pt-1/.
@@ -102,6 +98,15 @@ Arduino.cc, ``Frequently asked questions.'' http://www.arduino.cc/en/main/faq.
 
 \bibitem{PD_Info}
 PureData.info, ``Pure data.'' https://puredata.info/.
+
+\bibitem{FlossManuals}
+FlossManuals.net, ``Oscillators.''
+  http://en.flossmanuals.net/pure-data/ch018\_oscillators/.
+
+\bibitem{Sawtooth}
+``Sawtooth wave generator.''
+  http://vhdlguru.blogspot.dk/2015/04/sawtooth-wave-generator-in-vhdl.html,
+  April 2015.
 
 \bibitem{R}
 T.~R. Foundation, ``Introduction to r.'' https://www.r-project.org/about.html.
