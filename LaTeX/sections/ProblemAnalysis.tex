@@ -1,5 +1,5 @@
 \chapter{Problem Analysis}
-This chapter focuses on the research necessary for the basic understanding of the subject. The focus lies on answering the following research questions:
+This chapter focuses on the research necessary for basic understanding of the subject. The focus lies on answering the following research questions:
 
 \begin{itemize}
 	\item What are the most common voice effects?
@@ -10,70 +10,81 @@ This chapter focuses on the research necessary for the basic understanding of th
 	\item Which gesture should be used with which effect, and how?
 \end{itemize}
 
-The research will include a short description of effects that could be applied by the system, the current state of the art within the field, and some theory behind the use of gestures.
+The research will include a short description of effects that could be applied by a prototype, the current state of the art within the field, and theory behind the use of gestures.
 
 \section{Effects}
-Many voice effects exist today. Some effects are used by singers and some are used by other performers. The effects can be really subtle, or really noticeable.
-In this section, there will be short descriptions of some common effects.
+Many voice effects exist today. Some effects are used by singers and some are used by other performers. The effects can be subtle or stand out. In this section there are short descriptions of some common effects.
 
 
 \subsection{Delay}
 
-A delay effect creates a repetition of the original sound after a period of time\citep{Loeffler_2014}. By using the delay effect, it is possible to simulate the sound of the echo created when yelling into a cave or over a canyon, which some people may find desirable to use in their song. 
+A delay effect creates a repetition of the original sound after a period of time\citep{Loeffler_2014}. By using the delay effect it is possible to simulate the sound of the echo created when yelling into a cave or over a canyon. Some people may find this desirable to use in their performance. 
 
 \subsection{Reverberation}
 
-When sound reflects off surfaces in a confined space, its called natural reverberation\citep{Redmon_1997}. Reverberation like this works best when the sound hits hard surfaces. For example, the sound effect that comes when you sing or yell in a church, is reverberation. The sound bounces all around the church's hard walls.
-Digitally, the way to simulate reverberation is to use a multitude of delays and feedback. This then creates a series of echoes that then slowly decays. 
-If the amount of reverberation is small, it can simulate singing in a small or medium sized room, even though the voice input has no natural reverbaration. If the amount of reverberation is big, it can make the voice sound like singing in a church, even though you are not in a church. This can make a person's voice sound "big".
+When sound reflects off surfaces in a confined space it is called natural reverberation\citep{Redmon_1997} commonly referred to as reverb. Reverberation like this works best when the sound hits hard surfaces. For example, the sound effect that is heard when you sing or yell in a church, is reverberation. 
+
+Digitally, the way to simulate reverberation is to use a multitude of delays and feedback. This then creates a series of echoes that then slowly decay. 
+
+If the amount of reverberation is small, it can be used to simulate singing in a small or medium sized room, even though the voice input has no natural reverberation. If the amount of reverberation is big, it can make the voice sound like singing you are in a church. This can make a person's voice sound "big".
 
 \subsection{Pitch Shift}
 
-The frequency of a harmonic sound is called its pitch\citep{Katjaas_00}. By shifting the pitch, the sound will effectively become deeper or higher. An example of this is the voice that anonymous people get when they want to hide their voice, this is a lowered pitch. Another example is the “chipmunk voice”, which is achieved through a raised pitch.
-Pitch shifting can be done by using the "phase vocoder", which is a digital signal processing technique\citep{dolson}. The phase vocoder works by analysis and synthesis. The analysis part takes the signal, and models it as a sine wave in which one can find the amplitude, phase, and frequency of the sine wave. In the synthesis part, one can manipulate these parameters. 
-The phase vocoder can do many things, e.g. change the pitch of a sound without changing the duration of the sound - make a sound deeper or higher in real time. 
-People use pitchshifting to make their voice deeper or higher. People want to make their voice deeper to e.g. simulate a bass guitar, and make their voice higher to achieve e.g. a "chipmunk" voice.
+The frequency of a harmonic sound is called its pitch\citep{Katjaas_00}. By shifting the pitch, the sound will effectively become deeper or higher. An example of this is when a lowered pitch applies a deeper voice to anonymous people when they want to hide their voice. Another example is the "chipmunk voice" which is achieved through a raised pitch.
 
-Pitch shifting is also used to create the harmonizer effect. It takes the input voice and shifts its pitch a certain amount (in relation to half tones), and then adds it as an additional voice. This can effectively simulate a choir.
+Pitch shifting can be done by using a phase vocoder which is a digital signal processing technique\citep{dolson}. The phase vocoder works by analysis and synthesis, where the analysis takes the signal and models it as a sine wave in which one can find the amplitude, phase, and frequency of the sine wave. In the synthesis one can manipulate these parameters. 
+
+The phase vocoder has many uses, e.g. change the pitch of a sound without changing the duration of the sound which means it can make a sound deeper or higher in real-time. 
+
+Pitch shifting is also used to create the harmonizer effect. It takes the input voice and shifts its pitch a certain amount in relation to half tones, and then adds it as an additional voice. This can effectively simulate a choir.
 
 \subsection{Auto-Tune}
 
-The Auto-tune effect corrects a singer's voice to the correct tone\citep{Hadhazy_2010}. This can be really subtle or plainly obvious. 
-The user just needs to choose a reference of scales or tones and the amount of correction that needs to be made, and then the Auto-tune will make the proper adjustments.
+The auto-tune effect corrects a singer's voice to the correct tone\citep{Hadhazy_2010}. This can be really subtle or plainly obvious. 
+
+The user just needs to choose a reference of scales or tones and the amount of correction that needs to be made, and then the auto-tune will make the proper adjustments.
 
 \subsection{Vocoder}
 
-The Vocoder effect combines a performer's voice with another sound - that could be the sound from an instrument or a synthesizer\citep{Vocoder_00}. 
-The effect can make the voice sound like a robot. The vocoder needs two inputs, the voice and e.g. an instrument. The fundamental frequencies of the voice are converted to levels of amplitude on a series of band pass filters, which then are passed through the instrument sound.
+The vocoder effect combines a performer's voice with another sound which could be the sound from an instrument or a synthesizer\citep{Vocoder_00}. 
+
+The effect can make the voice sound like a robot. 
+
+The vocoder needs two inputs, the voice and an instrument. The fundamental frequencies of the voice are converted to levels of amplitude through a series of band pass filters, which are then passed through the secondary sound, which could be an instrument.
 
 \subsection{Discussion}
 
-Changing effect parameters can benefit some effects, but not all. In a regular reverb effect, one can change the amount of reverb to be added, add high or low-pass filters. Changing reverb parameters would probably be too subtle for the untrained to notice.
-The delay effect has the parameters: amount of feedback, length of delay, and some kind of filter. The amount of feedback and length of delay are parameters to consider, since it would be easy to hear a difference in. 
-Pitch shifting is also a good effect to change parameters in, in this effect it would be to change between high and low pitch. The harmoniser uses multiple pitch shifters, but the parameters one could change would be the amount of harmonise effect, and degree of pitch shift (how many halfsteps to pitch shift). The harmoniser is also a good effect, since it is also easy to hear a difference in.    
-The vocoder effect's parameters would be the amount of effect, but since it needs a instrument and voice input, it is not an effect to consider. 
-The autotune effect's parameters are amount of correction, and which tones it corrects to. This effect could be considered because it will also be possible to hear a difference in. 
+Changing effect parameters can benefit some effects but not all. In a regular reverb effect one can change the amount of reverb by adding high or low-pass filters. Changing reverb parameters would probably be too subtle for the untrained to notice.
+
+The delay effect has the parameters: amount of feedback, length of delay, and a filter. The amount of feedback and length of delay are parameters to consider, since it would be easy to hear a difference. 
+
+Pitch shifting is also a good effect for chaging parameters. Here it would be to raising or lowering the pitch. The harmoniser uses multiple pitch shifters but the parameters one could change would be the amount of harmonise effect and degree of pitch shift (how many half steps to pitch shift). The harmoniser is also a good effect to manipulate, since it is easy to hear a difference in. 
+   
+The vocoder effect's parameters would be the amount of effect, but since it needs an instrument and a voice input it is not an effect to consider. 
+
+The auto-tune effect's parameter is the amount of correction and which tones it corrects to in real-time. This effect could be also considered useful because it will be possible to hear a difference in it. 
 
 
 \section{State of the Art}
 To gain understanding of what is possible, a study of the state of the art was conducted with the focus on commercial artefacts used for real-time alterations.
 
-\subsection{TC Helicon Perform V}
+\subsection{TC-Helicon's Perform V}
 
-The TC Helicon - Perform V is a vocal multi-effects processor that attaches to a microphone stand, as seen in figure \ref{tchelicon}\citep{TC}. It has three effect buttons, three preset buttons, a big knob, and other buttons. The effects are reverb, echo, “double” (harmonizer), equalizer, compressor, and many more. It is possible to download an application that can connect with the Perform V. The application has many pre-made sounds, and it has a wireless connection. \\
+The TC-Helicon's Perform V is a vocal multi-effect processor that can be attached to a microphone stand as seen in figure \ref{tchelicon}\citep{TC}. It has three effect buttons, three preset buttons, a big knob and other buttons. The effects are reverb, echo, "double" which is a harmoniser, equaliser, compressor and several others. It is possible to download an application that can connect with the Perform V. The application offers many pre-made sounds and it has a wireless connection. \\
 
 \begin{minipage}{\linewidth}% to keep image and caption on one page
 \makebox[\linewidth]{%        to center the image
 \includegraphics[keepaspectratio=true,scale=0.4]{tchelicon}}
-\captionof{figure}{TC Helicon Perform V\citep{TC}}\label{tchelicon}
+\captionof{figure}{TC-Helicon's Perform V\citep{TC}}\label{tchelicon}
 \end{minipage}\\
 
-The Perform V is good for live performing if the singer has the processor in front of them, on the microphone stand. Preset buttons make it easy to change effect quickly. 
-If the singer plays an instrument, it is probably difficult to change effects without interrupting the instrument playing. Another downside is that the singer is limited to only three presets, and only one knob to turn.
+The Perform V is good for live performing if the singer has the processor in front of them on the microphone stand. The preset buttons make it easy to change effect quickly. 
+
+If the singer plays an instrument, it will be difficult to change effects without interrupting the playing of the instrument. Another downside is that the singer is limited to only three presets and only one knob to turn.
 
 \subsection{Electro Harmonix Voice Box}
 
-The Electro Harmonix Voice Box is a more advanced processor than the TC Helicon\citep{VoiceBox}. It has six knobs: blend, two reverb knobs, “gender bender”, voice mix, and “Mode”, as seen in figure \ref{voice_box}. It has nine different modes, which includes different kinds of harmonies, unison-whistle, and a vocoder, which the TC Helicon does not have.\\
+The Electro Harmonix Voice Box is a more advanced processor than the TC-Helicon\citep{VoiceBox}. It has six knobs: blend, two reverb knobs, "gender bender", voice mix and "Mode" as seen in figure \ref{voice_box}. It has nine different modes, which include different kinds of harmonies, unison-whistle and a vocoder, which the TC-Helicon does not have.\\
 
 \begin{minipage}{\linewidth}% to keep image and caption on one page
 \makebox[\linewidth]{%        to center the image
@@ -81,11 +92,11 @@ The Electro Harmonix Voice Box is a more advanced processor than the TC Helicon\
 \captionof{figure}{Electro Harmonix Voice Box\citep{VoiceBox}}\label{voice_box}
 \end{minipage}\\
 
-The Voice Box has to be on a flat surface, like the floor or a table and is most often used as a pedal. It is possible to insert an instrument into the pedal, so it can be used for the vocoder. The Voice Box has many effects and knobs - this can make changing effects and effect parameters difficult, even more if the pedal is on the floor.
+The Voice Box has to be on a flat surface and is most often used as a pedal. It is possible to insert an instrument into the pedal, so it can be used for the vocoder. The Voice Box has a variety of effects and knobs - this can make changing effects and effect parameters difficult, even more if the pedal is on the floor.
 
 \subsection{Mi.Mu Gloves}
 
-The Mi.Mu Gloves are gloves made for making music, and controlling sound\citep{Mimu}. They are made by scientists, musicians, and artists, and have been in development since 2010. They are wearable, and can be used by one or both hands, see figure \ref{mimu}. The gloves have been through many iterations, and they are open source. The gloves use gestures, hand and finger movement, finger placement, and other features to control sounds and effects. The hardware includes an ArduImu, flex/bend sensors, accelerometer, gyroscope, haptic motors, LED's, Wi-Fi compatibility, and provides other capabilities.\\
+The Mi.Mu Gloves are gloves made for making music and controlling sound\citep{Mimu}. They were created by scientists, musicians and artists and have been in development since 2010. They are wearable and can be used by one or both hands, see figure \ref{mimu}. The gloves have been through many iterations, and the software of the gloves is open source which means it is free to use. The gloves use gestures, hand and finger movement, finger placement and other features to control sounds and effects. The hardware includes an ArduImu, flex/bend sensors, accelerometer, gyroscope, haptic motors, LED's, Wi-Fi compatibility and provides other capabilities.\\
 
 \begin{minipage}{\linewidth}% to keep image and caption on one page
 \makebox[\linewidth]{%        to center the image
@@ -93,12 +104,13 @@ The Mi.Mu Gloves are gloves made for making music, and controlling sound\citep{M
 \captionof{figure}{Mi.Mu Gloves\citep{Mimu}}\label{mimu}
 \end{minipage}\\
 
-The gloves are bluetooth or Wi-Fi connected, so the person using the gloves are free to move around, and does not have to worry about wires. They are also battery powered. 
-Since the gloves are open source, you can make your own - many different gloves exist - some are simple, and some are complex.
+The gloves are bluetooth or Wi-Fi connected, so the person using the gloves are free to move around and does not have to worry about wires. They are also battery powered. 
+
+Since the gloves are open source, everyone can customise them to their own preferences and needs which results in both simple versions and complex.
 
 \subsection{HandySinger: Expressive Singing Voice Morphing using Personified Hand-puppet Interface}
 
-Yonezawa et al. made a glove that controls voice effects \citep{Yonezawa_2005}. The wearer of the glove controls a puppet and and makes hand gestures, see figure \ref{puppet1}. \\
+In this study Yonezawa et al. made a glove that controls voice effects \citep{Yonezawa_2005}. The wearer of the glove controls a puppet and makes hand gestures as seen in figure \ref{puppet1}. \\
 
 \begin{minipage}{\linewidth}% to keep image and caption on one page
 \makebox[\linewidth]{%        to center the image
@@ -106,7 +118,7 @@ Yonezawa et al. made a glove that controls voice effects \citep{Yonezawa_2005}. 
 \captionof{figure}{HandySinger Glove \citep{Yonezawa_2005}}\label{puppet1}
 \end{minipage}\\
 
-They believe that using a puppet interface will increase the expressiveness of the user’s singing voice. The glove itself has seven bend sensors, and two pressure sensors, see figure \ref{puppet2}. \\
+They believe that using a puppet interface will increase the expressiveness of the user's singing voice. The glove itself has seven bend sensors and two pressure sensors, as seen in figure \ref{puppet2}. \\
 
 \begin{minipage}{\linewidth}% to keep image and caption on one page
 \makebox[\linewidth]{%        to center the image
@@ -114,11 +126,12 @@ They believe that using a puppet interface will increase the expressiveness of t
 \captionof{figure}{HandySinger Glove sensors \citep{Yonezawa_2005}}\label{puppet2}
 \end{minipage}\\
 
-The glove measures both forward bend and backwards bend. The gestures that the users can make are: bend back clasp, drooping, stretching, and bend back. The parameters that the gestures change are: “dark”, “whisper”, “wet”, and volume. Yonezawa et al. found that users with small hands had trouble using the glove effectively. Nevertheless, they confirmed it was easy to gesture with the hand-puppet and that the gestures reflect the voice expression changes.
+The glove measures both forward bend and backwards bend. The gestures that the glove recognises are: bend back clasp, drooping, stretching, and bend back. The parameters that the gestures change are: "dark", "whisper", "wet" and volume. Yonezawa et al. found that users with small hands had trouble using the glove effectively. Nevertheless, they confirmed it was easy to gesture with the hand-puppet and that the gestures reflect the voice expression changes.
 
 \subsection{The 'One-Person Choir': A Multidisciplinary Approach to the Development of an Embodied Human-Computer Interface}
-The study by, Maes et al. \citep{Maes_2011} utilises body gesture to enhance a singer's voice. The system is a human-computer interface that use gestural control for harmonising a singing voice. The system is operating in real-time, which means it is possible to use it during live performances. The system can be seen in use in the figure\ref{One_Person_Choir}. The system uses pre-configured models to control the harmonisation, and the singer can eventually use this to enhance his or her singing voice. 
-During their research, they found that gesture control is a big part of singing, which also helps the perception of the singing. The movement of the upper body is the primary gesture used in the system which means that the singer has sensors attached to the upper body.\\
+The study by Maes et al. \citep{Maes_2011} utilises body gestures to enhance a singer's voice. The system is a human-computer interface that uses gestural control for harmonising a singing voice. The system is operating in real-time, which means it is possible to use it during live performances. The system can be seen in use in the figure \ref{One_Person_Choir}. The system uses pre-configured models to control the harmonisation, and the singer can eventually use this to enhance his or her singing voice. 
+
+During their research they found that gesture control is a big part of singing, which also helps the perception of the singing. The movement of the upper body is the primary gesture used in the system which means that the singer has sensors attached to the upper body.\\
 
 \begin{minipage}{\linewidth}% to keep image and caption on one page
 \makebox[\linewidth]{%        to center the image
@@ -128,15 +141,16 @@ During their research, they found that gesture control is a big part of singing,
 
 \subsection{Discussion}
 
-Researching the state of the art has shown, that there exist different kinds of products that all are able to manipulate a performer's voice. There exist many different pedals, like the Electro Harmonix Voice Box, that can change effects, but such pedals has to be on the ground out of reach\citep{VoiceBox}. The Voice Box has many effects and knobs, but this means it might be difficult to change  effects and effect parameters quickly, because there are so many. On the other hand there is the TC Helicon Perform V, which enables voice manipulation from an easier to reach point - the microphone stand\citep{TC}. The Perform V has few, but big buttons and a big knob to turn, and this means the singer can change effects faster than the Voice Box. In order to change effects in both effect units, one has to look at the effect unit and find the buttons and knobs to turn, in order to change effect or effect parameter. 
-The Mi.Mu gloves shows how it is possible to enable a performer to manipulate a voice and create different sounds, while moving around freely\citep{Mimu}. Studies by Yonezawa et al. and Maes et al. shows that gesture control is a big part of singing\citep{Yonezawa_2005}\citep{Maes_2011}. Combining gesture control with the concept of the Mi.Mu glove could be interesting.
+The research of the state of the art has shown that there exist different kinds of products that all are able to manipulate a performer's voice. Many different pedals  that can change effects exist, like the Electro Harmonix Voice Box, but such pedals often have to be on the ground out of reach\citep{VoiceBox}. The Voice Box has many effects and knobs, but this means it might be difficult to change effects and effect parameters quickly. On the other hand there is the TC-Helicon's Perform V, which enables voice manipulation from an easier to reach point - the microphone stand\citep{TC}. The Perform V has few, but big buttons and a big knob to turn, and this means the singer can change effects faster than with the Voice Box. Both units require the performer to look and spend attention on the interface in order to apply effects.
+
+The Mi.Mu gloves allow a performer to manipulate a voice and create different sounds while moving around freely\citep{Mimu}. Studies by Yonezawa et al. and Maes et al. show that gesture control is a big part of singing\citep{Yonezawa_2005}\citep{Maes_2011}. Combining gesture control with the concept of the Mi.Mu glove could be interesting.
 
 
 \section{Gestures}
 
-When designing a way to control effects, there are several ways to approach it. One of these ways is through hand gesture control.
+When designing a way to control effects there are several ways to approach it. One of these ways is through hand gesture control.
 
-There are three stages of a gesture: registration, continuation, and termination, as seen in figure \ref{Gestures}\citep[pp. 127-134]{Wigdor_2011}.\\
+There are three stages of a gesture: registration, continuation and termination, as seen in figure \ref{Gestures}\citep[pp. 127-134]{Wigdor_2011}.\\
 
 \begin{minipage}{\linewidth}% to keep image and caption on one page
 \makebox[\linewidth]{%        to center the image
@@ -144,47 +158,48 @@ There are three stages of a gesture: registration, continuation, and termination
 \captionof{figure}{Out of Range(OOR) and the three stages of gestural input \citep[pp. 127]{Wigdor_2011}}\label{Gestures}
 \end{minipage}\\
 
-The registration stage is when the system registers that the user would want to perform a gestural input, e.g. when you place your finger(s) on a touch display. 
+The registration stage is when the system registers that the user wants to perform a gestural input, e.g. when you place your finger(s) on a touch display. 
 
-The next stage is continuation. In this stage, the user uses movement to adjust the parameters of the gesture, e.g. when you move two fingers away from each other in order to zoom, on a touch display.
+The next stage is continuation. In this stage, the user uses movement to adjust the parameters of the gesture, e.g. when you move two fingers away from each other in order to zoom on a touch display.
 
 The final stage is termination, where the user simply ends the gesture, e.g. by lifting their finger(s) from a touch display.
 
-In some cases the continuation stage can be skipped. Whether or not it is a good idea to skip this stage is decided by whether they want the gesture to be able to change the parameters or not, e.g. a zoom that does not have one set amount of zoom, but rather it is specified by how much you move your fingers. By removing the continuation stage, it also removes the possibility to differentiate between a lot of gestures. \\
+In some cases the continuation stage can be skipped. Whether or not it is a good idea to skip this stage is decided by if they want the gesture to be able to change the parameters or not. An example is a zoom that does not have one set amount of zoom, but rather it is specified by how much you move your fingers. By removing the continuation stage the possibility to differentiate between a lot of gestures is removed. \\
 
-A good thing to do, when choosing a gesture for a specific action, is to keep it as unambiguous as possible. This helps reduce future errors. This being said, it is also important to minimise the amount of steps the user has to go through for the gesture.
+A good thing to do when choosing a gesture for a specific action, is to keep it as unambiguous as possible to help reduce future errors. This being said, it is also important to minimise the amount of steps the user has to go through to perform the gesture.
 
 While the previously mentioned 'zoom' gesture is a rather good example of a gesture used to change parameters, a bad example of such a gesture would be the use of the 'flick' action to execute a gesture. The 'flick' action is when you execute an action by 'flicking' an object to e.g. delete it. The bad thing about this is that it implements no way to change the parameters dynamically. Another bad thing about it is that one has to specify a border between the action of simply moving something across the screen and 'flicking' something on the screen.
 
 \subsection{Discussion}
 
-The desire of this project is to not only apply effects, but also be able to change the parameters dynamically during a performance. With this in mind, it is a requirement to include all three stages to make a fitting gesture for the different effects, since including the continuation stage is the only way to make this possible.
+The desire of this project is to not only apply effects, but also to be able to change the parameters dynamically during a performance. With this in mind, it is a requirement to include all three stages to make a fitting gesture for the different effects, since including the continuation stage is the only way to make this possible.
 
 
 \section{Conclusion}
 
-There are numerous sound effects each unique in the way that it works and is applied, so understanding them is important as each of them has different limitations or applications in a real-time setting.
-By going through each of them and learning about them, the effects most relevant to the purpose of the project was picked and described.\\
+There are numerous sound effects each one unique in the way it works and is applied, so understanding their limitations or applications in a real-time setting is important.
 
-From the state of the art it can be seen that extensive effort has been put into creating many different devices of varying complexity and limitations. In design most of them vary between a glove and a plug in device, those design differences also provide different accessibility while performing.
-Additionally, the state of the art provided information about which voice effects professional singers would usually like to adjust and how.\\
+By going through each of them and learning about them, the effects most relevant to the purpose of this project were picked and described.\\
 
-Finally, by researching what a proper gestural input should consist of and how it should be performed, it was discovered that there are several stages to a gesture, and some of the stages are more important than others, depending on the purpose of your gesture.
-Furthermore, when looking at the previous state of the art examples, it can be concluded that two of the most common gestures for a singer to apply an effect and change its parameters, is by pushing a button and to turn a knob, as can be seen in figures \ref{tchelicon} and \ref{voice_box}.
+From the state of the art it can be seen that extensive effort has been put into creating many different devices of varying complexity and limitations. Most of their designs vary between a glove and a plug in device. Those design differences also provide different accessibility while performing.
+
+Furthermore, by researching what a proper gestural input should consist of and how it should be performed, it was discovered that there are several stages to a gesture, and some of the stages are more important than others depending on the purpose of the gesture.
+
+Finally, when looking at the previous state of the art examples, it can be concluded that two of the most common gestures for a singer to use to apply an effect or change its parameters, is by pushing a button or turning a knob, as can be seen in figures \ref{tchelicon} and \ref{voice_box}.
 
 \section{Problem Statement}
 
-Based on the findings from the research a final problem statement has been made:\\
+Based on the findings from the research a final problem statement has been specified:\\
 
-\textit{How can one design and implement a wearable device with an intuitive interface that applies voice effects in real time using gestures, without the restraints of existing solutions?}
+\textit{How can one design and implement a wearable device with an intuitive interface that applies voice effects in real-time using gestures, without the restraints of existing solutions?}
 
 \subsection{Success Criteria}
 
 
-Based on the problem statement, some success critera has been made which are as follows: 
+Based on the problem statement, some success criteria were specified which are as follows: 
 
 \begin{itemize}
-	\item The system should have at least two effects
+	\item The system has at least two effects
 	\item Users use the correct gestures to change the effects
 	\item The system performs the correct effect corresponding to the gesture, meaning it does not misinterpret 
 \end{itemize}
@@ -193,13 +208,12 @@ The system should have at least two effects to make it possible to test differen
 
 \subsection{Minimum Implementation Requirements}
 
-The following describes the minimum implementation, which are needed for the prototype to be testable. These are specified by us. 
-The minimum requirements are as follows:
+The following describes the minimum implementations, which are needed for the prototype to be testable. These are specified by the authors of this project. The minimum requirements are as follows:
 
 \begin{itemize}
 	\item The system must implement the use of an Arduino
 	\item The system must implement at least one sensor applicable to the Arduino
 	\item The system must implement audio processing
 	\item The system must be implemented using the Arduino software and PD Extended
-	\item The system must get audio from a microphone
+	\item The system must use audio from a microphone
 \end{itemize}
