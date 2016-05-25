@@ -210,6 +210,17 @@
   Url                      = {http://www.tc-helicon.com/en/products/perform-v/}
 }
 
+@Misc{Tyrangiel_2009,
+  Title                    = {Singer's Little Helper},
+
+  Author                   = {Josh Tyrangiel},
+  HowPublished             = {http://web.a.ebscohost.com/ehost/detail/detail?sid=d06a0fe3-92e7-46d8-92b4-c3646f32137c\%40sessionmgr4002\&vid=0\&hid=4112\&bdata=JnNpdGU9ZWhvc3QtbGl2ZQ\%3d\%3d\#AN=36432961\&db=buh},
+  Month                    = {February},
+  Year                     = {2009},
+
+  Url                      = {http://web.a.ebscohost.com/ehost/detail/detail?sid=d06a0fe3-92e7-46d8-92b4-c3646f32137c%40sessionmgr4002&vid=0&hid=4112&bdata=JnNpdGU9ZWhvc3QtbGl2ZQ%3d%3d#AN=36432961&db=buh}
+}
+
 @Misc{Wigdor_2011,
   Title                    = {Brave NUI World},
 

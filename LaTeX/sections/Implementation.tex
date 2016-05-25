@@ -10,7 +10,8 @@ This section describes the hardware for the system and how it was made into a wo
 
 The prototype consists of an Arduino Mega 2560\citep{Arduino}, with a connection to a circuit board with an inertial measurement unit(IMU). 
 The IMU uses the MPU 9150 sensor with 9 degrees of freedom\citep{MPU}. It has a tri-axis gyroscope, magnetometer, and accelerometer.
-\todo{Write about Gyroscope and why we use fingers}
+
+In this project, the gyroscope is the only one that is being used. It takes data from the sensor, that is then calculated by the Arduino program and grants the rotation of the hand in both the x- y- and z-axes.
 
 The following figure \ref{schematic} shows the connection from the Arduino to the circuit board with the IMU. The black switch at the top of the circuit board
 represents the three connections, which are located on the thumb, index and middle finger. These are velcro based, with copper tape on them, to create the connection when pressed together. \\
@@ -123,7 +124,7 @@ Figure \ref{HarmPatch} illustrates the "HarmPatch" patch used for harmonising. A
 \captionof{figure}{The "HarmPatch" patch. The audio goes to four PitchShift patches, and are added together again after}\label{HarmPatch}
 \end{minipage}\\
 
-See figure \ref{Pitch_harm} for the Pitchshifting patch used in the harmoniser effect. The green rectangle receives a message, the half tone number, but must first convert it to a value that PD will use later. The conversion uses this equation (REF):
+See figure \ref{Pitch_harm} for the Pitchshifting patch used in the harmoniser effect. The green rectangle receives a message, the half tone number, but must first convert it to a value that PD will use later. The conversion uses this equation\citep{Puckette_2006}
 
 \[ 2^{h/12} = e^{0.05776*h} \] where h is the half tone number. E.g. three half tones would give the converted number 1.189. \\
 
