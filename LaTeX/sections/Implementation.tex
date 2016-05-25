@@ -141,34 +141,23 @@ the input from 0-2, where 1 is regular pitch, the slider data is either added or
 
 The red box in figure \ref{Pitch_expl} shows the conversion from halftone to pitch-shift value, as discussed earlier. 
 
-We find the delay by going through some steps. First, we find the difference between the "tape speed" and the original tape, e.g. 1.189-1 = 0.189. 
-Secondly, we multiply this number by -20. This is found by dividing the sample rate, 44100 Hz by the offset maximum, in this case 2205 samples,
-and it is negative because of the next part. The "phasor" object, which makes a sawtooth, takes the number we have just found as input, and gives its output to the two delays (read pointers). 
-
-A phasor generates a sawtooth, and compared to the sinusoid, which from -1 to 1, the sawtooth goes from 0 to 1 \citep{FlossManuals}. Normally, the sawtooth goes from low to high, and then abruptly to low again, see figure \ref{sawtoothPic}. Since our tape head speed is going faster than the tape, it will progressively go to zero. In order to make the phasor fit with the delay, it must be inverted, by making the input negative. It will go from high to low, and then to high again.   
-
 \begin{minipage}{\linewidth}% to keep image and caption on one page
 \makebox[\linewidth]{%        to center the image
-\includegraphics[keepaspectratio=true,scale=1]{sawtoothwave}}
-\captionof{figure}{A Sawtooth wave\citep{Sawtooth}}\label{sawtoothPic}
-\end{minipage}\\
-
-The output of the phasor goes four ways. It goes to two variabl edelays, "vd" objects, and two "cos" object. Before going to the vd-objects, one output is shifted half a cycle by adding 0.5. 
-
-
-
-The read pointer will at some point pass the write pointer, because of the delay. When this happens a click can be heard if audio from only one read point is played. To combat this the cos~ object is used which creates a smooth crossfade to the second read pointer.
-
-
-\begin{minipage}{\linewidth}% to keep image and caption on one page
-\makebox[\linewidth]{%        to center the image
-\includegraphics[keepaspectratio=true,scale=0.7]{Pitch_Explained}}
+\includegraphics[keepaspectratio=true,scale=0.6]{Pitch_Explained}}
 \captionof{figure}{The pitch patch}\label{Pitch_expl}
 \end{minipage}\\
 
-The "tapes" speed is 1 so to make the pitch shift, one of the read points scans the sound, delayed but at a faster rate than the "tape" is playing, so that the delay progressively goes to 0. To support this the sawtooth signal is inverted allowing for the delay to start at maximum values and to go to minimal values before resetting back to the maximum values. This is shown in the yellow box on figure \ref{Pitch_expl}. The green box on figure \ref{Pitch_expl} illustrates the read point objects, which each scan 20 frames of the signal per second, which means that each frame is 50 ms long.
-The blue box on figure \ref{Pitch_expl} shows the offset between read points created by the +~0.5, so that when one of them is at the maximal or minimal value the other one is in the middle.
-Finally, the black box on figure \ref{Pitch_expl} describes how the patch removes glitch objects. When one of the read pointers would reach maximum delay or 0, there would be an audible glitch if audio from only one of them is taken. To remove the glitch objects cos~ are used for the smooth crossfade between both read points. 
+We find the delay by going through some steps. First, we find the difference between the "tape speed" and the original tape, e.g. 1.189-1 = 0.189. 
+Secondly, we multiply this number by -20. This is found by dividing the sample rate, 44100 Hz by the offset maximum, in this case 2205 samples, see the yellow square in figure \ref{Pitch_expl}. The "phasor" object, which makes a sawtooth, takes the number we have just found as an input, and gives its output to the two delays (read pointers). 
 
-\section{Conclusion}
+A phasor generates a sawtooth, and compared to the sinusoid, which goes from -1 to 1, the sawtooth goes from 0 to 1\citep{FlossManuals}. Normally, the sawtooth goes from low to high, and then abruptly to low again, see figure \ref{sawtoothPic}. Since our tape head speed is going faster than the tape, it will progressively go to zero. In order to make the phasor fit with the delay, it must be inverted, by making the input negative. It will go from high to low, and then to high again. This is why the 20 is negative in the yellow box.   
 
+\begin{minipage}{\linewidth}% to keep image and caption on one page
+\makebox[\linewidth]{%        to center the image
+\includegraphics[keepaspectratio=true,scale=0.5]{sawtoothwave}}
+\captionof{figure}{A Sawtooth wave\citep{Sawtooth}}\label{sawtoothPic}
+\end{minipage}\\
+
+The output of the phasor goes three ways. It goes to two variable delays, "vd" objects, and two "cos" object. Before going to the "vd-" and "cos-" object on the right side of the figure\ref{Pitch_expl}, one output is shifted half a cycle by adding 0.5. In order to shift it back between zero and one, a "wrap" object is used which makes it between one and zero as seen in the blue box in figure \ref{Pitch_expl}.\\
+
+As mentioned before, the "vd" objects are variable delays which get a varying delay time from the phasor. But before doing so the delay time is multiplied by 50, see the green box in figure\ref{Pitch_expl}. This means that the vd objects get a maximum delay time of 50 ms and a minimum of zero. There is a problem though, when the variable delay suddently "jumps" because of the sawtooth wave, it produces a click sound. In order to remove the clicking noise a smooth crossfade is used, which is done by using the "cos" objects. Since the "vd-" and "cos-" objects on the right side of the figure\ref{Pitch_expl} are half a cycle ahead of the left side, when one is in the maximum or minimum delay, the other is in the middle. Furthermore, using the "cos" function the extreme high or low delays are faded out, this is called cosine windowing, see the black box in the figure\ref{Pitch_expl}.  

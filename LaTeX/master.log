@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.27)  25 MAY 2016 08:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.4.27)  25 MAY 2016 09:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1471,7 +1471,7 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \titlepageleftcolumnwidth=\skip76
 \titlepagerightcolumnwidth=\skip77
 
-<figures/aau_logo_en.pdf, id=281, 115.43124pt x 77.28876pt>
+<figures/aau_logo_en.pdf, id=277, 115.43124pt x 77.28876pt>
 File: figures/aau_logo_en.pdf Graphic file (type pdf)
 
 <use figures/aau_logo_en.pdf>
@@ -1514,18 +1514,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--50
 ] (./sections/Introduction.tex
 Chapter 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--7
+Package natbib Warning: Citation `Tyrangiel_2009' on page 1 undefined on input 
+line 4.
 
- []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
+Underfull \hbox (badness 10000) in paragraph at lines 25--27
 
  []
 
 [1
 
-]) (./sections/ProblemAnalysis.tex [2]
+]
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+) (./sections/ProblemAnalysis.tex [2]
 Chapter 2.
 
 Overfull \hbox (2.32347pt too wide) in paragraph at lines 26--29
@@ -1540,7 +1544,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
-<figures/tchelicon.png, id=412, 600.2425pt x 577.15625pt>
+<figures/tchelicon.png, id=407, 600.2425pt x 577.15625pt>
 File: figures/tchelicon.png Graphic file (type png)
 
 <use figures/tchelicon.png>
@@ -1573,7 +1577,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
-<figures/voice_box.png, id=425, 808.01875pt x 642.4pt>
+<figures/voice_box.png, id=420, 808.01875pt x 642.4pt>
 File: figures/voice_box.png Graphic file (type png)
 
 <use figures/voice_box.png>
@@ -1600,7 +1604,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
 
-<figures/mimu.png, id=438, 646.415pt x 725.71124pt>
+<figures/mimu.png, id=433, 646.415pt x 725.71124pt>
 File: figures/mimu.png Graphic file (type png)
  <use figures/mimu.png>
 Package pdftex.def Info: figures/mimu.png used on input line 92.
@@ -1626,7 +1630,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
-<figures/puppet1.png, id=450, 332.24126pt x 236.885pt>
+<figures/puppet1.png, id=445, 332.24126pt x 236.885pt>
 File: figures/puppet1.png Graphic file (type png)
 
 <use figures/puppet1.png>
@@ -1654,7 +1658,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--110
  []
 
 [8 <./figures/mimu.png> <./figures/puppet1.png>]
-<figures/puppet2.png, id=462, 463.7325pt x 171.64125pt>
+<figures/puppet2.png, id=457, 463.7325pt x 171.64125pt>
 File: figures/puppet2.png Graphic file (type png)
 
 <use figures/puppet2.png>
@@ -1681,7 +1685,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--122
 
  []
 
-<figures/One_Person_Choir.png, id=467, 395.4775pt x 299.1175pt>
+<figures/One_Person_Choir.png, id=462, 395.4775pt x 299.1175pt>
 File: figures/One_Person_Choir.png Graphic file (type png)
 
 <use figures/One_Person_Choir.png>
@@ -1708,7 +1712,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
-<figures/Gestures.JPG, id=487, 613.0905pt x 257.763pt>
+<figures/Gestures.JPG, id=481, 613.0905pt x 257.763pt>
 File: figures/Gestures.JPG Graphic file (type jpg)
 
 <use figures/Gestures.JPG>
@@ -1759,7 +1763,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
 [13
 
-] <figures/Storyboard2.png, id=512, 973.236pt x 728.7225pt>
+] <figures/Storyboard2.png, id=507, 973.236pt x 728.7225pt>
 File: figures/Storyboard2.png Graphic file (type png)
 
 <use figures/Storyboard2.png>
@@ -1786,7 +1790,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
-<figures/Sketch1.jpg, id=514, 3414.7575pt x 2389.92876pt>
+<figures/Sketch1.jpg, id=509, 3414.7575pt x 2389.92876pt>
 File: figures/Sketch1.jpg Graphic file (type jpg)
 
 <use figures/Sketch1.jpg>
@@ -1818,7 +1822,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
-<figures/Sketch2.jpg, id=523, 3396.69pt x 2843.62375pt>
+<figures/Sketch2.jpg, id=518, 3396.69pt x 2843.62375pt>
 File: figures/Sketch2.jpg Graphic file (type jpg)
 
 <use figures/Sketch2.jpg>
@@ -1850,7 +1854,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
-<figures/LoFiHand.jpg, id=534, 2409.0pt x 1596.96625pt>
+<figures/LoFiHand.jpg, id=529, 2409.0pt x 1596.96625pt>
 File: figures/LoFiHand.jpg Graphic file (type jpg)
 
 <use figures/LoFiHand.jpg>
@@ -1882,7 +1886,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
 
-<figures/SynthAmp.jpg, id=549, 2601.72pt x 1734.48pt>
+<figures/SynthAmp.jpg, id=544, 2601.72pt x 1734.48pt>
 File: figures/SynthAmp.jpg Graphic file (type jpg)
 
 <use figures/SynthAmp.jpg>
@@ -1915,7 +1919,7 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 
 LaTeX Warning: Reference `(' on page 23 undefined on input line 8.
 
-<figures/Sampling.png, id=571, 415.5525pt x 231.86626pt>
+<figures/Sampling.png, id=566, 415.5525pt x 231.86626pt>
 File: figures/Sampling.png Graphic file (type png)
 
 <use figures/Sampling.png>
@@ -1950,7 +1954,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
-<figures/TapeHead.JPG, id=579, 300.52275pt x 224.037pt>
+<figures/TapeHead.JPG, id=574, 300.52275pt x 224.037pt>
 File: figures/TapeHead.JPG Graphic file (type jpg)
 
 <use figures/TapeHead.JPG>
@@ -1983,7 +1987,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--41
  []
 
 [25 <./figures/TapeHead.JPG>]
-<figures/triad.jpg, id=605, 377.91188pt x 79.79813pt>
+<figures/triad.jpg, id=599, 377.91188pt x 79.79813pt>
 File: figures/triad.jpg Graphic file (type jpg)
  <use figures/triad.jpg>
 Package pdftex.def Info: figures/triad.jpg used on input line 44.
@@ -2013,7 +2017,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--18
 
  []
 
-<figures/Imu_Glove_Schematic.png, id=617, 359.744pt x 494.648pt>
+<figures/Imu_Glove_Schematic.png, id=611, 359.744pt x 494.648pt>
 File: figures/Imu_Glove_Schematic.png Graphic file (type png)
 
 <use figures/Imu_Glove_Schematic.png>
@@ -2048,7 +2052,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--37
 
  []
 
-<figures/Pull_down_resistor.png, id=635, 239.89626pt x 356.33125pt>
+<figures/Pull_down_resistor.png, id=629, 239.89626pt x 356.33125pt>
 File: figures/Pull_down_resistor.png Graphic file (type png)
 
 <use figures/Pull_down_resistor.png>
@@ -2088,7 +2092,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--68
 
  []
 
-<figures/Ardunio_Index_Finger.png, id=648, 488.82625pt x 584.1825pt>
+<figures/Ardunio_Index_Finger.png, id=642, 488.82625pt x 584.1825pt>
 File: figures/Ardunio_Index_Finger.png Graphic file (type png)
 
 <use figures/Ardunio_Index_Finger.png>
@@ -2116,7 +2120,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
-<figures/Ardunio_else.png, id=658, 511.9125pt x 246.9225pt>
+<figures/Ardunio_else.png, id=652, 511.9125pt x 246.9225pt>
 File: figures/Ardunio_else.png Graphic file (type png)
 
 <use figures/Ardunio_else.png>
@@ -2148,7 +2152,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--95
 
  []
 
-<figures/PD_Main.png, id=666, 581.17125pt x 479.7925pt>
+<figures/PD_Main.png, id=660, 581.17125pt x 479.7925pt>
 File: figures/PD_Main.png Graphic file (type png)
 
 <use figures/PD_Main.png>
@@ -2181,7 +2185,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--111
  []
 
 [33 <./figures/PD_Main.png>]
-<figures/HarmPatch.png, id=683, 513.92pt x 346.29375pt>
+<figures/HarmPatch.png, id=677, 513.92pt x 346.29375pt>
 File: figures/HarmPatch.png Graphic file (type png)
 
 <use figures/HarmPatch.png>
@@ -2208,7 +2212,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
-<figures/Pitch_harm.png, id=685, 694.595pt x 636.3775pt>
+<figures/Pitch_harm.png, id=679, 694.595pt x 636.3775pt>
 File: figures/Pitch_harm.png Graphic file (type png)
 
 <use figures/Pitch_harm.png>
@@ -2231,7 +2235,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--132
  []
 
 [34 <./figures/HarmPatch.png>]
-<figures/Pitch_pitch.png, id=693, 381.425pt x 160.6pt>
+<figures/Pitch_pitch.png, id=687, 381.425pt x 160.6pt>
 File: figures/Pitch_pitch.png Graphic file (type png)
 
 <use figures/Pitch_pitch.png>
@@ -2254,55 +2258,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--141
  []
 
 [35 <./figures/Pitch_harm.png>]
-<figures/sawtoothwave.jpg, id=704, 599.23875pt x 238.8925pt>
-File: figures/sawtoothwave.jpg Graphic file (type jpg)
-
-<use figures/sawtoothwave.jpg>
-Package pdftex.def Info: figures/sawtoothwave.jpg used on input line 152.
-(pdftex.def)             Requested size: 599.23729pt x 238.8919pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 153.
-See the caption package documentation for explanation.
-
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 150--155
-[]$[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--155
-
- []
-
-[36 <./figures/Pitch_pitch.png> <./figures/sawtoothwave.jpg>]
-<figures/Pitch_Explained.png, id=715, 826.287pt x 756.426pt>
+<figures/Pitch_Explained.png, id=696, 826.287pt x 756.426pt>
 File: figures/Pitch_Explained.png Graphic file (type png)
 
 <use figures/Pitch_Explained.png>
-Package pdftex.def Info: figures/Pitch_Explained.png used on input line 165.
-(pdftex.def)             Requested size: 578.39696pt x 529.49458pt.
+Package pdftex.def Info: figures/Pitch_Explained.png used on input line 146.
+(pdftex.def)             Requested size: 495.77603pt x 453.8591pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 166.
+(caption)                particular \caption on input line 147.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 163--168
+Overfull \hbox (17.0pt too wide) in paragraph at lines 144--149
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--168
+Underfull \hbox (badness 10000) in paragraph at lines 144--149
 
  []
 
-[37] [38 <./figures/Pitch_Explained.png>]) (./sections/Evaluation.tex [39]
-[40
+[36 <./figures/Pitch_pitch.png>] [37 <./figures/Pitch_Explained.png>]
+<figures/sawtoothwave.jpg, id=712, 599.23875pt x 238.8925pt>
+File: figures/sawtoothwave.jpg Graphic file (type jpg)
 
-]
+<use figures/sawtoothwave.jpg>
+Package pdftex.def Info: figures/sawtoothwave.jpg used on input line 157.
+(pdftex.def)             Requested size: 299.61864pt x 119.44595pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 158.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (17.0pt too wide) in paragraph at lines 155--160
+[]$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--160
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
+
+ []
+
+) (./sections/Evaluation.tex [38 <./figures/sawtoothwave.jpg>]
 Chapter 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
@@ -2334,7 +2340,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--31
 
  []
 
-[41]
+[39
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
@@ -2354,12 +2362,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
-[42]
+[40]
 Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
-<figures/Setup.png, id=758, 1339.0025pt x 752.8125pt>
+<figures/Setup.png, id=745, 1339.0025pt x 752.8125pt>
 File: figures/Setup.png Graphic file (type png)
  <use figures/Setup.png>
 Package pdftex.def Info: figures/Setup.png used on input line 77.
@@ -2385,7 +2393,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
-[43 <./figures/Setup.png>]
+[41 <./figures/Setup.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
  []
@@ -2415,15 +2423,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
-[44]) (./sections/Discussion.tex [45] [46
+[42]) (./sections/Discussion.tex [43] [44
 
 ]
 Chapter 7.
-[47] [48]) (./sections/Conclusion.tex [49] [50
+[45] [46]) (./sections/Conclusion.tex [47] [48
 
 ]
 Chapter 8.
-) (./master.bbl [51] [52
+) (./master.bbl [49] [50
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 4--7
@@ -2509,7 +2517,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--59
 -interaction-
  []
 
-[53]
+[51]
 Underfull \hbox (badness 10000) in paragraph at lines 61--63
 []\T1/lmr/m/n/10.95 AudioFanzine, ``Ax 301 syn-the-sizer am-pli-fier.''
  []
@@ -2565,30 +2573,30 @@ Overfull \hbox (48.51894pt too wide) in paragraph at lines 97--99
 onTopics/PullUpDownResistor. 
  []
 
-) (./sections/appAname.tex [54]
+) (./sections/appAname.tex [52]
 Appendix A.
-[55
+[53
 
 ] (./sections/Script.tex
-<figures/Script.JPG, id=816, 405.31425pt x 295.70474pt>
+<figures/Script.JPG, id=804, 405.31425pt x 295.70474pt>
 File: figures/Script.JPG Graphic file (type jpg)
 
 <use figures/Script.JPG>
 Package pdftex.def Info: figures/Script.JPG used on input line 5.
 (pdftex.def)             Requested size: 445.84706pt x 325.27621pt.
- [56
+ [54
 
  <./figures/Script.JPG>]) (./sections/Consent.tex
-<figures/ConsentForm.JPG, id=821, 396.2805pt x 393.8715pt>
+<figures/ConsentForm.JPG, id=809, 396.2805pt x 393.8715pt>
 File: figures/ConsentForm.JPG Graphic file (type jpg)
 
 <use figures/ConsentForm.JPG>
 Package pdftex.def Info: figures/ConsentForm.JPG used on input line 5.
 (pdftex.def)             Requested size: 435.9099pt x 433.25998pt.
- [57
+ [55
 
  <./figures/ConsentForm.JPG>])
-(./sections/AppendixQResults.tex [58
+(./sections/AppendixQResults.tex [56
 
 ]))
 \tf@thm=\write6
@@ -2598,51 +2606,45 @@ Package pdftex.def Info: figures/ConsentForm.JPG used on input line 5.
 
 Package natbib Warning: There were undefined citations.
 
-[59]
+[57]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 37.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 37.
  (./master.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 37.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 37.
 Package rerunfilecheck Info: File `master.out' has not changed.
-(rerunfilecheck)             Checksum: CAAD0963B6EF4CA67AB6EE0A5FDD1F91;4384.
+(rerunfilecheck)             Checksum: 64B17D18C529A572014C68FD9BB8DF21;4323.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 37.
  ) 
 Here is how much of TeX's memory you used:
- 22818 strings out of 493029
- 401102 string characters out of 6136234
- 499518 words of memory out of 5000000
- 25608 multiletter control sequences out of 15000+600000
+ 22813 strings out of 493029
+ 401063 string characters out of 6136234
+ 499519 words of memory out of 5000000
+ 25607 multiletter control sequences out of 15000+600000
  73617 words of font info for 53 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
  64i,14n,122p,1153b,714s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{figure.4.4} has been referenced but does not exis
-t, replaced by a fixed one
-
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvip
-s/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/sha
-re/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-t
-s1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb
-></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/
-share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/publi
-c/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri1
-0.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/texmf/fonts
-/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pf
-b></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on master.pdf (67 pages, 14122389 bytes).
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/s
+hare/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx9.p
+fb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></us
+r/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/pub
+lic/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr
+i10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri9.pfb></usr/share/texmf/fon
+ts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
+Output written on master.pdf (65 pages, 14123131 bytes).
 PDF statistics:
- 937 PDF objects out of 1000 (max. 8388607)
- 788 compressed objects within 8 object streams
- 196 named destinations out of 1000 (max. 500000)
- 678 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 923 PDF objects out of 1000 (max. 8388607)
+ 776 compressed objects within 8 object streams
+ 192 named destinations out of 1000 (max. 500000)
+ 670 words of extra memory for PDF output out of 10000 (max. 10000000)
 
