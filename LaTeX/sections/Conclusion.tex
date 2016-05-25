@@ -1,1 +1,17 @@
 \chapter{Conclusion}
+
+The goal of this project was to make a wearable device that would apply voice effects in real time, and have an interface that was intuitive. Since normal effect units are stationary, and difficult to customise while performing, we wanted to make a better alternative. Based on this, we made the initial problem statement:
+\textit{How does one create a wearable device that applies voice effects to a voice in real-time, while also having an intuitive interface design?}
+
+During the research, different effects were examined and it was discovered that some effects benefit more from parameter change than others, and among these effects were pitch shift and harmonisation, which were chosen for this project. Furthermore, a lot of inspiration was drawn from the state of the art, both regarding the usefulness of existing solutions and their shortcomings. State of the art also introduced gesture control and how it could be combined with singing. Several studies introduced a wearable device for use with a hand. Further research about gestural input was done, and we learned how to create an optimal gesture for a specific action.
+
+Following the research, the final problem statement was defined as follows: 
+\textit{How can one design and implement a wearable device with an intuitive interface that applies voice effects in real time using gestures, without the restraints of existing solutions?}
+
+Based on the existing solutions, we chose that the wearable device should be on the hand. Two gestures were chosen, based on real world gestures,  that would change effect parameters, and those were the knob-turning gesture, and a vertical slider gesture. During the design process, a lo-fi prototype was tested. The test was based on the mental model concept and the feedback from the test showed that the participants did not entirely understand the interface at that point. The design was improved based on the feedback.
+
+The theory chapter introduces the theoretical background for each of the effects that are later implemented. In this project, we use the tape-head principle to implement the pitch shifting effect. The harmoniser will add two pitched voices in addition to the original voice, so you will hear either a major triad, or a minor triad.
+
+The prototype consists of a glove, that utilizes a gyroscope sensor and copper plates connected to three fingers, which acts as buttons. The glove is connected to an Arduino, and the Arduino transmits data to the audio-processing program made in Pure Data. The vertical slider gesture was not working properly, so the only gesture that worked was the knob turning gesture.
+
+The user evaluation of the prototype was not performed with actual performers except for one participant. This means we cannot conclude if the prototype is better to use than normal effect units. We can conclude that the participants knew how to use the prototype, liked the knob-turning gesture, and they could see it used in a performance setting. An internal test of the technical aspects of the prototype was conducted, and based on the results of those tests, it can be concluded that the actual prototype is fully functional.
