@@ -27,7 +27,7 @@
 \contentsline {subsection}{\numberline {2.5.2}Minimum Implementation Requirements}{12}{subsection.2.5.2}
 \contentsline {chapter}{\numberline {3}Design}{13}{chapter.3}
 \contentsline {section}{\numberline {3.1}Concept}{13}{section.3.1}
-\contentsline {section}{\numberline {3.2}Storyboard}{14}{section.3.2}
+\contentsline {section}{\numberline {3.2}Storyboard}{13}{section.3.2}
 \contentsline {section}{\numberline {3.3}Sketching and Testing}{14}{section.3.3}
 \contentsline {section}{\numberline {3.4}Lo-Fi}{17}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Affordance Scheme}{17}{subsection.3.4.1}
